@@ -20,7 +20,20 @@ clickable picture about Thailand's best place to visit
 - navbar
  - navigation
  ## Technologies used
+  - HTML was used as the foundation of the site.
+  - CSS was used to add the arrange items symmetrically on the pages.
+  - CSS flex box was used to arrange items symmetrically on the pages.
+  - CSS Grid was used to make for responsive page.
+  - Balsamiq was used to make wireframes for the website.
+  - VScode was used for the version control to write and edit code.
+  - Git was used for the version control of the website.
+  - Gitpod was used to host the principle of the website.
+  - tinyPNG was used to make and resize images for the README.md file.
+
  ## Design
+  - Color Scheme
+  - Typography
+
  ## Testing
   ### Chrome
   ### Firefox
