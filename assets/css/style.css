@@ -1,3 +1,8 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap');
+
+
+
 *,
 *::before,
 *::after {
@@ -5,7 +10,15 @@
   margin: 0;
   padding: 0;
 }
+/*change the scale ratio to 1rem=10px (default 1rem=16px), then convert to be % (percentage of user's browser fon-size setting)*/
+html {
+  /*font-size: 10px*/
+  font-size: 62.5%;
+}
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
 img {
   width: 100%;
   height: 120vh;
