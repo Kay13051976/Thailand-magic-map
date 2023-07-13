@@ -1,7 +1,4 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap");
 
 *,
 *::before,
@@ -17,9 +14,23 @@ html {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-img {
+.main-thailand-map > img {
   width: 100%;
   height: 120vh;
+}
+.northern-part-of-thailand
+  > img,
+ .southern-part-of-thailand
+  > img,
+  .western-and-central-part-of-thailand
+  > img,
+  .northeast-part-of-thailand
+  > img ,
+  .eastern-part-of-thailand
+  > img {
+  width: 30rem;
+  height: 25rem;
+  object-fit: fill;
 }
