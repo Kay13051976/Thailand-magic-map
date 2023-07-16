@@ -34,3 +34,29 @@ body {
   background: url("../images/phiphi-island.jpeg") no-repeat center center;
   height: 100vh;
 }
+a {
+  color: aliceblue;
+
+}
+/* Header style start here*/
+.header-container {
+  display: grid;
+}
+.header {
+  min-height: 19rem;
+  text-align: center;
+  background-color:transparent ;
+  z-index: 999;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+.header>a:hover h1 {
+  color: red;
+}
+h1 {
+  font-size: 4.2rem;
+  letter-spacing: 0.4rem;
+  color: yellow;
+  padding-top: 40px;
+}
+/*Header style end here*/
