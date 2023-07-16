@@ -15,22 +15,22 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
+  color: aliceblue;
 }
 .main-thailand-map > img {
   width: 100%;
   height: 120vh;
 }
-.northern-part-of-thailand
-  > img,
- .southern-part-of-thailand
-  > img,
-  .western-and-central-part-of-thailand
-  > img,
-  .northeast-part-of-thailand
-  > img ,
-  .eastern-part-of-thailand
-  > img {
+.northern-part-of-thailand > img,
+.southern-part-of-thailand > img,
+.western-and-central-part-of-thailand > img,
+.northeast-part-of-thailand > img,
+.eastern-part-of-thailand > img {
   width: 30rem;
   height: 25rem;
   object-fit: fill;
+}
+.body-container {
+  background: url("../images/phiphi-island.jpeg") no-repeat center center;
+  height: 100vh;
 }
