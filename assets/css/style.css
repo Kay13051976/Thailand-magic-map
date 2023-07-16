@@ -19,10 +19,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 /*Header nav style start */
-.nav-container {
+/* .nav-container {
   display: flex;
   flex-direction: row;
-}
+} */
 nav {
   height: 20rem;
   width: 100%;
@@ -51,12 +51,71 @@ nav li {
   line-height: 80px;
 }
 nav a {
-  color: white;
+  color: black;
   font-size: 1.8rem;
   text-transform: uppercase;
   border: 1px solid transparent;
   padding: 7px 10px;
-  border-radius: 30px;
+  border-radius: 3px;
+  background-color: aqua;
+}
+a.active,
+a:hover {
+  border: 1px solid green;
+  transition: 0.5s;
+}
+nav #icon {
+  color: black;
+  font-size: 30px;
+  line-height: 80px;
+  float: right;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
 }
 
 /*Header nav style end */
+
+@media (max-width: 1048px) {
+  label.logo {
+    font-size: 32px;
+    padding-left: 60px;
+  }
+  nav ul {
+    margin-right: 20px;
+  }
+  nav a {
+    font-size: 17px;
+  }
+}
+@media (max-width: 909px) {
+  nav #icon {
+    display: block;
+  }
+  nav ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: darkgreen;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav a {
+    font-size: 20px;
+  }
+  a.active,
+  a:hover {
+    border: none;
+    color: blueviolet;
+  }
+  nav ul.show {
+left: 0;
+  }
+}
