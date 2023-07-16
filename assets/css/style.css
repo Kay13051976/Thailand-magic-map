@@ -35,7 +35,7 @@ body {
   height: 100vh;
 }
 a {
-  color: aliceblue;
+  color: red;
 }
 /* Header style start here*/
 .header-container {
@@ -55,13 +55,13 @@ a {
 h1 {
   font-size: 4.2rem;
   letter-spacing: 0.4rem;
-  color: yellow;
+  color: red;
   padding-top: 40px;
 }
 /*Header style end here*/
 
 /*Header nav style start here*/
-.header-nav {
+/* .header-nav {
   text-align: center;
   letter-spacing: 0.2rem;
   position: absolute;
@@ -109,9 +109,9 @@ h1 {
 
 .header-nav-menu {
   position: absolute;
-  text-align: left;
+  text-align: left; */
   /*Where the hamburger dropdown menu start*/
-  top: 240%;
+  /* top: 240%;
   left: 0;
   background-color: #ffff;
   width: 100%;
@@ -146,5 +146,5 @@ h1 {
 .header-nav-toggle:checked ~ .header-nav-menu a {
   opacity: 1;
   transition: opacity 250ms ease-in-out250ms;
-}
+} */
 /*Header nav style end here*/
