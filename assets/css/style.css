@@ -61,7 +61,7 @@ h1 {
 }
 /*Header style end here*/
 
-/*Header nav style start*/
+/*Header nav style start here*/
 .header-nav {
   text-align: center;
   letter-spacing: 0.2rem;
@@ -85,3 +85,56 @@ height: 80px;
   display: flex;
   align-items: center;
 }
+.header-nav-toggle-label span,
+.header-nav-toggle-label span::before,
+.header-nav-toggle-label span::after {
+  display: block;
+  background-color: #ffff;
+  height: 4px;
+  width: 2em;
+  border-radius: 2px;
+  position: relative;
+}
+.header-nav-toggle-label span::before {
+bottom: 9px;
+}
+.header-nav-toggle-label span::after {
+  bottom: 9px;
+  }
+  
+.header-nav-menu {
+  position: absolute;
+  text-align: left;
+  /*Where the hamburger dropdown menu start*/
+  top: 240%;
+  left: 0;
+  background-color: #ffff;
+  width: 100%;
+  transform: scale(1, 0);
+transform-origin: top;
+transition: transform 400ms ease-in-out;
+}
+.header-nav-menu .fa-regular .fas li {
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+.header-nav-menu a {
+  color: #252525;
+text-decoration: none;
+font-size: 2rem;
+text-transform: uppercase;
+opacity: 0;
+transition: opacity 150ms ease-in-out;
+}
+.header-nav-menu a:hover {
+  color: #999;
+
+}
+.header-nav-toggle:checked.header-nav-menu {
+  transform: scale(1,1);
+}
+.header-nav-toggle:checked~.header-nav-menu a {
+opacity: 1;
+transition: opacity 250ms ease-in-out250ms;
+}
+/*Header nav style end here*/
