@@ -64,7 +64,7 @@ a:hover {
   border: 1px solid green;
   transition: 0.5s;
 }
-nav #icon {
+nav #hamburger-icon {
   color: black;
   font-size: 30px;
   line-height: 80px;
@@ -89,7 +89,7 @@ nav #icon {
   }
 }
 @media (max-width: 909px) {
-  nav #icon {
+  nav #hamburger-icon {
     display: block;
   }
   nav ul {
@@ -116,6 +116,6 @@ nav #icon {
     color: blueviolet;
   }
   nav ul.show {
-left: 0;
+    left: 0;
   }
 }
