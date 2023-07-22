@@ -19,6 +19,16 @@ html {
 body {
   font-family: "Roboto", sans-serif;
 }
+.body-container {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  background: url("../images/phiphi-island.jpeg");
+  position: relative;
+  background-size: cover;
+  background-position: top;
+}
 
 /*Header nav style start */
 .nav-container {
@@ -40,7 +50,6 @@ body {
 nav {
   height: 20rem;
   width: 100%;
-  background-color: pink;
 }
 
 .nav-logo {
