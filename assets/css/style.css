@@ -57,9 +57,32 @@ nav {
   color: darkgreen;
 }
 
-#hamburger-icon {
-  /* display: none; */
+.hamburger-icon {
+  display: none;
   cursor: pointer;
   font-size: 30px;
   color: black;
+}
+
+@media (max-width: 768px) {
+  .hamburger-icon {
+    display: block;
+  }
+  .header-nav-lists {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #262626;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .nav-list {
+    margin: 16px 0;
+  }
+  .header-nav-lists.active {
+    left: 0;
+  }
 }
