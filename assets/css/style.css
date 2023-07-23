@@ -100,14 +100,19 @@ nav {
   margin: auto;
 } */
 .image-carousel img {
-  width: 50%;
+  width: 500px;
   height: 400px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 5px solid white;
+  border: 5px solid rgb(252, 246, 246);
+  box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
 }
 .image-carousel {
+  display: flex;
+  transform: translateX(0);
+  transition: transform 0.5s ease-in-out;
 }
 /* Media query for header nav start here */
 @media (max-width: 768px) {
