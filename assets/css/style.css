@@ -95,7 +95,20 @@ nav {
   color: white;
   margin: 50px 20px;
 }
-
+/*Image carousel container style start here*/
+/* .image-carousel-container {
+  margin: auto;
+} */
+.image-carousel img {
+  width: 50%;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid white;
+}
+.image-carousel {
+}
 /* Media query for header nav start here */
 @media (max-width: 768px) {
   .hamburger {

@@ -59,25 +59,13 @@ clickable picture about Thailand's best place to visit
     - [8th image](https://unsplash.com/photos/BwEXo_ld234)
     - [9th image](https://unsplash.com/photos/gsllxmVO4HQ)
     - [10th image](https://unsplash.com/photos/fzEOvcazEtI)
-    - [11th image](https://unsplash.com/photos/xAkCM1tbUhY)
-    - [12th image](https://unsplash.com/photos/m2U9C875LJQ)
-    - [13th image](https://unsplash.com/photos/g5Uh7nP60FA)
-    - [14th image](https://unsplash.com/photos/aVpCEGVJK0w)
-    - [15th image](https://unsplash.com/photos/SHOP_CkCb6w)
-
-    - [16th image](https://unsplash.com/photos/vo2bFbso868)
-
-    - [17th image](https://unsplash.com/photos/mvdgoX3AsKA)
-
-    - [18th image](https://unsplash.com/photos/cyVEOHJJDYw)
-
-    - [19th image](https://unsplash.com/photos/Ku8pAACHNRc)
-
-    - [20th image](https://www.istockphoto.com/photo/thailand-map-gm488547086-74166897)
-    - [21th image](https://unsplash.com/photos/_ffkj8TnuGo)
-    - [6th image]()
-
-    - [6th image]()
+    - [11th image](https://unsplash.com/photos/g5Uh7nP60FA)
+    - [12th image](https://unsplash.com/photos/aVpCEGVJK0w)
+    - [13th image](https://unsplash.com/photos/mvdgoX3AsKA)
+    - [14th image](https://www.istockphoto.com/photo/thailand-map-gm488547086-74166897)
+    - [15th image](https://unsplash.com/photos/_ffkj8TnuGo)
+    - [16th image](https://unsplash.com/photos/nuINBMXzEcw)
+    - [17th image](https://www.istockphoto.com/photo/three-elephants-walk-at-the-jungle-in-chiang-mai-thailand-gm963284584-263109804)
     - [6th image]()
 
     - [6th image]()
