@@ -95,25 +95,49 @@ nav {
   color: white;
   margin: 50px 20px;
 }
+
 /*Image carousel container style start here*/
-/* .image-carousel-container {
-  margin: auto;
-} */
-.image-carousel img {
-  width: 500px;
-  height: 400px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: 5px solid rgb(252, 246, 246);
-  box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.3);
-  overflow: hidden;
+img {
+  width: 550px;
+  height: 500px;
+  object-fit: cover;
 }
-.image-carousel {
+
+.carousel-container {
+  width: 550px;
+  height: 430px;
+  /* overflow: hidden; */
+  box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.3);
+}
+
+.carousel-container-image {
   display: flex;
   transform: translateX(0);
   transition: transform 0.5s ease-in-out;
 }
+
+.carousel-container-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-left.btn-right {
+  background: red;
+  color: black;
+  border: none;
+  padding: 0.5 rem;
+  cursor: pointer;
+  width: 49.5%;
+}
+
+.btn-left:hover {
+  opacity: 0.9;
+}
+
+.btn-right :hover {
+  opacity: 0.9;
+}
+
 /* Media query for header nav start here */
 @media (max-width: 768px) {
   .hamburger {
