@@ -24,8 +24,8 @@ body {
   display: block;
   object-fit: cover;
   width: 100%;
-  height: 100vh;
-  background: url("../images/phiphi-island.jpeg");
+  height: 150vh;
+  background: url("../images/phiphi-island.jpeg") no-repeat center center;
   position: relative;
   background-size: cover;
   background-position: top;
@@ -86,7 +86,22 @@ nav {
 }
 
 /*Header nav style start */
-
+/*homepage main style start here*/
+.main-thailand-map-hero-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+.main-thailand-map-hero-image > img {
+  display: flex;
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  object-fit: fill;
+}
 /* Main style start here*/
 .main-paragraph {
   font-size: 18px;
