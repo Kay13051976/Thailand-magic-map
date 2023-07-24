@@ -84,9 +84,17 @@ nav {
   transition: all 0.3s ease-in-out;
   background-color: white;
 }
-
-/*Header nav style start */
+/*Homepage style css start here*/
+/*Header nav style end */
 /*homepage main style start here*/
+/* Main style start here*/
+.main-paragraph {
+  font-size: 18px;
+  letter-spacing: 0.2rem;
+  line-height: 26px;
+  color: white;
+  margin: 50px 20px;
+}
 .main-thailand-map-hero-image {
   display: block;
   margin-left: auto;
@@ -102,15 +110,27 @@ nav {
   align-items: center;
   object-fit: fill;
 }
-/* Main style start here*/
-.main-paragraph {
-  font-size: 18px;
-  letter-spacing: 0.2rem;
-  line-height: 26px;
-  color: white;
-  margin: 50px 20px;
+/*Home page footer start here*/
+.footer-container{
+  display: flex;
+  flex-direction: column;
+row-gap: 40px;
+}
+.footer-container-advertise {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: fit-content;
+  gap: 40px;
+  line-height: 40px;
+  margin-top:30px;
+  letter-spacing: 2px;
+  font-size: 2.6em;
+  text-align: center;
 }
 
+
+
+/*Map page style css start here*/
 /*Image carousel container style start here*/
 img {
   width: 550px;
