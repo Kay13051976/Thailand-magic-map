@@ -118,7 +118,7 @@ nav {
   flex-direction: column;
   row-gap: 40px;
   margin-top: 50px;
-  padding-top: 40px;
+  padding: 40px;
   background-color: rgb(134, 238, 204);
 }
 .footer-container-advertise {
@@ -132,7 +132,20 @@ nav {
   font-size: 2.2em;
   text-align: center;
 }
+.footer-social-network-container-list {
+display: flex;
+flex-direction: row;
+font-size: 26px;
+column-gap: 60px;
+justify-content: center;
 
+}
+.social-network-link{
+color: white;
+}
+.footer-social-network-container-list>i {
+
+}
 /*Map page style css start here*/
 /*Image carousel container style start here*/
 img {
