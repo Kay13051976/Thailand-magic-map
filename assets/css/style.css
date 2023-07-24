@@ -110,7 +110,6 @@ nav {
   align-items: center;
   object-fit: fill;
   margin-bottom: 60px;
-
 }
 /*Home page footer start here*/
 .footer-container {
@@ -133,18 +132,16 @@ nav {
   text-align: center;
 }
 .footer-social-network-container-list {
-display: flex;
-flex-direction: row;
-font-size: 26px;
-column-gap: 60px;
-justify-content: center;
-
+  display: flex;
+  flex-direction: row;
+  font-size: 26px;
+  column-gap: 60px;
+  justify-content: center;
 }
-.social-network-link{
-color: white;
+.social-network-link {
+  color: white;
 }
-.footer-social-network-container-list>i {
-
+.footer-social-network-container-list > i {
 }
 /*Map page style css start here*/
 /*Image carousel container style start here*/
@@ -188,7 +185,59 @@ img {
 .btn-right :hover {
   opacity: 0.9;
 }
-
+/*Contact page style css start here*/
+.contact-page-main-container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  font-size: 2rem;
+  color: #252525;
+  width: 60%;
+  height: auto;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+.form {
+  padding: 1.88em 1.88em;
+  padding-bottom: 1.25em;
+}
+.form > h2 {
+  color: #252525;
+  text-align: center;
+  margin: 0 0 0 20px;
+  font-size: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.form-control {
+  position: relative;
+  padding-bottom: 10px;
+  line-height: 52px;
+  color: #555;
+  display: block;
+  margin-bottom: 15px;
+}
+.form-control-label {
+  color: #252525;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+.form-control input {
+  border: 3px solid #252525;
+  width: 100%;
+  padding: 30px;
+  font-size: 18px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
 /* Media query for header nav start here */
 @media (max-width: 768px) {
   .hamburger {
