@@ -238,6 +238,22 @@ img {
   margin-bottom: 15px;
   border-radius: 5px;
 }
+.form-btn {
+  cursor: pointer;
+  background-color: #555;
+  border: 3px solid #252525;
+  color: white;
+  border-radius: 5px;
+  width: auto;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 0.8em 2em;
+  margin: 0;
+  position: absolute;
+  left: 40%;
+  transform: translate(-50% -50%);
+  margin-bottom: 20px;
+}
 /* Media query for header nav start here */
 @media (max-width: 768px) {
   .hamburger {
