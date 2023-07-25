@@ -1,3 +1,5 @@
+import "https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js";
+
 /*
 Get access to the header nav list and hamburger 
  */
@@ -19,6 +21,28 @@ document.querySelectorAll(".nav-link").forEach((n) =>
   })
 );
 
+const animatedImage = document.querySelector(".main-thailand-map-hero-image");
+
+const animatedImageTimeline = new ScrollTimeline({
+  scrollOffsets: [
+    { target: animatedImage, edge: "end", threshold: "4" },
+    { target: animatedImage, edge: "start", threshold: "4" },
+  ],
+});
+
+animatedImage.animate(
+  {
+    transform: [
+      "perspective(1000px) rotateX(30deg",
+      " perspective(1000px)rotate(0)",
+    ],
+    opacity: ["1", "1"],
+  },
+  {
+    duration: 1,
+    timeline: animatedImageTimeline,
+  }
+);
 /*Get access to the carousel container */
 const containerImg = document.getElementById("container-img");
 const leftBtn = document.getElementById("left-btn");
