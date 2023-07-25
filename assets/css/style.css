@@ -95,13 +95,13 @@ nav {
   color: white;
   margin: 50px 20px;
 }
-.main-thailand-map-hero-image {
+.main-thailand-map-hero-image-container {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
 }
-.main-thailand-map-hero-image > img {
+.main-thailand-map-hero-image {
   display: flex;
   width: 50%;
   height: auto;
