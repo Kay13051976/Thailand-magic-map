@@ -59,14 +59,16 @@ nav {
   color: rgb(255, 255, 0);
   background-color: rgb(50, 43, 43, 0.5);
 }
-
+.nav-logo:hover {
+  color: rgb(13, 48, 144);
+}
 .nav-link {
   transition: 0.7s ease;
   color: white;
 }
 
 .nav-link:hover {
-  color: darkgreen;
+  color: rgb(0, 27, 100);
 }
 
 .hamburger {
@@ -90,11 +92,14 @@ nav {
 /* Main style start here*/
 .main-paragraph > h2 {
   color: #ffffff;
+  background-color: rgb(15, 66, 218, 0.5);
+  width: fit-content;
+  padding: 16px;
 }
 .main-paragraph {
   font-size: 2rem;
   letter-spacing: 0.2rem;
-  line-height: 26px;
+  line-height: 28px;
   color: white;
   margin: 50px 20px;
 }
@@ -143,7 +148,8 @@ nav {
   justify-content: center;
 }
 .social-network-link {
-  color: white;
+  color: rgb(13, 48, 144);
+
 }
 .footer-social-network-container-list > i {
 }
