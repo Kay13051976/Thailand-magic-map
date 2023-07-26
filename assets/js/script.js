@@ -20,7 +20,7 @@ document.querySelectorAll(".nav-link").forEach((n) =>
     headerNavLists.classList.remove("active");
   })
 );
-
+/*Add animation to home page hero image */
 const animatedImage = document.querySelector(".main-thailand-map-hero-image");
 
 const animatedImageTimeline = new ScrollTimeline({
@@ -43,6 +43,29 @@ animatedImage.animate(
     timeline: animatedImageTimeline,
   }
 );
+
+/*Scroll image */
+const scrollImage = document.querySelectorAll(
+  ".main-scroll-image-container-place-img.main-scroll-image-container-part-img"
+);
+
+window.addEventListener("scroll", checkBoxes);
+
+checkBoxes();
+function checkBoxes() {
+  const triggerBottom = window.innerHeight / 5 * 4
+scrollImage.forEach(box => {
+  const boxTop = box.getBoundingClientRect().top
+if(boxTop < triggerBottom) {
+  box.classList.add("show")
+}else{
+  box.classList.remove("show")
+}
+
+})
+
+}
+
 /*Get access to the carousel container */
 const containerImg = document.getElementById("container-img");
 const leftBtn = document.getElementById("left-btn");
