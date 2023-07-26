@@ -94,7 +94,7 @@ nav {
   color: #ffffff;
   background-color: rgb(15, 66, 218, 0.5);
   width: fit-content;
-  padding: 16px;
+  padding: 8px;
 }
 .main-paragraph {
   font-size: 2rem;
@@ -149,7 +149,6 @@ nav {
 }
 .social-network-link {
   color: rgb(13, 48, 144);
-
 }
 .footer-social-network-container-list > i {
 }
