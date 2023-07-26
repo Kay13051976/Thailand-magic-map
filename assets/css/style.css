@@ -190,10 +190,8 @@ nav {
 }
 
 /*Scroll images page style start here*/
-.main-scroll-image-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
+
+
 .main-scroll-image-container-place-img {
   width: 480px;
   height: 350px;
@@ -201,13 +199,17 @@ nav {
   transition: transform 0.4s ease;
 }
 .main-scroll-image-container-part-img {
+  
   width: 480px;
+
   height: 350px;
-  transform: translateX(-300%);
+  transform: translateX(400%);
+  transition: transform 0.4s ease;
 }
 .main-scroll-image-container-place-img.show {
   transform: translateX(0);
 }
+
 /*Image carousel container style start here*/
 /* img {
   width: 550px;
