@@ -54,14 +54,16 @@ nav {
 }
 
 .nav-logo {
-  font-size: 3rem;
+  font-size: 3.2rem;
   letter-spacing: 0.4rem;
   color: rgb(255, 255, 0);
   background-color: rgb(50, 43, 43, 0.5);
 }
+
 .nav-logo:hover {
   color: rgb(13, 48, 144);
 }
+
 .nav-link {
   transition: 0.7s ease;
   color: white;
@@ -86,6 +88,7 @@ nav {
   transition: all 0.3s ease-in-out;
   background-color: white;
 }
+
 /*Homepage style css start here*/
 /*Header nav style end */
 /*homepage main style start here*/
@@ -97,6 +100,7 @@ nav {
   width: fit-content;
   padding: 8px;
 }
+
 .main-paragraph {
   font-size: 2rem;
   letter-spacing: 0.2rem;
@@ -104,6 +108,7 @@ nav {
   color: white;
   margin: 50px 20px;
 }
+
 .main-thailand-map-hero-image-container {
   display: block;
   margin-left: auto;
@@ -111,6 +116,7 @@ nav {
   width: 60%;
   margin-top: 160px;
 }
+
 .main-thailand-map-hero-image {
   display: flex;
   width: 50%;
@@ -121,6 +127,7 @@ nav {
   object-fit: fill;
   margin-bottom: 60px;
 }
+
 /*Home page footer start here*/
 .footer-container {
   display: flex;
@@ -130,6 +137,7 @@ nav {
   padding: 40px;
   background-color: rgb(134, 238, 204);
 }
+
 .footer-container-advertise {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -142,6 +150,7 @@ nav {
   text-align: center;
   color: rgb(13, 48, 144);
 }
+
 .footer-social-network-container-list {
   display: flex;
   flex-direction: row;
@@ -149,12 +158,23 @@ nav {
   column-gap: 60px;
   justify-content: center;
 }
+
 .social-network-link {
   color: rgb(13, 48, 144);
 }
+
+.social-network-link:hover {
+  color: #ffffff;
+}
+
 .footer-container-advertise-content > a {
   color: #ffffff;
 }
+
+.footer-container-advertise-content > a:hover {
+  color: rgb(13, 48, 144);
+}
+
 /*Map page style css start here*/
 /*Image carousel container style start here*/
 img {
@@ -197,6 +217,7 @@ img {
 .btn-right :hover {
   opacity: 0.9;
 }
+
 /*Contact page style css start here*/
 .contact-page-main-container {
   display: grid;
@@ -217,10 +238,12 @@ img {
   margin-bottom: 80px;
   margin-top: 80px;
 }
+
 .form {
   padding: 1.88em 1.88em;
   padding-bottom: 1.25em;
 }
+
 .form > h2 {
   color: #252525;
   text-align: center;
@@ -229,6 +252,7 @@ img {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .form-control {
   position: relative;
   padding-bottom: 10px;
@@ -237,11 +261,13 @@ img {
   display: block;
   margin-bottom: 15px;
 }
+
 .form-control-label {
   color: #252525;
   font-size: 2rem;
   letter-spacing: 0.2rem;
 }
+
 .form-control input {
   border: 3px solid #252525;
   width: 100%;
@@ -250,6 +276,7 @@ img {
   margin-bottom: 15px;
   border-radius: 5px;
 }
+
 .form-btn {
   cursor: pointer;
   background-color: #555;
@@ -268,15 +295,18 @@ img {
   margin-right: auto;
   align-items: center;
 }
+
 /* Media query for header nav start here */
 @media (max-width: 768px) {
   .nav-logo {
     font-size: 1.8rem;
     margin-right: 10px;
   }
+
   .main-paragraph > h2 {
     font-size: 2.4rem;
   }
+
   .hamburger {
     display: block;
   }
@@ -315,6 +345,7 @@ img {
     width: 100%;
     height: auto;
   }
+
   .header-nav-lists.active {
     left: 0;
   }
