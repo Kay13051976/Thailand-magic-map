@@ -180,6 +180,7 @@ nav {
 .map-page-hero-image-container {
   height: 130vh;
 }
+
 .map-page-hero-image {
   align-items: center;
   margin-left: auto;
@@ -187,12 +188,20 @@ nav {
   width: 50%;
   margin-top: 200px;
 }
+
+/*Scroll images page style start here*/
+.main-scroll-image-container-place > img {
+  width: 480px;
+  height: 350px;
+  transform: translateX(200%);
+}
+
 /*Image carousel container style start here*/
-img {
+/* img {
   width: 550px;
   height: 500px;
   object-fit: cover;
-}
+} */
 
 .carousel-container {
   width: 550px;
