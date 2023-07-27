@@ -24,51 +24,51 @@ document.querySelectorAll(".nav-link").forEach((n) =>
 const animatedImage = document.querySelector(".main-thailand-map-hero-image");
 
 const animatedImageTimeline = new ScrollTimeline({
-  scrollOffsets: [{
+  scrollOffsets: [
+    {
       target: animatedImage,
       edge: "end",
-      threshold: "1"
+      threshold: "1",
     },
     {
       target: animatedImage,
       edge: "start",
-      threshold: "1"
+      threshold: "1",
     },
   ],
 });
 
-animatedImage.animate({
-  transform: [
-    "perspective(1000px) rotateX(40deg)",
-    " perspective(1000px)rotate(10)",
-  ],
-  opacity: ["0", "5"],
-}, {
-  duration: 1,
-  timeline: animatedImageTimeline,
-});
+animatedImage.animate(
+  {
+    transform: [
+      "perspective(1000px) rotateX(40deg)",
+      " perspective(1000px)rotate(10)",
+    ],
+    opacity: ["0", "5"],
+  },
+  {
+    duration: 1,
+    timeline: animatedImageTimeline,
+  }
+);
 
 /*Scroll image */
-const scrollImage = document.querySelectorAll(
-  ".main-scroll-image-container-place-img.main-scroll-image-container-part-img"
-);
+const boxes = document.querySelectorAll(".box");
 
 window.addEventListener("scroll", checkBoxes);
 
 checkBoxes();
 
 function checkBoxes() {
-  const triggerBottom = window.innerHeight / 5 * 4
-  scrollImage.forEach(box => {
-    const boxTop = box.getBoundingClientRect().top
+  const triggerBottom = window.innerHeight/ 5 * 4;
+  box.forEach((box) => {
+    const boxTop = box.getBoundingClientRect().top;
     if (boxTop < triggerBottom) {
-      box.classList.add("show")
+      box.classList.add("show");
     } else {
-      box.classList.remove("show")
+      box.classList.remove("show");
     }
-
-  })
-
+  });
 }
 
 /*Get access to the carousel container */

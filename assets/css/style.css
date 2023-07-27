@@ -94,7 +94,7 @@ nav {
 /*Header nav style end */
 /*homepage main style start here*/
 /* Main style start here*/
-.main-paragraph > h2 {
+.main-paragraph>h2 {
   color: #ffffff;
   background-color: rgb(50, 43, 43, 0.5);
 
@@ -168,11 +168,11 @@ nav {
   color: #ffffff;
 }
 
-.footer-container-advertise-content > a {
+.footer-container-advertise-content>a {
   color: #ffffff;
 }
 
-.footer-container-advertise-content > a:hover {
+.footer-container-advertise-content>a:hover {
   color: rgb(13, 48, 144);
 }
 
@@ -191,25 +191,24 @@ nav {
 
 /*Scroll images page style start here*/
 
-.main-scroll-image-container-place-img {
+.box {
   width: 480px;
   height: 350px;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
   transform: translateX(500%);
   transition: transform 0.4s ease;
 }
-.main-scroll-image-container-part-img {
-  width: 480px;
-  height: 350px;
-  transform: translateX(300%);
-  transition: transform 0.4s ease;
+
+.box:nth-of-type(even) {
+  transform: translateX(-200%);
+
 }
 
-.main-scroll-image-container-place-img.show {
+.box.show {
   transform: translateX(0);
 }
-.main-scroll-image-container-part-img.show {
-  transform: translateX(0);
-}
+
 /*Image carousel container style start here*/
 /* img {
   width: 550px;
@@ -278,7 +277,7 @@ nav {
   padding-bottom: 1.25em;
 }
 
-.form > h2 {
+.form>h2 {
   color: rgb(255, 255, 0);
 
   text-align: center;
@@ -297,7 +296,7 @@ nav {
   margin-bottom: 15px;
 }
 
-.form-control > label {
+.form-control>label {
   color: rgb(255, 255, 0);
 
   font-size: 2rem;
@@ -339,7 +338,7 @@ nav {
     margin-right: 10px;
   }
 
-  .main-paragraph > h2 {
+  .main-paragraph>h2 {
     font-size: 2.4rem;
   }
 
