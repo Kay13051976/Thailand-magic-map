@@ -194,22 +194,22 @@ nav {
 .main-scroll-image-container-place-img {
   width: 480px;
   height: 350px;
-  transform: translateX(400%);
+  transform: translateX(500%);
   transition: transform 0.4s ease;
 }
 .main-scroll-image-container-part-img {
   width: 480px;
   height: 350px;
-  transform: translateX(400%);
+  transform: translateX(300%);
   transition: transform 0.4s ease;
 }
-.main-scroll-image-container-part-img {
-  transform: translateX(-200%);
-}
+
 .main-scroll-image-container-place-img.show {
   transform: translateX(0);
 }
-
+.main-scroll-image-container-part-img.show {
+  transform: translateX(0);
+}
 /*Image carousel container style start here*/
 /* img {
   width: 550px;

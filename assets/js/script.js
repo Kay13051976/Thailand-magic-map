@@ -24,25 +24,29 @@ document.querySelectorAll(".nav-link").forEach((n) =>
 const animatedImage = document.querySelector(".main-thailand-map-hero-image");
 
 const animatedImageTimeline = new ScrollTimeline({
-  scrollOffsets: [
-    { target: animatedImage, edge: "end", threshold: "1" },
-    { target: animatedImage, edge: "start", threshold: "1" },
+  scrollOffsets: [{
+      target: animatedImage,
+      edge: "end",
+      threshold: "1"
+    },
+    {
+      target: animatedImage,
+      edge: "start",
+      threshold: "1"
+    },
   ],
 });
 
-animatedImage.animate(
-  {
-    transform: [
-      "perspective(1000px) rotateX(40deg)",
-      " perspective(1000px)rotate(10)",
-    ],
-    opacity: ["0", "5"],
-  },
-  {
-    duration: 1,
-    timeline: animatedImageTimeline,
-  }
-);
+animatedImage.animate({
+  transform: [
+    "perspective(1000px) rotateX(40deg)",
+    " perspective(1000px)rotate(10)",
+  ],
+  opacity: ["0", "5"],
+}, {
+  duration: 1,
+  timeline: animatedImageTimeline,
+});
 
 /*Scroll image */
 const scrollImage = document.querySelectorAll(
@@ -52,17 +56,18 @@ const scrollImage = document.querySelectorAll(
 window.addEventListener("scroll", checkBoxes);
 
 checkBoxes();
+
 function checkBoxes() {
   const triggerBottom = window.innerHeight / 5 * 4
-scrollImage.forEach(box => {
-  const boxTop = box.getBoundingClientRect().top
-if(boxTop < triggerBottom) {
-  box.classList.add("show")
-}else{
-  box.classList.remove("show")
-}
+  scrollImage.forEach(box => {
+    const boxTop = box.getBoundingClientRect().top
+    if (boxTop < triggerBottom) {
+      box.classList.add("show")
+    } else {
+      box.classList.remove("show")
+    }
 
-})
+  })
 
 }
 
