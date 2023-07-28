@@ -60,7 +60,7 @@ window.addEventListener("scroll", checkBoxes);
 checkBoxes();
 
 function checkBoxes() {
-  const triggerBottom = window.innerHeight/ 5 * 4;
+  const triggerBottom = (window.innerHeight / 5) * 4;
   box.forEach((box) => {
     const boxTop = box.getBoundingClientRect().top;
     if (boxTop < triggerBottom) {
@@ -108,3 +108,20 @@ rightBtn.addEventListener("click", () => {
 function resetInterval() {
   clearInterval(interval);
 }
+/*Thailand map page  */
+
+// const revealMap = document.querySelector(".thailand-map-page-main-col2");
+
+// const hiddenMap = document.querySelector(
+//   ".thailand-map-page-main-col1.thailand-map-page-main-col3"
+// );
+
+// function revealMap() {
+//   if (hiddenMap.classList.contains(".thailand-map-page-main-col2")) {
+//     hiddenMap.classList.remove(".thailand-map-page-main-col2");
+//   } else {
+//     hiddenMap.classList.add(".thailand-map-page-main-col2");
+//   }
+// }
+
+// revealMap.addEventListener("click", revealMap);
