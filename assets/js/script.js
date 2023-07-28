@@ -52,69 +52,17 @@ animatedImage.animate(
   }
 );
 
-/*Scroll image */
-const boxes = document.querySelectorAll(".box");
-
-window.addEventListener("scroll", checkBoxes);
-
-checkBoxes();
-
-function checkBoxes() {
-  const triggerBottom = (window.innerHeight / 5) * 4;
-  box.forEach((box) => {
-    const boxTop = box.getBoundingClientRect().top;
-    if (boxTop < triggerBottom) {
-      box.classList.add("show");
-    } else {
-      box.classList.remove("show");
-    }
-  });
-}
-
-/*Get access to the carousel container */
-const containerImg = document.getElementById("container-img");
-const leftBtn = document.getElementById("left-btn");
-const rightBtn = document.getElementById("right-btn");
-
-const img = document.querySelectorAll("#imgs img");
-
-let idx = 0;
-let interval = setInterval(slide, 2000);
-
-function slide() {
-  idx++;
-  changeImage();
-}
-
-function changeImage() {
-  if (idx > img.length - 1) {
-    idx = 0;
-  } else if (idx < 0) {
-    idx = img.length - 1;
-  }
-  containerImage.style.transform = `translateX(${-idx * 550}px)`;
-}
-leftBtn.addEventListener("click", () => {
-  idx--;
-  changeImage();
-  resetInterval();
-});
-rightBtn.addEventListener("click", () => {
-  idx++;
-  changeImage();
-  resetInterval();
-});
-
-function resetInterval() {
-  clearInterval(interval);
-}
 /*Thailand map page  */
+const revealMap = document.querySelector(".thailand-map-page-main-col2");
 
-// const revealMap = document.querySelector(".thailand-map-page-main-col2");
+const hiddenMap = document.querySelector(
+  ".thailand-map-page-main-col1.thailand-map-page-main-col3"
+);
+revealMap.addEventListener("click", getMap);
 
-// const hiddenMap = document.querySelector(
-//   ".thailand-map-page-main-col1.thailand-map-page-main-col3"
-// );
+function getMap() {
+  console.log(hiddenMap.value);
+}
 
 // function revealMap() {
 //   if (hiddenMap.classList.contains(".thailand-map-page-main-col2")) {
