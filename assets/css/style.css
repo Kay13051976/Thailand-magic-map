@@ -175,6 +175,34 @@ nav {
 .footer-container-advertise-content>a:hover {
   color: rgb(13, 48, 144);
 }
+/*About page style here*/
+
+.about-page-main-container{
+  display: grid;
+  margin-top: 90px;
+}
+.about-page-main-container-hero-image {
+  width: 100%;
+  height: 700px;
+}
+.about-page-main-container-hero-image >img{
+  display: block;
+  width: 90%;
+  height: 700px;
+margin-left: auto;
+margin-right: auto;
+border: solid 5px  rgba(255, 255, 255 );
+}
+.about-page-main-container-content {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  line-height: 28px;
+  color: white;
+  margin: 50px 20px;
+  background-color: rgb(50, 43, 43, 0.5);
+  width: fit-content;
+  padding: 20px;
+}
 
 /*Map page style css start here*/
 .map-page-hero-image-container {
