@@ -66,7 +66,7 @@ clickable picture about Thailand's best place to visit
     - [15th image](https://unsplash.com/photos/_ffkj8TnuGo)
     - [16th image](https://unsplash.com/photos/nuINBMXzEcw)
     - [17th image](https://www.istockphoto.com/photo/three-elephants-walk-at-the-jungle-in-chiang-mai-thailand-gm963284584-263109804)
-    - [6th image]()
+    - [18th image](https://www.istockphoto.com/photo/young-asian-man-woman-group-portrait-colleague-student-friend-family-gm962105548-262750026?clarity=false)
 
     - [6th image]()
 
