@@ -175,24 +175,28 @@ nav {
 .footer-container-advertise-content>a:hover {
   color: rgb(13, 48, 144);
 }
+
 /*About page style here*/
 
-.about-page-main-container{
+.about-page-main-container {
   display: grid;
   margin-top: 90px;
 }
+
 .about-page-main-container-hero-image {
   width: 100%;
   height: 700px;
 }
-.about-page-main-container-hero-image >img{
+
+.about-page-main-container-hero-image>img {
   display: block;
   width: 90%;
   height: 700px;
-margin-left: auto;
-margin-right: auto;
-border: solid 5px  rgba(255, 255, 255 );
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 5px rgba(255, 255, 255);
 }
+
 .about-page-main-container-content {
   font-size: 2rem;
   letter-spacing: 0.2rem;
@@ -381,7 +385,6 @@ border: solid 5px  rgba(255, 255, 255 );
   display: block;
   object-fit: cover;
   display: none;
-
 }
 
 .thailand-map-page-main-col1-reveal img {
@@ -414,7 +417,6 @@ border: solid 5px  rgba(255, 255, 255 );
   display: block;
   object-fit: cover;
   display: none;
-
 }
 
 .thailand-map-page-main-col3-reveal img {
@@ -422,7 +424,6 @@ border: solid 5px  rgba(255, 255, 255 );
   height: 300px;
   display: block;
   object-fit: cover;
-
 }
 
 /* .thailand-map-page-main-col1.thailand-map-page-main-col3 {
@@ -488,5 +489,13 @@ border: solid 5px  rgba(255, 255, 255 );
   .footer-container-advertise {
     display: flex;
     flex-direction: column;
+  }
+
+  /*About page*/
+  .about-page-main-container-hero-image>img {
+    width: 100%;
+    height: 250;
+    object-fit: cover;
+    object-position: center;
   }
 }
