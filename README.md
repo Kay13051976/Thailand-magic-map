@@ -8,10 +8,18 @@ clickable picture about Thailand's best place to visit
  - As a First Time Visitor, I want to see a pop-up template presenting information about the location, including its name, brief description, address, and any additional relevant details.
  - As a First Time Visitor, I want to read the information and can choose to obtain directions to the deeper information if desired.
  - As a First Time Visitor, after viewing the information template, the pop-up should be able to close easily.
-### Returning Visitor Goals
-
-
 ### Frequent Visitor Goals
+ - As a regular User, I want to access my account without having to log in every time to quickly connect to the tour agent I want to book my holiday with.
+ - As a regular User, I want to be sure that my account details are protected so I can safely connect to the safe tour company.
+ - As a regular User, I want to be able to view my data to check my account details and search history quickly.
+ - As a regular User, I want to be able to search for a place I want to go in Thailand (The most popular and trending destination).
+ - As a regular User, I want to add, edit, and save my account details to connect to the link to book a holiday.
+ - As a regular User, I want to be able to see good tour companies that I can trust so I can connect and book my holiday.
+ - As a regular User, I want to see the discount offers from a good advertiser.
+ - As a regular User, I want to see good recommendations of the place with a good matching tour company so I can choose from.
+ - As a regular User, I want to see a good picture from the original place I can link from to book my holiday.
+ - As a regular User, I want to be able to leave my contact address and message to ask questions about where to go in Thailand and what is the best tour company to contact with.
+ - As a regular User, I want to find the beautiful hidden place that I want to explore and connect to a small tour or local company I can trust.
 ## Wireframes
  - Desktop
  - Mobile
