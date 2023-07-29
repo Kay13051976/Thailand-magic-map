@@ -8,7 +8,7 @@ clickable picture about Thailand's best place to visit
  - As a First Time Visitor, I want to see a pop-up template presenting information about the location, including its name, brief description, address, and any additional relevant details.
  - As a First Time Visitor, I want to read the information and can choose to obtain directions to the deeper information if desired.
  - As a First Time Visitor, after viewing the information template, the pop-up should be able to close easily.
-### Frequent Visitor Goals
+ ### Returning Visitor Goals
  - As a regular User, I want to access my account without having to log in every time to quickly connect to the tour agent I want to book my holiday with.
  - As a regular User, I want to be sure that my account details are protected so I can safely connect to the safe tour company.
  - As a regular User, I want to be able to view my data to check my account details and search history quickly.
@@ -20,13 +20,87 @@ clickable picture about Thailand's best place to visit
  - As a regular User, I want to see a good picture from the original place I can link from to book my holiday.
  - As a regular User, I want to be able to leave my contact address and message to ask questions about where to go in Thailand and what is the best tour company to contact with.
  - As a regular User, I want to find the beautiful hidden place that I want to explore and connect to a small tour or local company I can trust.
+### Frequent Visitor Goals
+ - As a Frequent User, I want to check any good deals or discount offers for the company I use to book.
+ - As a Frequent User, I want to easily link from my book history to my favour place in Thailand.
 ## Wireframes
  - Desktop
  - Mobile
 ## Logo
+![Logo Picture]()
+![Laptop Picture]()
+
 ## Feature
 - navbar
  - navigation
+  - position at the same line as the logo
+  - home: Lead to the home page, where the user can be about the organization.
+  - About Lead to the About page where the user can see the purpose of this website and all the staff.
+  - Contact: Lead to the form page where the user can fill out the form to contact the company.
+  The navigation bar is straightforward to understand for the user and responsive.
+#### On laptop
+![Laptop Picture]()
+![Laptop Picture]()
+![Laptop Picture]()
+![Laptop Picture]()
+
+![Laptop Picture]()
+#### On Mobile Device
+![Mobile Picture]()
+![Mobile Picture]()
+![Mobile Picture]()
+ - Navigation bar filled with the logo on the left and hamburger menu with in the same order.
+![Mobile Picture]()
+ - When the hamburger menu is clicked, there is a slide mene with link slide in from the left side
+![Mobile Picture]()
+ - The website is responsive when it is on mobile view.
+![Mobile Picture]()
+![Mobile Picture]()
+![Mobile Picture]()
+![Mobile Picture]()
+#### On Desktop
+![Desktop Picture]()
+![Desktop Picture]()
+![Desktop Picture]()
+![Desktop Picture]()
+![Desktop Picture]()
+![Desktop Picture]()
+![Desktop Picture]()
+##  HOME PAGE
+ Represent: the home page represents the purpose of the company, Thailand map link, about page link, contact link,social link, including advertiser tour company
+
+![Home Page Picture]()
+![Home Page Picture]()
+![Home Page Picture]()
+
+![Home Page Picture]()
+
+![Home Page Picture]()
+ ### Header Section
+- Show the logo and the company name.
+  - Show the nav bar, which is nice and clear.
+
+![Home Page Header Picture]()
+ ### Hero Image Section
+   - the hero section has a fixed background image and text showing the company's purpose and Thailand map. They can click to link to another map and detail about where to go in Thailand.
+![Home Page Hero Image Picture]()
+
+ ### Advertise Template Section
+![Home Page Advertise Template Section Picture]()
+![Home Page Advertise Template Section Picture]()
+
+### Social link section
+ - The footer contains social media links that open in a new tab.
+![Home Page Social link section Picture]()
+
+
+
+
+
+
+
+
+
  ## Technologies used
   - HTML was used as the foundation of the site.
   - CSS was used to add the arrange items symmetrically on the pages.
@@ -80,7 +154,13 @@ clickable picture about Thailand's best place to visit
 
     - [6th image]()
 
-
+## About Page
+The About page displays all staff images and the purpose and history story of the company.
+  
+   - The About page has a hero image showing all the staff standing together.
+   - Underneath the hero image is the paragraph showing the purpose of the company and the short history of the company.
+   - It has a footer of advertising and tour companies linked to their home page.
+   - in the bottom, display the company social media link.
  
 
 
