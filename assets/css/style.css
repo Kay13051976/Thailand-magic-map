@@ -31,7 +31,7 @@ body {
   background-position: top;
 }
 
-/*Header nav style start */
+/*Home page header nav style start */
 .nav-container {
   display: flex;
   flex-direction: row;
@@ -90,10 +90,8 @@ nav {
   background-color: white;
 }
 
-/*Homepage style css start here*/
-/*Header nav style end */
-/*homepage main style start here*/
-/* Main style start here*/
+/*Home page header nav style end */
+/*Home page main style start here*/
 .main-paragraph>h2 {
   color: #ffffff;
   background-color: rgb(50, 43, 43, 0.5);
@@ -208,79 +206,6 @@ nav {
   padding: 20px;
 }
 
-/*Map page style css start here*/
-.map-page-hero-image-container {
-  height: 130vh;
-}
-
-.map-page-hero-image {
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  margin-top: 200px;
-}
-
-/*Scroll images page style start here*/
-
-.box {
-  width: 480px;
-  height: 350px;
-  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
-  transform: translateX(500%);
-  transition: transform 0.4s ease;
-}
-
-.box:nth-of-type(even) {
-  transform: translateX(-200%);
-}
-
-.box.show {
-  transform: translateX(0);
-}
-
-/*Image carousel container style start here*/
-/* img {
-  width: 550px;
-  height: 500px;
-  object-fit: cover;
-} */
-
-.carousel-container {
-  width: 550px;
-  height: 430px;
-  /* overflow: hidden; */
-  box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.3);
-}
-
-.carousel-container-image {
-  display: flex;
-  transform: translateX(0);
-  transition: transform 0.5s ease-in-out;
-}
-
-.carousel-container-button {
-  display: flex;
-  justify-content: space-between;
-}
-
-.btn-left.btn-right {
-  background: red;
-  color: black;
-  border: none;
-  padding: 0.5 rem;
-  cursor: pointer;
-  width: 49.5%;
-}
-
-.btn-left:hover {
-  opacity: 0.9;
-}
-
-.btn-right :hover {
-  opacity: 0.9;
-}
 
 /*Contact page style css start here*/
 .contact-page-main-container {
@@ -554,12 +479,7 @@ border: none;
 }
 
 
-/* .thailand-map-page-main-col1.thailand-map-page-main-col3 {
-  display: none;
-}
-.thailand-map-page-main-col1.thailand-map-page-main-col3 {
-  display: block;
-} */
+
 /* Media query for header nav start here */
 @media (max-width: 768px) {
   .nav-logo {
