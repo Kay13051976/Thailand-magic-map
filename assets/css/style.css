@@ -262,7 +262,7 @@ nav {
 
 .form-control input {
   color: rgb(13, 48, 144);
-border: none;
+  border: none;
   width: 100%;
   padding: 20px;
   font-size: 18px;
@@ -290,13 +290,14 @@ border: none;
 /*Thailand map page style start here*/
 .thailand-map-page-main-container-header {
   font-size: 2.8rem;
-  color:rgb(134, 238, 204);
+  color: rgb(134, 238, 204);
   background-color: rgb(50, 43, 43, 0.5);
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
   margin-top: 90px;
 }
+
 .thailand-map-page-main-container-images {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -317,7 +318,7 @@ border: none;
   width: 300px;
   height: 300px;
   display: block;
-  object-fit: cover;
+  object-fit: fill;
   /* display: none; */
 }
 
@@ -349,7 +350,7 @@ border: none;
   width: 300px;
   height: 300px;
   display: block;
-  object-fit: cover;
+  object-fit: fill;
   /* display: none; */
 }
 
@@ -357,8 +358,9 @@ border: none;
   width: 300px;
   height: 300px;
   display: block;
-  object-fit: cover;
+  object-fit: fill;
 }
+
 /*Part province style start here*/
 .part-province-page-main-container-north {
   display: grid;
@@ -380,7 +382,7 @@ border: none;
   width: 300px;
   height: 300px;
   display: block;
-  object-fit: cover;
+  object-fit: fill;
   /* display: none; */
 }
 
@@ -412,7 +414,7 @@ border: none;
   width: 300px;
   height: 300px;
   display: block;
-  object-fit: cover;
+  object-fit: fill;
   /* display: none; */
 }
 
@@ -422,8 +424,9 @@ border: none;
   display: block;
   object-fit: cover;
 }
+
 /*Northeast*/
-.part-province-page-main-container-northeast{
+.part-province-page-main-container-northeast {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
@@ -444,7 +447,7 @@ border: none;
   width: 300px;
   height: 300px;
   display: block;
-  object-fit: cover;
+  object-fit: fill;
   /* display: none; */
 }
 
@@ -476,7 +479,7 @@ border: none;
   width: 300px;
   height: 300px;
   display: block;
-  object-fit: cover;
+  object-fit: fill;
   /* display: none; */
 }
 
@@ -486,8 +489,9 @@ border: none;
   display: block;
   object-fit: cover;
 }
+
 /*West and Central*/
-.part-province-page-main-container-westcentral{
+.part-province-page-main-container-westcentral {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
@@ -508,7 +512,7 @@ border: none;
   width: 300px;
   height: 300px;
   display: block;
-  object-fit: cover;
+  object-fit: fill;
   /* display: none; */
 }
 
@@ -540,7 +544,7 @@ border: none;
   width: 300px;
   height: 300px;
   display: block;
-  object-fit: cover;
+  object-fit: fill;
   /* display: none; */
 }
 
@@ -550,8 +554,9 @@ border: none;
   display: block;
   object-fit: cover;
 }
+
 /*East*/
-.part-province-page-main-container-east{
+.part-province-page-main-container-east {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
@@ -572,7 +577,7 @@ border: none;
   width: 300px;
   height: 300px;
   display: block;
-  object-fit: cover;
+  object-fit: fill;
   /* display: none; */
 }
 
@@ -604,7 +609,7 @@ border: none;
   width: 300px;
   height: 300px;
   display: block;
-  object-fit: cover;
+  object-fit: fill;
   /* display: none; */
 }
 
@@ -614,8 +619,9 @@ border: none;
   display: block;
   object-fit: cover;
 }
+
 /*South top*/
-.part-province-page-main-container-southtop{
+.part-province-page-main-container-southtop {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
@@ -636,7 +642,7 @@ border: none;
   width: 300px;
   height: 300px;
   display: block;
-  object-fit: cover;
+  object-fit: fill;
   /* display: none; */
 }
 
@@ -668,7 +674,7 @@ border: none;
   width: 300px;
   height: 300px;
   display: block;
-  object-fit: cover;
+  object-fit: fill;
   /* display: none; */
 }
 
@@ -678,8 +684,9 @@ border: none;
   display: block;
   object-fit: cover;
 }
+
 /*South End*/
-.part-province-page-main-container-southend{
+.part-province-page-main-container-southend {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
@@ -700,7 +707,7 @@ border: none;
   width: 300px;
   height: 300px;
   display: block;
-  object-fit: cover;
+  object-fit: fill;
   /* display: none; */
 }
 
@@ -732,7 +739,7 @@ border: none;
   width: 300px;
   height: 300px;
   display: block;
-  object-fit: cover;
+  object-fit: fill;
   /* display: none; */
 }
 
@@ -742,6 +749,7 @@ border: none;
   display: block;
   object-fit: cover;
 }
+
 /*Province sightseeing style start here*/
 
 .province-sightseeing-page-main-container-chiangmai {
@@ -764,7 +772,7 @@ border: none;
   width: 300px;
   height: 300px;
   display: block;
-  object-fit: cover;
+  object-fit: fill;
   /* display: none; */
 }
 
@@ -796,7 +804,7 @@ border: none;
   width: 300px;
   height: 300px;
   display: block;
-  object-fit: cover;
+  object-fit: fill;
   /* display: none; */
 }
 
@@ -806,6 +814,7 @@ border: none;
   display: block;
   object-fit: cover;
 }
+
 /*Nakhonratsima*/
 .province-sightseeing-page-main-container-nakhonratsima {
   display: grid;
@@ -828,7 +837,7 @@ border: none;
   width: 300px;
   height: 300px;
   display: block;
-  object-fit: cover;
+  object-fit: fill;
   /* display: none; */
 }
 
@@ -860,7 +869,7 @@ border: none;
   width: 300px;
   height: 300px;
   display: block;
-  object-fit: cover;
+  object-fit: fill;
   /* display: none; */
 }
 
@@ -895,7 +904,7 @@ border: none;
   width: 300px;
   height: 300px;
   display: block;
-  object-fit: cover;
+  object-fit: fill;
   /* display: none; */
 }
 
@@ -927,7 +936,7 @@ border: none;
   width: 300px;
   height: 300px;
   display: block;
-  object-fit: cover;
+  object-fit: fill;
   /* display: none; */
 }
 
@@ -962,7 +971,7 @@ border: none;
   width: 300px;
   height: 300px;
   display: block;
-  object-fit: cover;
+  object-fit: fill;
   /* display: none; */
 }
 
@@ -994,7 +1003,7 @@ border: none;
   width: 300px;
   height: 300px;
   display: block;
-  object-fit: cover;
+  object-fit: fill;
   /* display: none; */
 }
 
@@ -1029,7 +1038,7 @@ border: none;
   width: 300px;
   height: 300px;
   display: block;
-  object-fit: cover;
+  object-fit: fill;
   /* display: none; */
 }
 
@@ -1061,7 +1070,7 @@ border: none;
   width: 300px;
   height: 300px;
   display: block;
-  object-fit: cover;
+  object-fit: fill;
   /* display: none; */
 }
 
@@ -1097,7 +1106,7 @@ border: none;
   width: 300px;
   height: 300px;
   display: block;
-  object-fit: cover;
+  object-fit: fill;
   /* display: none; */
 }
 
@@ -1129,7 +1138,7 @@ border: none;
   width: 300px;
   height: 300px;
   display: block;
-  object-fit: cover;
+  object-fit: fill;
   /* display: none; */
 }
 
@@ -1194,17 +1203,21 @@ border: none;
   .header-nav-lists.active {
     left: 0;
   }
+
   .footer-container {
-  padding: 15px;
+    padding: 15px;
   }
+
   .footer-container-advertise {
     display: flex;
     flex-direction: column;
   }
+
   /*Contact page */
-.contact-page-main-container {
-  width: 98%;
-}
+  .contact-page-main-container {
+    width: 98%;
+  }
+
   /*About page*/
   .about-page-main-container-hero-image>img {
     width: 100%;
@@ -1212,18 +1225,22 @@ border: none;
     object-fit: cover;
     object-position: center;
   }
+
   /*Thailand map page*/
   .thailand-map-page-main-container-header>h2 {
-font-size:2.4rem ;
+    font-size: 2.4rem;
   }
+
   .thailand-map-page-main-col2>img {
     width: 12rem;
     height: 20rem;
   }
+
   .thailand-map-page-main-col1 img {
     width: 12rem;
     height: 18rem;
   }
+
   .thailand-map-page-main-col3 img {
     width: 12rem;
     height: 18rem;
