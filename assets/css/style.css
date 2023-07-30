@@ -413,6 +413,7 @@ border: none;
   display: block;
   object-fit: cover;
 }
+/*Northeast*/
 .part-province-page-main-container-northeast{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -476,6 +477,7 @@ border: none;
   display: block;
   object-fit: cover;
 }
+/*West and Central*/
 .part-province-page-main-container-westcentral{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -539,6 +541,7 @@ border: none;
   display: block;
   object-fit: cover;
 }
+/*East*/
 .part-province-page-main-container-east{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -602,6 +605,7 @@ border: none;
   display: block;
   object-fit: cover;
 }
+/*South top*/
 .part-province-page-main-container-southtop{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -665,6 +669,7 @@ border: none;
   display: block;
   object-fit: cover;
 }
+/*South End*/
 .part-province-page-main-container-southend{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
