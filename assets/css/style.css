@@ -330,7 +330,7 @@ border: none;
 
 .thailand-map-page-main-col2>img {
   width: 80%;
-  height: 500px;
+  height: 640px;
   margin: auto;
   margin-top: 90px;
   display: block;
@@ -1212,5 +1212,20 @@ border: none;
     object-fit: cover;
     object-position: center;
   }
-  /**/
+  /*Thailand map page*/
+  .thailand-map-page-main-container-header>h2 {
+font-size:2.4rem ;
+  }
+  .thailand-map-page-main-col2>img {
+    width: 12rem;
+    height: 20rem;
+  }
+  .thailand-map-page-main-col1 img {
+    width: 12rem;
+    height: 18rem;
+  }
+  .thailand-map-page-main-col3 img {
+    width: 12rem;
+    height: 18rem;
+  }
 }
