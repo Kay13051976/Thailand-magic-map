@@ -234,11 +234,11 @@ nav {
 }
 
 .form>h2 {
-  color: rgb(255, 255, 0);
+  color: rgb(13, 48, 144);
 
   text-align: center;
   margin: 0 0 0 20px;
-  font-size: 30px;
+  font-size: 3.2rem;
   padding-top: 10px;
   padding-bottom: 10px;
 }
