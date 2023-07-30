@@ -735,7 +735,70 @@ border: none;
 }
 /*Province sightseeing style start here*/
 
-.province-sightseeing-page-main-container {
+.province-sightseeing-page-main-container-chiangmai {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.province-sightseeing-page-main-col1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.province-sightseeing-page-main-col1 img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+  /* display: none; */
+}
+
+.province-sightseeing-page-main-col1-reveal img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+
+.province-sightseeing-page-main-col2>img {
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  margin-top: 90px;
+  display: block;
+  cursor: pointer;
+}
+
+.province-sightseeing-page-main-col3 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.province-sightseeing-page-main-col3 img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+  /* display: none; */
+}
+
+.province-sightseeing-page-main-col3-reveal img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+/*Nakhonratsima*/
+.province-sightseeing-page-main-container-nakhonratsima {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
@@ -798,6 +861,266 @@ border: none;
   object-fit: cover;
 }
 
+/*Bangkok*/
+
+.province-sightseeing-page-main-container-bangkok {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.province-sightseeing-page-main-col1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.province-sightseeing-page-main-col1 img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+  /* display: none; */
+}
+
+.province-sightseeing-page-main-col1-reveal img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+
+.province-sightseeing-page-main-col2>img {
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  margin-top: 90px;
+  display: block;
+  cursor: pointer;
+}
+
+.province-sightseeing-page-main-col3 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.province-sightseeing-page-main-col3 img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+  /* display: none; */
+}
+
+.province-sightseeing-page-main-col3-reveal img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+
+/*Kanchanaburi*/
+
+.province-sightseeing-page-main-container-kanchanaburi {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.province-sightseeing-page-main-col1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.province-sightseeing-page-main-col1 img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+  /* display: none; */
+}
+
+.province-sightseeing-page-main-col1-reveal img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+
+.province-sightseeing-page-main-col2>img {
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  margin-top: 90px;
+  display: block;
+  cursor: pointer;
+}
+
+.province-sightseeing-page-main-col3 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.province-sightseeing-page-main-col3 img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+  /* display: none; */
+}
+
+.province-sightseeing-page-main-col3-reveal img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+
+
+/*Chonburi*/
+.province-sightseeing-page-main-container-chonburi {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.province-sightseeing-page-main-col1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.province-sightseeing-page-main-col1 img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+  /* display: none; */
+}
+
+.province-sightseeing-page-main-col1-reveal img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+
+.province-sightseeing-page-main-col2>img {
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  margin-top: 90px;
+  display: block;
+  cursor: pointer;
+}
+
+.province-sightseeing-page-main-col3 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.province-sightseeing-page-main-col3 img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+  /* display: none; */
+}
+
+.province-sightseeing-page-main-col3-reveal img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+
+
+/*Phuket*/
+
+.province-sightseeing-page-main-container-phuket {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.province-sightseeing-page-main-col1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.province-sightseeing-page-main-col1 img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+  /* display: none; */
+}
+
+.province-sightseeing-page-main-col1-reveal img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+
+.province-sightseeing-page-main-col2>img {
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  margin-top: 90px;
+  display: block;
+  cursor: pointer;
+}
+
+.province-sightseeing-page-main-col3 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.province-sightseeing-page-main-col3 img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+  /* display: none; */
+}
+
+.province-sightseeing-page-main-col3-reveal img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
 
 
 /* Media query for header nav start here */
