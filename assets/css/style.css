@@ -758,6 +758,7 @@ nav {
   align-items: center;
   justify-content: center;
   margin-top: 200px;
+
 }
 
 .province-sightseeing-page-main-col1 {
@@ -773,6 +774,8 @@ nav {
   height: 300px;
   display: block;
   object-fit: fill;
+  border: 2px solid rgba(255, 255, 255);
+
   /* display: none; */
 }
 
@@ -790,6 +793,8 @@ nav {
   margin-top: 90px;
   display: block;
   cursor: pointer;
+  border: 2px solid rgba(255, 255, 255);
+
 }
 
 .province-sightseeing-page-main-col3 {
@@ -805,6 +810,8 @@ nav {
   height: 300px;
   display: block;
   object-fit: fill;
+  border: 2px solid rgba(255, 255, 255);
+
   /* display: none; */
 }
 
@@ -815,8 +822,8 @@ nav {
   object-fit: cover;
 }
 
-/*Nakhonratsima*/
-.province-sightseeing-page-main-container-nakhonratsima {
+/*Nakhonratchasima*/
+.province-sightseeing-page-main-container-nakhonratchasima {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
@@ -838,6 +845,8 @@ nav {
   height: 300px;
   display: block;
   object-fit: fill;
+  border: 2px solid rgba(255, 255, 255);
+
   /* display: none; */
 }
 
@@ -855,6 +864,8 @@ nav {
   margin-top: 90px;
   display: block;
   cursor: pointer;
+  border: 2px solid rgba(255, 255, 255);
+
 }
 
 .province-sightseeing-page-main-col3 {
@@ -870,6 +881,8 @@ nav {
   height: 300px;
   display: block;
   object-fit: fill;
+  border: 2px solid rgba(255, 255, 255);
+
   /* display: none; */
 }
 
@@ -905,6 +918,8 @@ nav {
   height: 300px;
   display: block;
   object-fit: fill;
+  border: 2px solid rgba(255, 255, 255);
+
   /* display: none; */
 }
 
@@ -922,6 +937,8 @@ nav {
   margin-top: 90px;
   display: block;
   cursor: pointer;
+  border: 2px solid rgba(255, 255, 255);
+
 }
 
 .province-sightseeing-page-main-col3 {
@@ -937,6 +954,8 @@ nav {
   height: 300px;
   display: block;
   object-fit: fill;
+  border: 2px solid rgba(255, 255, 255);
+
   /* display: none; */
 }
 
@@ -972,6 +991,8 @@ nav {
   height: 300px;
   display: block;
   object-fit: fill;
+  border: 2px solid rgba(255, 255, 255);
+
   /* display: none; */
 }
 
@@ -989,6 +1010,8 @@ nav {
   margin-top: 90px;
   display: block;
   cursor: pointer;
+  border: 2px solid rgba(255, 255, 255);
+
 }
 
 .province-sightseeing-page-main-col3 {
@@ -1004,6 +1027,8 @@ nav {
   height: 300px;
   display: block;
   object-fit: fill;
+  border: 2px solid rgba(255, 255, 255);
+
   /* display: none; */
 }
 
@@ -1039,6 +1064,8 @@ nav {
   height: 300px;
   display: block;
   object-fit: fill;
+  border: 2px solid rgba(255, 255, 255);
+
   /* display: none; */
 }
 
@@ -1056,6 +1083,8 @@ nav {
   margin-top: 90px;
   display: block;
   cursor: pointer;
+  border: 2px solid rgba(255, 255, 255);
+
 }
 
 .province-sightseeing-page-main-col3 {
@@ -1071,6 +1100,8 @@ nav {
   height: 300px;
   display: block;
   object-fit: fill;
+  border: 2px solid rgba(255, 255, 255);
+
   /* display: none; */
 }
 
@@ -1107,6 +1138,8 @@ nav {
   height: 300px;
   display: block;
   object-fit: fill;
+  border: 2px solid rgba(255, 255, 255);
+
   /* display: none; */
 }
 
@@ -1124,6 +1157,8 @@ nav {
   margin-top: 90px;
   display: block;
   cursor: pointer;
+  border: 2px solid rgba(255, 255, 255);
+
 }
 
 .province-sightseeing-page-main-col3 {
@@ -1139,6 +1174,8 @@ nav {
   height: 300px;
   display: block;
   object-fit: fill;
+  border: 2px solid rgba(255, 255, 255);
+
   /* display: none; */
 }
 
@@ -1245,6 +1282,7 @@ nav {
     width: 12rem;
     height: 18rem;
   }
+
   .province-sightseeing-page-main-col2>img {
     width: 12rem;
     height: 20rem;
