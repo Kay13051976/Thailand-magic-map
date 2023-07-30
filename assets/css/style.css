@@ -288,7 +288,16 @@ border: none;
 }
 
 /*Thailand map page style start here*/
-.thailand-map-page-main-container {
+.thailand-map-page-main-container-header {
+  font-size: 2.8rem;
+  color:rgb(134, 238, 204);
+  background-color: rgb(50, 43, 43, 0.5);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+}
+.thailand-map-page-main-container-images {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
@@ -1203,4 +1212,5 @@ border: none;
     object-fit: cover;
     object-position: center;
   }
+  /**/
 }
