@@ -1245,4 +1245,18 @@ nav {
     width: 12rem;
     height: 18rem;
   }
+  .province-sightseeing-page-main-col2>img {
+    width: 12rem;
+    height: 20rem;
+  }
+
+  .province-sightseeing-page-main-col1 img {
+    width: 12rem;
+    height: 18rem;
+  }
+
+  .province-sightseeing-page-main-col3 img {
+    width: 12rem;
+    height: 18rem;
+  }
 }
