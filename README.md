@@ -154,9 +154,9 @@ clickable picture about Thailand's best place to visit
 
     - [20th image](https://www.istockphoto.com/photo/temple-of-ban-rai-province-nakhonratchasima-thailand-gm506473482-84228679)
      - [21th image](https://www.istockphoto.com/photo/pottery-objects-gm836786986-136182033)
-     - [22th image](https://www.istockphoto.com/photo/bangkok-temples-and-palace-gm496578476-78624205?phrase=bangkok)
-     - [23th image](https://www.istockphoto.com/photo/demon-guardian-in-wat-phra-kaew-grand-palace-bangkok-gm618225652-107522667?phrase=bangkok)
-     - [6th image]()
+     
+     - [22th image](https://www.istockphoto.com/photo/demon-guardian-in-wat-phra-kaew-grand-palace-bangkok-gm618225652-107522667?phrase=bangkok)
+     - [23th image](https://www.istockphoto.com/photo/bangkok-temples-and-palace-gm496578476-78624205?clarity=false)
      - [6th image]()
      - [6th image]()
      - [6th image]()
