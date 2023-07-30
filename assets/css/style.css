@@ -384,7 +384,7 @@ border: none;
   height: 300px;
   display: block;
   object-fit: cover;
-  display: none;
+  /* display: none; */
 }
 
 .thailand-map-page-main-col1-reveal img {
@@ -416,7 +416,7 @@ border: none;
   height: 300px;
   display: block;
   object-fit: cover;
-  display: none;
+  /* display: none; */
 }
 
 .thailand-map-page-main-col3-reveal img {
@@ -447,7 +447,7 @@ border: none;
   height: 300px;
   display: block;
   object-fit: cover;
-  display: none;
+  /* display: none; */
 }
 
 .part-province-page-main-col1-reveal img {
@@ -479,7 +479,7 @@ border: none;
   height: 300px;
   display: block;
   object-fit: cover;
-  display: none;
+  /* display: none; */
 }
 
 .part-province-page-main-col3-reveal img {
