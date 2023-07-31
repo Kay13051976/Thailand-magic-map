@@ -18,6 +18,7 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
+  position: relative;
 }
 
 .body-container {
@@ -38,6 +39,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
+ 
 }
 
 .header-nav-lists {
@@ -177,7 +179,6 @@ nav {
   margin-left: auto;
   margin-right: auto;
   width: 60%;
-  margin-top: 160px;
 }
 
 .main-thailand-map-hero-image {
