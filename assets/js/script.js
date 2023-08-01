@@ -1,27 +1,37 @@
 import "https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js";
 
 /*
-Get access to the header nav list and hamburger 
+*Get access to the header nav list and hamburger 
+* Add eventListener type click to header nav list and hamburger
+*Add eventListener type click to header nav link to remove
+class active (to close nav menu by click on each link)
+
  */
 const hamburger = document.querySelector(".hamburger");
 const headerNavLists = document.querySelector(".header-nav-lists");
+/*
+ *Add animation to home page hero image 
+*Get access to the home page hero image
+ */
+const animatedImage = document.querySelector(".main-thailand-map-hero-image");
 
-/* Add eventListener type click to header nav list and hamburger  */
+
+
+
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
   headerNavLists.classList.toggle("active");
 });
 
-/* Add eventListener type click to header nav link to remove
-class active (to close nav menu by click on each link)*/
 document.querySelectorAll(".nav-link").forEach((n) =>
   n.addEventListener("click", () => {
     hamburger.classList.remove("active");
     headerNavLists.classList.remove("active");
   })
 );
-/*Add animation to home page hero image */
-const animatedImage = document.querySelector(".main-thailand-map-hero-image");
+
+
+
 
 const animatedImageTimeline = new ScrollTimeline({
   scrollOffsets: [
@@ -52,24 +62,4 @@ animatedImage.animate(
   }
 );
 
-/*Thailand map page  */
-const revealMap = document.querySelector(".thailand-map-page-main-col2");
 
-const hiddenMap = document.querySelector(
-  ".thailand-map-page-main-col1.thailand-map-page-main-col3"
-);
-revealMap.addEventListener("click", getMap);
-
-function getMap() {
-  console.log(hiddenMap.value);
-}
-
-// function revealMap() {
-//   if (hiddenMap.classList.contains(".thailand-map-page-main-col2")) {
-//     hiddenMap.classList.remove(".thailand-map-page-main-col2");
-//   } else {
-//     hiddenMap.classList.add(".thailand-map-page-main-col2");
-//   }
-// }
-
-// revealMap.addEventListener("click", revealMap);
