@@ -17,7 +17,7 @@ const animatedImage = document.querySelector(".main-thailand-map-hero-image");
 
 
 
-
+/* Hamburger slide in animation*/
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
   headerNavLists.classList.toggle("active");
@@ -31,7 +31,7 @@ document.querySelectorAll(".nav-link").forEach((n) =>
 );
 
 
-
+/*Home page hero image scroll timeline animation*/
 
 const animatedImageTimeline = new ScrollTimeline({
   scrollOffsets: [
