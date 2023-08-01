@@ -142,15 +142,57 @@ The About page displays all staff images and the purpose and history story of th
 
  ## Design
   - Color Scheme
+   - Yellow The yellow, green,turquoise,blue was use as the main colour of the website due to its psychological effect on people's minds. As this colour is associated with happiness,hope,spontaneity,protection,good fortune and loyalty,imagination,inspiration, sensitivity
+
+   - blue colour represents both the sky and the sea and is associated with open spaces, freedom, intuition,imagination, inspiration, and sensitivity,trust, loyalty,wisdom,confident
+   - Turquoise mean wisdom,tranquillity, protection, good fortune and loyalty calm, creative, emotional balanced
+   - Yellow is happiness,hope and spontaneity It's the color of the sun, smiley faces and sun flowers, it the colour of youthful,grab your attention with its hope and positivity.
 
   <!-- colour picture -->
   - Typography
+  - roboto  google font was used as the website's primary font to increase the content's readability.
+  [roboto image]()
+ - sans serif wsa used to attract viewers attention to the cover text, accentuate the company strong points,and incentivize visitors to contact "Thailand magic map"
+  [sans serif image]()
+
 <!-- typhgraphy picture -->
  ## Testing
   ### Chrome
   ### Firefox
   ### Brave
   ## Manual Testing
+
+|FEATURE|ACTION|EXPECTED RESULT|TESTED|PASSED|COMMENTS|
+|:--------------------------------|:-------------------------------|:--------------------------|:------------|:-----------|:---------|
+|Logo|Click on th "LOGO" link|The user is redirected to the main page|Yes|Yes|-|
+|Navbar|
+|Home|Click on the "HOME" link|The  user is redirected to the main page|Yes|Yes|-|
+|Contact|Click on the "CONTACT" link| The user is redirected to the contact page|Yes|Yes|-|
+|About| Click on the "ABOUT"link| The user is redirected to the about page|Yes|Yes|-|
+|Hero Image|Click on the "Image"link|The user is redirected to the thailand map page|Yes|Yes|-|
+|Footer|
+|Facebook icon in the footer| Click on the facebook icon|The user id redirected to the facebook page|Yes|Yes|-|
+|Twitter icon in the footer|Click on the youtube icon|The user is redirected to the youtube page|Yes|Yes|-|
+|Instagram ico in the footer|Click on the instagram icon|The user is redirected to the instagram page|Yes|Yes|-|
+|About page|
+|Logo|Click on the "LOGO"link|The user is redirected to the main page|Yes|Yes|-|
+|Home|Click on the "HOME"link|The user is redirected to the main page|Yes|Yes|-|
+|Contact|Click on the "CONTACT"link|The user is redirected to the contact page|Yes|Yes|-|
+|About|Click on the "ABOUT"link|The user is redirected to the about page|Yes|Yes|-|
+|Contact page|
+|Full Name input|Enter The full name|The full name is entered|Yes|Yes|-|
+|Email Address input|Enter The email address|The email address is entered|Yes|Yes|-|
+|Which part of Thailand do you want to visit?|Enter the Thailand part and province or sightseeing name|The text is entered|Yes|Yes|-|
+|Submit Button|Click on the "Submit"button|The user do not get response because this page in only dummy page|No|No|-|
+|Thailand map page|
+|Hero Image|Click on the "Image"link|The picture of northern,northeast,westcentral,eastern,south and southend will appear|Yes|Yes|-|
+|Thailand part image|Click on  each image|The picture of the province image will appear|Yes|Yes|-|
+|Thailand province image|Click on each image|The picture of sightseeing and relevant information in the province will appear|Yes|Yes|-|
+
+
+
+
+
   ## HTML
   ## CSS
   ## Deployment
