@@ -307,11 +307,10 @@ nav {
   margin-top: 200px;
 }
 #thailand-map-page-main-col1-image {
-  opacity: 0;
+  opacity: 1;
 }
 #thailand-map-page-main-col3-image {
-  opacity: 0;
-
+  opacity: 1;
 }
 .thailand-map-page-main-col1 {
   display: flex;

@@ -62,10 +62,3 @@ animatedImage.animate(
   }
 );
 
-
-const thailandMapPageMainCol2Image = document.getElementById("thailand-map-page-main-col2-image")
-const  thailandMapPageMainCol1Col3Image = document.getElementById("thailand-map-page-main-col1-image  thailand-map-page-main-col3-image")
-
-thailandMapPageMainCol2Image.addEventListener("click",()=>{
-  thailandMapPageMainCol1Col3Image.style.opacity=1;
-})
