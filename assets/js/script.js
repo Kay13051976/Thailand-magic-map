@@ -10,7 +10,7 @@ class active (to close nav menu by click on each link)
 const hamburger = document.querySelector(".hamburger");
 const headerNavLists = document.querySelector(".header-nav-lists");
 /*
- *Add animation to home page hero image 
+*Add animation to home page hero image 
 *Get access to the home page hero image
  */
 const animatedImage = document.querySelector(".main-thailand-map-hero-image");
@@ -61,5 +61,6 @@ animatedImage.animate(
     timeline: animatedImageTimeline,
   }
 );
+
 
 
