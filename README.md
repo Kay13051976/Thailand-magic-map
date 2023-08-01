@@ -1,5 +1,8 @@
 # Thailand-magic-map
 clickable picture about Thailand's best place to visit
+The site can be accessed by the link [a link](
+  https://kay13051976.github.io/Thailand-magic-map/
+)
 <!-- website picture in various device -->
 ## User story
 ### First Time Visitor Goals:
@@ -11,8 +14,8 @@ clickable picture about Thailand's best place to visit
  ### Returning Visitor Goals:
  - As a regular User, I want to access my account without having to log in every time to quickly connect to the tour agent I want to book my holiday with.
  - As a regular User, I want to be sure that my account details are protected so I can safely connect to the safe tour company.
- - As a regular User, I want to be able to view my data to check my account details and search history quickly.
- - As a regular User, I want to be able to search for a place I want to go ct to the link to boin Thailand (The most popular and trending destination).
+ - As a regular User, I want to be able to view my data to check my account details and search history quickly.(future improvement)
+ - As a regular User, I want to be able to search for a place I want to go and connect to the link to book for  Thailand holiday(The most popular and trending destination).
  - As a regular User, I want to add, edit, and save my account details to book a holiday.
  - As a regular User, I want to be able to see good tour companies that I can trust so I can connect and book my holiday.
  - As a regular User, I want to see the discount offers from a good advertiser.
@@ -22,11 +25,13 @@ clickable picture about Thailand's best place to visit
  - As a regular User, I want to find the beautiful hidden place that I want to explore and connect to a small tour or local company I can trust.
 ### Frequent Visitor Goals
  - As a Frequent User, I want to check any good deals or discount offers for the company I use to book.
- - As a Frequent User, I want to easily link from my book history to my favour place in Thailand.
+ - As a Frequent User, I want to easily link from my book history to my favour place in Thailand.(future improvement)
 ## Wireframes
+<!-- Wireframes picture -->
  - Desktop
  - Mobile
 ## Logo
+<!-- logo picture -->
 ![Logo Picture]()
 ![Laptop Picture]()
 
@@ -34,10 +39,15 @@ clickable picture about Thailand's best place to visit
 - navbar
  - navigation
   - position at the same line as the logo
-  - home: Lead to the home page, where the user can be about the organization.
-  - About Lead to the About page where the user can see the purpose of this website and all the staff.
-  - Contact: Lead to the form page where the user can fill out the form to contact the company.
+  - HOME: Lead to the home page, where the user can be about the organization.
+  - ABOUT: Lead to the About page where the user can see the purpose of this website and all the staff.
+  - CONTACT: Lead to the form page where the user can fill out the form to contact the company.
   The navigation bar is straightforward to understand for the user and responsive.
+  <!-- nav bar picture -->
+![Navbar on laptop Picture]()
+![Navbar on Mobile device Picture]()
+![Navbar Picture]()
+**the link have animate hover effect**
 #### On laptop
 ![Laptop Picture]()
 ![Laptop Picture]()
@@ -114,8 +124,10 @@ clickable picture about Thailand's best place to visit
 
  ## Design
   - Color Scheme
-  - Typography
 
+  <!-- colour picture -->
+  - Typography
+<!-- typhgraphy picture -->
  ## Testing
   ### Chrome
   ### Firefox
@@ -124,6 +136,11 @@ clickable picture about Thailand's best place to visit
   ## HTML
   ## CSS
   ## Deployment
+   - The site was deployed to GitHub pages. The steps to deploy are as follows:
+     - In The [GitHub repository](https://github.com/Kay13051976/Thailand-magic-map), navigate to the setting tab
+     - From the source section drop-down menu, select the Main Branch, then click "Save"
+     - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.the like link can be found [here](https://kay13051976.github.io/Thailand-magic-map/)
+
   ## Local Deployment
   ### Future Improvement
   ### Credit
