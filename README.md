@@ -104,8 +104,26 @@ The site can be accessed by the link [a link](
 ![Home Page Social link section Picture]()
 
 
+### About Page
+The About page displays all staff images and the purpose and history story of the company.
+  
+   - The About page has a hero image showing all the staff standing together.
+   - Underneath the hero image is the paragraph showing the purpose of the company and the short history of the company.
+   - It has a footer of advertising and tour companies linked to their home page.
+   - in the bottom, display the company social media link.
 
-
+### Contact Page
+  - The contact page has a contact form:
+    -  All text input fields are customized.
+    - Labels are animated when the input field is focused and not empty.
+    - All input are set to be required to fill out.
+    - The submit button is animated  on active'
+    - The page is responsive on all standard screen sizes.
+    - the contact form has a big text to fill in and requires a user.
+    - The submit button leads to the response page.
+    <!-- contact form picture -->
+![contact form Page Picture]()
+![contact form Page Picture]()
 
 
 
@@ -142,71 +160,79 @@ The site can be accessed by the link [a link](
      - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.the like link can be found [here](https://kay13051976.github.io/Thailand-magic-map/)
 
   ## Local Deployment
+  In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
+   - gh repo clone Kay13051976/Thailand-magic-map
+   - Alternatively, if you use Gitpod, you can [click here](https://gitpod.io/new/#https://github.com/Kay13051976/Thailand-magic-map) which will start the Gitpod workspace for you
   ### Future Improvement
+   - add more detail to province sightseeing page'
+   - add fully function contact form.
+   - add more feature to contact page and store user account detail in could technology.
   ### Credit
-  ### content
+  #### content
+  - Inspiration for the gallery hover effect come from Web Dev Tutorials Youtube chanel[Web Dev Tutorial](https://www.youtube.com/watch?v=flItyHiDm7E&list=PL7817464mNy8xLq3U9V4mhgtB0T-twKLI)
+  - inspiration for css style Kevin Powell Youtube chanel[Kevin Powell](https://www.youtube.com/watch?v=HOM47v73yG8&list=PL7817464mNy8aIZStaIKhqlYFttIeKu1i)
+  
   
  #### Media
-  - All the images for the website were taken  from https://pixabay.com/,https://unsplash.com/,https://www.istockphoto.com/
-    - [1st image](https://www.istockphoto.com/vector/high-detailed-vector-map-gm1084799206-291079544)
-    - [2nd image](https://www.istockphoto.com/vector/detailed-vector-blue-map-of-thailand-with-administrative-divisions-country-gm1484691920-510848586)
-    - [3rd image](https://www.istockphoto.com/vector/map-of-thailand-infographic-vector-gm979510140-266168071)
-    - [4th image](https://www.istockphoto.com/vector/administrative-vector-map-of-the-kingdom-of-thailand-with-flag-gm1411180861-461105359?clarity=false)
-    - [5th image](https://www.istockphoto.com/photo/aerial-view-of-ton-sai-beach-in-koh-phi-phi-krabi-thailand-gm1441093294-480886214)
-    - [6th image](https://unsplash.com/photos/jWKk-0ZBUyg)
-    - [7th image](https://unsplash.com/photos/sydwCr54rf0)
-    - [8th image](https://unsplash.com/photos/BwEXo_ld234)
-    - [9th image](https://unsplash.com/photos/gsllxmVO4HQ)
-    - [10th image](https://unsplash.com/photos/fzEOvcazEtI)
-    - [11th image](https://unsplash.com/photos/g5Uh7nP60FA)
-    - [12th image](https://unsplash.com/photos/aVpCEGVJK0w)
-    - [13th image](https://unsplash.com/photos/mvdgoX3AsKA)
-    - [14th image](https://www.istockphoto.com/photo/thailand-map-gm488547086-74166897)
-    - [15th image](https://unsplash.com/photos/_ffkj8TnuGo)
-    - [16th image](https://unsplash.com/photos/nuINBMXzEcw)
-    - [17th image](https://www.istockphoto.com/photo/three-elephants-walk-at-the-jungle-in-chiang-mai-thailand-gm963284584-263109804)
-    - [18th image](https://www.istockphoto.com/photo/young-asian-man-woman-group-portrait-colleague-student-friend-family-gm962105548-262750026?clarity=false)
+  - All the images for the website were taken  from [Unsplash](https://pixabay.com/,https://unsplash.com/,https://www.istockphoto.com/)
+   - 
+      - [1st image](https://www.istockphoto.com/vector/high-detailed-vector-map-gm1084799206-291079544)
+      - [2nd image](https://www.istockphoto.com/vector/detailed-vector-blue-map-of-thailand-with-administrative-divisions-country-gm1484691920-510848586)
+      - [3rd image](https://www.istockphoto.com/vector/map-of-thailand-infographic-vector-gm979510140-266168071)
+      - [4th image](https://www.istockphoto.com/vector/administrative-vector-map-of-the-kingdom-of-thailand-with-flag-gm1411180861-461105359?clarity=false)
+      - [5th image](https://www.istockphoto.com/photo/aerial-view-of-ton-sai-beach-in-koh-phi-phi-krabi-thailand-gm1441093294-480886214)
+      - [6th image](https://unsplash.com/photos/jWKk-0ZBUyg)
+      - [7th image](https://unsplash.com/photos/sydwCr54rf0)
+      - [8th image](https://unsplash.com/photos/BwEXo_ld234)
+      - [9th image](https://unsplash.com/photos/gsllxmVO4HQ)
+      - [10th image](https://unsplash.com/photos/fzEOvcazEtI)
+      - [11th image](https://unsplash.com/photos/g5Uh7nP60FA)
+      - [12th image](https://unsplash.com/photos/aVpCEGVJK0w)
+      - [13th image](https://unsplash.com/photos/mvdgoX3AsKA)
+      - [14th image](https://www.istockphoto.com/photo/thailand-map-gm488547086-74166897)
+      - [15th image](https://unsplash.com/photos/_ffkj8TnuGo)
+      - [16th image](https://unsplash.com/photos/nuINBMXzEcw)
+      - [17th image](https://www.istockphoto.com/photo/three-elephants-walk-at-the-jungle-in-chiang-mai-thailand-gm963284584-263109804)
+      - [18th image](https://www.istockphoto.com/photo/young-asian-man-woman-group-portrait-colleague-student-friend-family-gm962105548-262750026?clarity=false)
 
-    - [19th image](https://www.istockphoto.com/photo/phi-mai-castle-historical-park-and-ancient-castle-in-nakorn-ratchasima-thailand-gm1158240450-316321985)
+      - [19th image](https://www.istockphoto.com/photo/phi-mai-castle-historical-park-and-ancient-castle-in-nakorn-ratchasima-thailand-gm1158240450-316321985)
 
-    - [20th image](https://www.istockphoto.com/photo/temple-of-ban-rai-province-nakhonratchasima-thailand-gm506473482-84228679)
-     - [21th image](https://www.istockphoto.com/photo/pottery-objects-gm836786986-136182033)
+      - [20th image](https://www.istockphoto.com/photo/temple-of-ban-rai-province-nakhonratchasima-thailand-gm506473482-84228679)
+      - [21th image](https://www.istockphoto.com/photo/pottery-objects-gm836786986-136182033)
      
-     - [22th image](https://www.istockphoto.com/photo/demon-guardian-in-wat-phra-kaew-grand-palace-bangkok-gm618225652-107522667?phrase=bangkok)
-     - [23th image](https://www.istockphoto.com/photo/bangkok-temples-and-palace-gm496578476-78624205?clarity=false)
-     - [24th image](https://www.istockphoto.com/photo/sunset-of-the-bridge-of-the-river-kwai-gm488527676-74208195?phrase=kanchanaburi%2C+thailand)
-     - [25th image](https://www.istockphoto.com/photo/thailand-railway-gm619763466-108167629?phrase=kanchanaburi%2C+thailand)
-     - [26th image](https://www.istockphoto.com/photo/thailand-kanchanaburi-wat-tham-sua-temple-gm638433978-114467001?phrase=kanchanaburi%2C+thailand)
-     - [27th image](https://www.istockphoto.com/photo/river-kwai-gm485256585-37980140?phrase=kanchanaburi%2C+thailand)
-     - [28th image](https://www.istockphoto.com/photo/thailand-elephant-in-the-river-gm618180000-107467795?phrase=kanchanaburi%2C+thailand)
-     - [29th image](https://www.istockphoto.com/photo/erawan-waterfall-in-national-park-gm1448754763-486155090?phrase=kanchanaburi%2C+thailand)
-     - [30th image](https://www.istockphoto.com/photo/aerial-view-of-pattaya-beach-in-koh-lipe-satun-thailand-gm1456297892-491370491?phrase=pattaya+thailand)
-     - [31th image](https://www.istockphoto.com/photo/the-sanctuary-of-truth-made-of-wood-interior-in-pattaya-chonburi-thailand-travel-gm1150210736-311279498?phrase=pattaya+thailand)
-     - [32th image](https://www.istockphoto.com/photo/hammock-and-beach-chairs-on-the-beach-with-palm-trees-during-sunset-at-na-jomtien-gm1454376074-490052265?phrase=pattaya+)
-     - [33th image](https://www.istockphoto.com/photo/cityscape-pattaya-beach-the-most-popular-on-summer-landmark-in-thailand-aerial-view-gm1132096823-299982502?phrase=pattaya+)
-     - [34th image](https://www.istockphoto.com/photo/beautiful-cityscape-scenic-at-pattaya-bay-gm1403824007-456241451?phrase=pattaya+)
-     - [35th image](https://www.istockphoto.com/photo/happy-couple-snorkeling-underwater-over-coral-reef-gm700848578-129720861?phrase=Phuket)
-     - [36th image](https://www.istockphoto.com/photo/asian-tropical-beach-paradise-in-thailand-gm1097373600-294680617?phrase=Phuket)
-     - [37th image](https://www.istockphoto.com/photo/james-bond-island-gm499125743-42443880?phrase=Phuket)
-     - [38th image](https://www.istockphoto.com/photo/thai-food-at-the-market-in-phuket-noodles-tom-yam-soup-salads-and-traditional-street-gm1331234303-414429087?phrase=Phuket)
-     - [6th image]()
-     - [6th image]()
+      - [22th image](https://www.istockphoto.com/photo/demon-guardian-in-wat-phra-kaew-grand-palace-bangkok-gm618225652-107522667?phrase=bangkok)
+      - [23th image](https://www.istockphoto.com/photo/bangkok-temples-and-palace-gm496578476-78624205?clarity=false)
+      - [24th image](https://www.istockphoto.com/photo/sunset-of-the-bridge-of-the-river-kwai-gm488527676-74208195?phrase=kanchanaburi%2C+thailand)
+      - [25th image](https://www.istockphoto.com/photo/thailand-railway-gm619763466-108167629?phrase=kanchanaburi%2C+thailand)
+      - [26th image](https://www.istockphoto.com/photo/thailand-kanchanaburi-wat-tham-sua-temple-gm638433978-114467001?phrase=kanchanaburi%2C+thailand)
+      - [27th image](https://www.istockphoto.com/photo/river-kwai-gm485256585-37980140?phrase=kanchanaburi%2C+thailand)
+      - [28th image](https://www.istockphoto.com/photo/thailand-elephant-in-the-river-gm618180000-107467795?phrase=kanchanaburi%2C+thailand)
+      - [29th image](https://www.istockphoto.com/photo/erawan-waterfall-in-national-park-gm1448754763-486155090?phrase=kanchanaburi%2C+thailand)
+      - [30th image](https://www.istockphoto.com/photo/aerial-view-of-pattaya-beach-in-koh-lipe-satun-thailand-gm1456297892-491370491?phrase=pattaya+thailand)
+      - [31th image](https://www.istockphoto.com/photo/the-sanctuary-of-truth-made-of-wood-interior-in-pattaya-chonburi-thailand-travel-gm1150210736-311279498?phrase=pattaya+thailand)
+      - [32th image](https://www.istockphoto.com/photo/hammock-and-beach-chairs-on-the-beach-with-palm-trees-during-sunset-at-na-jomtien-gm1454376074-490052265?phrase=pattaya+)
+      - [33th image](https://www.istockphoto.com/photo/cityscape-pattaya-beach-the-most-popular-on-summer-landmark-in-thailand-aerial-view-gm1132096823-299982502?phrase=pattaya+)
+      - [34th image](https://www.istockphoto.com/photo/beautiful-cityscape-scenic-at-pattaya-bay-gm1403824007-456241451?phrase=pattaya+)
+      - [35th image](https://www.istockphoto.com/photo/happy-couple-snorkeling-underwater-over-coral-reef-gm700848578-129720861?phrase=Phuket)
+      - [36th image](https://www.istockphoto.com/photo/asian-tropical-beach-paradise-in-thailand-gm1097373600-294680617?phrase=Phuket)
+      - [37th image](https://www.istockphoto.com/photo/james-bond-island-gm499125743-42443880?phrase=Phuket)
+      - [38th image](https://www.istockphoto.com/photo/thai-food-at-the-market-in-phuket-noodles-tom-yam-soup-salads-and-traditional-street-gm1331234303-414429087?phrase=Phuket)
+      - [6th image]()
+      - [6th image]()
 
-     - [6th image]()
-     - [6th image]()
-     - [6th image]()
-     - [6th image]()
-     - [6th image]()
-v
-
-## About Page
-The About page displays all staff images and the purpose and history story of the company.
-  
-   - The About page has a hero image showing all the staff standing together.
-   - Underneath the hero image is the paragraph showing the purpose of the company and the short history of the company.
-   - It has a footer of advertising and tour companies linked to their home page.
-   - in the bottom, display the company social media link.
- 
+      - [6th image]()
+      - [6th image]()
+      - [6th image]()
+      - [6th image]()
+      - [6th image]()
 
 
-    #### Tools
+### Tools
+- [TinyPNG](https://tinypng.com/)was used to compress JPEG images.
+- [Color Picker](https://imagecolorpicker.com/en)was used to create the color palette.
+- []( ) use to create the color image
+- []( ) 
+### Acknowledgments
+- Code Institute tutor and slack community menbers for their support and help.
+- Kevin Powell for his amazing CSS tutorials.
+- Code Institute mentor Julia Konovalova for her advice and patient.
