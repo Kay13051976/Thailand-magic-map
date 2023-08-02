@@ -31,6 +31,15 @@ document.querySelectorAll(".nav-link").forEach((n) =>
 );
 
 
+
+//Create function  event to work after download home page prevent blinking page
+
+document.addEventListener("DOMContentLoaded", function (event){
+  document.getElementById("thailand-map").style.display = "block";
+
+})
+
+
 /*Home page hero image scroll timeline animation*/
 
 const animatedImageTimeline = new ScrollTimeline({
