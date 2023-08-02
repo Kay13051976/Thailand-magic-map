@@ -113,7 +113,8 @@ nav {
 /*Home page Thailand part style start here*/
 
 .main-thailand-map-hero-image-container {
-  display: block;
+  /* Add property display and assign none value to hide image*/
+  display: none;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
