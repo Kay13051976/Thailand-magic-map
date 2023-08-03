@@ -235,6 +235,7 @@ nav {
 .form {
   padding: 1.88em 1.88em;
   padding-bottom: 1.25em;
+  height: 1000px;
 }
 
 .form>h2 {
@@ -272,6 +273,20 @@ nav {
   border-radius: 5px;
 }
 
+/*Contact page text area start here*/
+
+textarea {
+  border: 3px solid yellow;
+  width: 100%;
+  resize: vertical;
+  overflow: auto;
+  max-width: 62em;
+  min-height: 20em;
+}
+textarea:focus{
+  outline: 0;
+  border-color: rgb(13, 48, 144) ;
+}
 .form-btn {
   cursor: pointer;
   background-color: #555;
