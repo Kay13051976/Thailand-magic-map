@@ -154,8 +154,9 @@ The About page displays all staff images and the purpose and history story of th
   [roboto image]()
  - sans serif wsa used to attract viewers attention to the cover text, accentuate the company strong points,and incentivize visitors to contact "Thailand magic map"
   [sans serif image]()
-
-<!-- typhgraphy picture -->
+- color converter
+[color convertor](https://cssgenerator.org/rgba-and-hex-color-generator.html)
+<!-- typhography picture -->
  ## Testing
   ### Chrome
   ### Firefox
