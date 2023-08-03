@@ -39,7 +39,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
- 
+
 }
 
 .header-nav-lists {
@@ -110,6 +110,7 @@ nav {
   color: white;
   margin: 50px 20px;
 }
+
 /*Home page Thailand part style start here*/
 
 .main-thailand-map-hero-image-container {
@@ -235,7 +236,7 @@ nav {
 .form {
   padding: 1.88em 1.88em;
   padding-bottom: 1.25em;
-  height: 1000px;
+  height: 1020px;
 }
 
 .form>h2 {
@@ -257,7 +258,7 @@ nav {
 }
 
 .form-control>label {
-  color: rgb(255, 255, 0);
+  color: rgb(0, 27, 100);
   font-size: 2rem;
   letter-spacing: 0.2rem;
   opacity: 1;
@@ -283,10 +284,12 @@ textarea {
   max-width: 62em;
   min-height: 20em;
 }
-textarea:focus{
+
+textarea:focus {
   outline: 0;
-  border-color: rgb(13, 48, 144) ;
+  border-color: rgb(13, 48, 144);
 }
+
 .form-btn {
   cursor: pointer;
   background-color: #555;
@@ -322,12 +325,15 @@ textarea:focus{
   justify-content: center;
   margin-top: 200px;
 }
+
 #thailand-map-page-main-col1-image {
   opacity: 0;
 }
+
 #thailand-map-page-main-col3-image {
   opacity: 0;
 }
+
 .thailand-map-page-main-col1 {
   display: flex;
   flex-direction: column;
@@ -1320,4 +1326,6 @@ textarea:focus{
     width: 12rem;
     height: 18rem;
   }
+
+  .form {}
 }
