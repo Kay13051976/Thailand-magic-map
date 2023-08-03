@@ -221,7 +221,7 @@ nav {
   font-size: 2rem;
   color: #252525;
   width: 60%;
-  height: auto;
+  height: 140vh;
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 5px;
   /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); */
@@ -1327,5 +1327,6 @@ textarea:focus {
     height: 18rem;
   }
 
-  .form {}
+  .form {
+  }
 }
