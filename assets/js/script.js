@@ -1,4 +1,3 @@
-import "https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js";
 
 /*
 *Get access to the header nav list and hamburger 
