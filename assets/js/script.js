@@ -87,5 +87,12 @@ for (var i = 0; i < mapClick.length; i++) {
   mapClick[i].addEventListener("click", onClickMap, false);
 }
 
-/*Javascript for province sightseeing page*/
-console.Log(Hello);
+/*Part province page*/
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const id = urlParams.get('id')
+if (id) {
+  const province = document.getElementById("part-province-" + id)
+  if (province) { province.style.display = "grid"}
+}
+
