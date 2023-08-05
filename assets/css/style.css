@@ -900,8 +900,8 @@ textarea:focus {
 .province-sightseeing-page-main-container-chiangmai,
 .province-sightseeing-page-main-container-nakhonratchasima,
 .province-sightseeing-page-main-container-bangkok,
-.province-sightseeing-page-main-container-kanchanaburi
-
+.province-sightseeing-page-main-container-kanchanaburi,
+.province-sightseeing-page-main-container-chonburi
 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
