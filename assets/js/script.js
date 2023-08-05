@@ -1,4 +1,3 @@
-
 /*
 *Get access to the header nav list and hamburger 
 * Add eventListener type click to header nav list and hamburger
@@ -125,14 +124,55 @@ for (var i = 0; i < province.length; i++) {
 
 // province-sightseeing
 if (id) {
-  const province = document.getElementById(id);
-  if (province) {
-    province.style.display = "grid"
-  }
 
-  const title = document.getElementById("province-name");
-  if (title) {
-    title.innerText = id.toUpperCase();
+  if (window.location.pathname == "/Thailand-magic-map/province-sightseeing.html") {
+
+    var provinceObject = provinceSightseeing.find(x => x.id === id);
+
+    if (provinceObject) {
+
+      var s1img = document.getElementById("sightseeing1-img");
+      var s2img = document.getElementById("sightseeing2-img");
+      var s3img = document.getElementById("sightseeing3-img");
+      var s4img = document.getElementById("sightseeing4-img");
+      var s5img = document.getElementById("sightseeing5-img");
+      var s6img = document.getElementById("sightseeing6-img");
+
+      // var s1name = document.getElementById("sightseeing1-name");
+      // var s2name = document.getElementById("sightseeing2-name");
+      // var s3name = document.getElementById("sightseeing3-name");
+      // var s4name = document.getElementById("sightseeing4-name");
+      // var s5name = document.getElementById("sightseeing5-name");
+      // var s6name = document.getElementById("sightseeing6-name");
+
+      var provinceImage = document.getElementById("province-image");
+      provinceImage.src = provinceObject.image;
+
+      s1img.src = provinceObject.sightseeing1.image;
+      s2img.src = provinceObject.sightseeing2.image;
+      s3img.src = provinceObject.sightseeing3.image;
+      s4img.src = provinceObject.sightseeing4.image;
+      s5img.src = provinceObject.sightseeing5.image;
+      s6img.src = provinceObject.sightseeing6.image;
+
+      // s1name.innerText = provinceObject.sightseeing1.name;
+      // s2name.innerText = provinceObject.sightseeing2.name;
+      // s3name.innerText = provinceObject.sightseeing3.name;
+      // s4name.innerText = provinceObject.sightseeing4.name;
+      // s5name.innerText = provinceObject.sightseeing5.name;
+      // s6name.innerText = provinceObject.sightseeing6.name;
+
+    }
+
+    const title = document.getElementById("province-name");
+    if (title) {
+      title.innerText = id.toUpperCase();
+    }
+
+    const province = document.getElementById(id);
+    if (province) {
+      province.style.display = "grid"
+    }
   }
 
 }
