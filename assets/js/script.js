@@ -42,8 +42,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 /*Home page hero image scroll timeline animation*/
 
 const animatedImageTimeline = new ScrollTimeline({
-  scrollOffsets: [
-    {
+  scrollOffsets: [{
       target: animatedImage,
       edge: "end",
       threshold: "1",
@@ -57,19 +56,16 @@ const animatedImageTimeline = new ScrollTimeline({
 });
 
 if (animatedImage) {
-  animatedImage.animate(
-    {
-      transform: [
-        "perspective(1000px) rotateX(40deg)",
-        " perspective(1000px)rotate(10)",
-      ],
-      opacity: ["0", "5"],
-    },
-    {
-      duration: 1,
-      timeline: animatedImageTimeline,
-    }
-  );
+  animatedImage.animate({
+    transform: [
+      "perspective(1000px) rotateX(40deg)",
+      " perspective(1000px)rotate(10)",
+    ],
+    opacity: ["0", "5"],
+  }, {
+    duration: 1,
+    timeline: animatedImageTimeline,
+  });
 }
 
 function showElement(id) {
@@ -90,9 +86,36 @@ for (var i = 0; i < mapClick.length; i++) {
 /*Part province page*/
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
-const id = urlParams.get('id')
+const id = urlParams.get("id");
 if (id) {
-  const province = document.getElementById("part-province-" + id)
-  if (province) { province.style.display = "grid"}
+  const province = document.getElementById("part-province-" + id);
+  if (province) {
+    province.style.display = "grid";
+  }
+
+  const title = document.getElementById("part-province-name");
+  if (title) {
+    title.innerText = id.toUpperCase();
+  }
 }
 
+const province = document.getElementsByClassName("onclick-province");
+
+function oncClickProvince() {
+  var id = this.getAttribute("id");
+  window.location.href = "province-sightseeing.html?id=" + id;
+}
+for (var i = 0; i < province.length; i++) {
+  province[i].addEventListener("click", onClickProvince, false);
+}
+//Province-sightseeing
+if (id) {
+  const province = document.getElementById(id);
+  if (province) {
+    province.style.display = "grid";
+  }
+  const title = document.getElementById("province-name");
+  if (title) {
+    title.innerText = id.toLocaleUpperCase();
+  }
+}
