@@ -920,18 +920,23 @@ textarea:focus {
   height: 300px;
   align-items: center;
   justify-content: center;
+  column-gap: 30px;
+  margin-bottom: 40px;
 }
-.sightseeing-image {
+.sightseeing-image >img {
   width: 300px;
   height: 300px;
   object-fit: fill;
   border: 2px solid rgba(255, 255, 255);
+  border-radius: 5px;
 }
 .sightseeing-name {
   color: white;
   font-size: 18px;
   text-align: center;
-  padding-top: 10px;
+  margin-top: 10px;
+  background-color: rgb(50, 43, 43, 0.5);
+  padding: 10px;
 }
 .province-sightseeing-page-main-col2 {
   display: flex;
@@ -941,9 +946,9 @@ textarea:focus {
   gap: 30px;
 }
 
-.province-sightseeing-page-main-col2-img {
-  width: 200px;
-  height: 300px;
+.province-sightseeing-page-main-col2-img >img {
+  width: 300px;
+  height: 500px;
   margin-top: 90px;
   cursor: pointer;
   border: 2px solid rgba(255, 255, 255);
@@ -952,7 +957,9 @@ textarea:focus {
   color: white;
   font-size: 18px;
   text-align: center;
-  padding-top: 10px;
+  margin-top: 10px;
+  background-color: rgb(50, 43, 43, 0.5);
+  padding: 10px;
 }
 
 .province-sightseeing-page-main-col3 {
