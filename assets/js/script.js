@@ -93,7 +93,9 @@ for (var i = 0; i < mapClick.length; i++) {
 }
 
 
-// part province page
+// Part province page
+// Get parameter from URL
+
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const id = urlParams.get('id')
