@@ -8,12 +8,12 @@ class active (to close nav menu by click on each link)
 const hamburger = document.querySelector(".hamburger");
 const headerNavLists = document.querySelector(".header-nav-lists");
 /*
- *Add animation to home page hero image 
+ *Add animation to home page hero image
  *Get access to the home page hero image
  */
 const animatedImage = document.querySelector(".main-thailand-map-hero-image");
 
-/*Get access to the thailand map page 
+/*Get access to the thailand map page
  */
 const mapClick = document.getElementsByClassName("btn-thailand-map");
 
@@ -30,23 +30,20 @@ document.querySelectorAll(".nav-link").forEach((n) =>
   })
 );
 
-
-
 //Create function  event to work after download home page prevent blinking page
 
 document.addEventListener("DOMContentLoaded", function (event) {
-  const thailand_map = document.getElementById("thailand-map")
+  const thailand_map = document.getElementById("thailand-map");
   if (thailand_map) {
-    thailand_map.style.display = "block"
+    thailand_map.style.display = "block";
   }
-
-})
-
+});
 
 /*Home page hero image scroll timeline animation*/
 
 const animatedImageTimeline = new ScrollTimeline({
-  scrollOffsets: [{
+  scrollOffsets: [
+    {
       target: animatedImage,
       edge: "end",
       threshold: "1",
@@ -59,20 +56,21 @@ const animatedImageTimeline = new ScrollTimeline({
   ],
 });
 
-
 if (animatedImage) {
-  animatedImage.animate({
-    transform: [
-      "perspective(1000px) rotateX(40deg)",
-      " perspective(1000px)rotate(10)",
-    ],
-    opacity: ["0", "5"],
-  }, {
-    duration: 1,
-    timeline: animatedImageTimeline,
-  });
+  animatedImage.animate(
+    {
+      transform: [
+        "perspective(1000px) rotateX(40deg)",
+        " perspective(1000px)rotate(10)",
+      ],
+      opacity: ["0", "5"],
+    },
+    {
+      duration: 1,
+      timeline: animatedImageTimeline,
+    }
+  );
 }
-
 
 function showElement(id) {
   const img = document.getElementById(id);
@@ -88,3 +86,6 @@ function onClickMap() {
 for (var i = 0; i < mapClick.length; i++) {
   mapClick[i].addEventListener("click", onClickMap, false);
 }
+
+/*Javascript for province sightseeing page*/
+console.Log(Hello);
