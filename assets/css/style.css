@@ -513,6 +513,7 @@ textarea:focus {
   align-items: center;
   justify-content: center;
   margin-top: 200px;
+  display: none;
 }
 
 .part-province-page-main-col1 {
