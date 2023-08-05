@@ -914,26 +914,25 @@ textarea:focus {
   justify-content: center;
 }
 
-.province-sightseeing-page-main-col1 img {
+.sightseeing-image {
   width: 300px;
   height: 300px;
   display: block;
   object-fit: fill;
   border: 2px solid rgba(255, 255, 255);
-
-  /* display: none; */
 }
 
-.province-sightseeing-page-main-col1-reveal img {
-  width: 300px;
+.province-sightseeing-page-main-col2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.province-sightseeing-page-main-col2-img {
+  width: 200px;
   height: 300px;
-  display: block;
-  object-fit: cover;
-}
-
-.province-sightseeing-page-main-col2>img {
-  width: 80%;
-  height: 500px;
   margin: auto;
   margin-top: 90px;
   display: block;
