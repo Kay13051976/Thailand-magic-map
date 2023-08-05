@@ -32,7 +32,7 @@ document.querySelectorAll(".nav-link").forEach((n) =>
 
 
 
-//Create function  event to work after download home page prevent blinking page
+//Create function  event to work after download home page prevent flickering page
 
 document.addEventListener("DOMContentLoaded", function (event) {
   const thailand_map = document.getElementById("thailand-map")
@@ -74,15 +74,16 @@ document.addEventListener("DOMContentLoaded", function (event) {
 });
 
 
-
+//thailand map pate function to display Thailand part using id
 
 function showElement(id) {
   const img = document.getElementById(id);
   img.style.opacity = 1;
 }
 
-// Thailand map page function
-
+/*Thailand map page function 
+*Using  value and for loop 
+*/
 function onClickMap() {
   var value = this.getAttribute("value");
   showElement(value);
@@ -122,7 +123,7 @@ for (var i = 0; i < province.length; i++) {
 }
 
 
-// province-sightseeing
+// province-sightseeing page
 if (id) {
 
   if (window.location.pathname == "/Thailand-magic-map/province-sightseeing.html") {
