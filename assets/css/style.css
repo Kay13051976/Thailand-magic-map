@@ -898,13 +898,14 @@ textarea:focus {
 /*Province sightseeing style start here*/
 
 .province-sightseeing-page-main-container-chiangmai,
-.province-sightseeing-page-main-container-nakhonratchasima{
+.province-sightseeing-page-main-container-nakhonratchasima,
+.province-sightseeing-page-main-container-bangkok
+{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
   margin-top: 200px;
-
 }
 
 .province-sightseeing-page-main-col1 {
