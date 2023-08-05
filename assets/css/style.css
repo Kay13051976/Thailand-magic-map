@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap");
 
 *,
@@ -25,7 +26,7 @@ body {
   display: block;
   object-fit: fill;
   width: 100%;
-  height: 320vh;
+  height: 210vh;
   background: url("../images/phiphi-island.jpeg") no-repeat center center;
   position: relative;
   background-size: cover;
@@ -388,7 +389,7 @@ textarea:focus {
   transform: translate(180px, -500px);
   -ms-transform: translate(180px, -500px);
   color: rgb(255, 255, 0);
-  
+
 
   font-size: 16px;
   font-weight: bold;
@@ -406,12 +407,12 @@ textarea:focus {
   transform: translate(150px, -380px);
   -ms-transform: translate(150px, -380px);
   color: rgb(255, 255, 0);
-  
+
   font-size: 16px;
   font-weight: bold;
   padding: 24px 24px;
   border-radius: 5px;
-  background:  rgb(50, 43, 43, 0.2);
+  background: rgb(50, 43, 43, 0.2);
   /* background: none; */
   border: none;
   margin: 0;
@@ -424,7 +425,7 @@ textarea:focus {
   transform: translate(260px, -480px);
   -ms-transform: translate(260px, -480px);
   color: rgb(255, 255, 0);
-  
+
   font-size: 16px;
   font-weight: bold;
   padding: 24px 24px;
@@ -441,7 +442,7 @@ textarea:focus {
   transform: translate(140px, -240px);
   -ms-transform: translate(140px, -240px);
   color: rgb(255, 255, 0);
- 
+
   font-size: 16px;
   font-weight: bold;
   padding: 24px 24px;
@@ -506,9 +507,25 @@ textarea:focus {
   object-fit: fill;
 }
 
-/*Part province style start here*/
+/* Part province style start here*/
+#part-province-north,
+#part-province-northeast,
+#part-province-east-and-central,
+#part-province-southern-top,
+#part-province-southern-end {
+  display: none;
+}
+
+.onclick-province {
+  cursor: pointer;
+}
+
+img #chiangmai:hover {
+  border: solid 4px green;
+}
+
 .part-province-page-main-container-north {
-  display: grid;
+  
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
@@ -525,8 +542,8 @@ textarea:focus {
 }
 
 .part-province-page-main-col1 img {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   display: block;
   object-fit: fill;
   /* display: none; */
@@ -540,8 +557,8 @@ textarea:focus {
 }
 
 .part-province-page-main-col2>img {
-  width: 80%;
-  height: 500px;
+  width: 450px;
+  height: 450px;
   margin: auto;
   margin-top: 90px;
   display: block;
@@ -557,8 +574,8 @@ textarea:focus {
 }
 
 .part-province-page-main-col3 img {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   display: block;
   object-fit: fill;
   /* display: none; */
@@ -573,7 +590,6 @@ textarea:focus {
 
 /*Northeast*/
 .part-province-page-main-container-northeast {
-  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
@@ -589,28 +605,12 @@ textarea:focus {
   justify-content: center;
 }
 
-.part-province-page-main-col1 img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: fill;
-  /* display: none; */
-}
 
 .part-province-page-main-col1-reveal img {
   width: 300px;
   height: 300px;
   display: block;
   object-fit: cover;
-}
-
-.part-province-page-main-col2>img {
-  width: 80%;
-  height: 500px;
-  margin: auto;
-  margin-top: 90px;
-  display: block;
-  cursor: pointer;
 }
 
 .part-province-page-main-col3 {
@@ -621,13 +621,6 @@ textarea:focus {
   justify-content: center;
 }
 
-.part-province-page-main-col3 img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: fill;
-  /* display: none; */
-}
 
 .part-province-page-main-col3-reveal img {
   width: 300px;
@@ -638,7 +631,6 @@ textarea:focus {
 
 /*West and Central*/
 .part-province-page-main-container-westcentral {
-  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
@@ -654,13 +646,6 @@ textarea:focus {
   justify-content: center;
 }
 
-.part-province-page-main-col1 img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: fill;
-  /* display: none; */
-}
 
 .part-province-page-main-col1-reveal img {
   width: 300px;
@@ -669,14 +654,6 @@ textarea:focus {
   object-fit: cover;
 }
 
-.part-province-page-main-col2>img {
-  width: 80%;
-  height: 500px;
-  margin: auto;
-  margin-top: 90px;
-  display: block;
-  cursor: pointer;
-}
 
 .part-province-page-main-col3 {
   display: flex;
@@ -686,13 +663,6 @@ textarea:focus {
   justify-content: center;
 }
 
-.part-province-page-main-col3 img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: fill;
-  /* display: none; */
-}
 
 .part-province-page-main-col3-reveal img {
   width: 300px;
@@ -703,7 +673,6 @@ textarea:focus {
 
 /*East*/
 .part-province-page-main-container-east {
-  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
@@ -719,13 +688,7 @@ textarea:focus {
   justify-content: center;
 }
 
-.part-province-page-main-col1 img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: fill;
-  /* display: none; */
-}
+
 
 .part-province-page-main-col1-reveal img {
   width: 300px;
@@ -734,14 +697,6 @@ textarea:focus {
   object-fit: cover;
 }
 
-.part-province-page-main-col2>img {
-  width: 80%;
-  height: 500px;
-  margin: auto;
-  margin-top: 90px;
-  display: block;
-  cursor: pointer;
-}
 
 .part-province-page-main-col3 {
   display: flex;
@@ -751,13 +706,7 @@ textarea:focus {
   justify-content: center;
 }
 
-.part-province-page-main-col3 img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: fill;
-  /* display: none; */
-}
+
 
 .part-province-page-main-col3-reveal img {
   width: 300px;
@@ -768,7 +717,6 @@ textarea:focus {
 
 /*South top*/
 .part-province-page-main-container-southtop {
-  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
@@ -784,13 +732,6 @@ textarea:focus {
   justify-content: center;
 }
 
-.part-province-page-main-col1 img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: fill;
-  /* display: none; */
-}
 
 .part-province-page-main-col1-reveal img {
   width: 300px;
@@ -799,14 +740,7 @@ textarea:focus {
   object-fit: cover;
 }
 
-.part-province-page-main-col2>img {
-  width: 80%;
-  height: 500px;
-  margin: auto;
-  margin-top: 90px;
-  display: block;
-  cursor: pointer;
-}
+
 
 .part-province-page-main-col3 {
   display: flex;
@@ -816,13 +750,7 @@ textarea:focus {
   justify-content: center;
 }
 
-.part-province-page-main-col3 img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: fill;
-  /* display: none; */
-}
+
 
 .part-province-page-main-col3-reveal img {
   width: 300px;
@@ -833,7 +761,6 @@ textarea:focus {
 
 /*South End*/
 .part-province-page-main-container-southend {
-  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
@@ -849,13 +776,6 @@ textarea:focus {
   justify-content: center;
 }
 
-.part-province-page-main-col1 img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: fill;
-  /* display: none; */
-}
 
 .part-province-page-main-col1-reveal img {
   width: 300px;
@@ -864,14 +784,6 @@ textarea:focus {
   object-fit: cover;
 }
 
-.part-province-page-main-col2>img {
-  width: 80%;
-  height: 500px;
-  margin: auto;
-  margin-top: 90px;
-  display: block;
-  cursor: pointer;
-}
 
 .part-province-page-main-col3 {
   display: flex;
@@ -881,13 +793,6 @@ textarea:focus {
   justify-content: center;
 }
 
-.part-province-page-main-col3 img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: fill;
-  /* display: none; */
-}
 
 .part-province-page-main-col3-reveal img {
   width: 300px;
@@ -897,18 +802,23 @@ textarea:focus {
 }
 
 /*Province sightseeing style start here*/
+.province-sightseeing-page-main-container>#chiangmai,
+.province-sightseeing-page-main-container>#nakhonratchasima,
+.province-sightseeing-page-main-container>#bangkok,
+.province-sightseeing-page-main-container>#kanchanaburi,
+.province-sightseeing-page-main-container>#chonburi,
+.province-sightseeing-page-main-container>#phuket {
+  display: none;
+}
 
-.province-sightseeing-page-main-container-chiangmai,
-.province-sightseeing-page-main-container-nakhonratchasima,
-.province-sightseeing-page-main-container-bangkok,
-.province-sightseeing-page-main-container-kanchanaburi,
-.province-sightseeing-page-main-container-chonburi
-{
-  display: grid;
+
+.province-sightseeing-page-main-container-chiangmai {
+  display: none;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
   margin-top: 200px;
+
 }
 
 .province-sightseeing-page-main-col1 {
@@ -918,53 +828,33 @@ textarea:focus {
   align-items: center;
   justify-content: center;
 }
-.sightseeing-card {
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-  height: 300px;
-  align-items: center;
-  justify-content: center;
-  column-gap: 30px;
-  margin-bottom: 40px;
-}
-.sightseeing-image >img {
-  width: 300px;
-  height: 300px;
+
+.province-sightseeing-page-main-col1 img {
+  width: 250px;
+  height: 250px;
+  display: block;
   object-fit: fill;
   border: 2px solid rgba(255, 255, 255);
-  border-radius: 5px;
-}
-.sightseeing-name {
-  color: white;
-  font-size: 18px;
-  text-align: center;
-  margin-top: 10px;
-  background-color: rgb(50, 43, 43, 0.5);
-  padding: 10px;
-}
-.province-sightseeing-page-main-col2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
+
+  /* display: none; */
 }
 
-.province-sightseeing-page-main-col2-img >img {
+.province-sightseeing-page-main-col1-reveal img {
   width: 300px;
-  height: 500px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+
+.province-sightseeing-page-main-col2>img {
+  width: 450px;
+  height: 450px;
+  margin: auto;
   margin-top: 90px;
+  display: block;
   cursor: pointer;
   border: 2px solid rgba(255, 255, 255);
-}
-.province-sightseeing-page-main-col2-img-name {
-  color: white;
-  font-size: 18px;
-  text-align: center;
-  margin-top: 10px;
-  background-color: rgb(50, 43, 43, 0.5);
-  padding: 10px;
+
 }
 
 .province-sightseeing-page-main-col3 {
@@ -976,15 +866,256 @@ textarea:focus {
 }
 
 .province-sightseeing-page-main-col3 img {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   display: block;
   object-fit: fill;
   border: 2px solid rgba(255, 255, 255);
 
+  /* display: none; */
+}
+
+.province-sightseeing-page-main-col3-reveal img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+
+/*Nakhonratchasima*/
+.province-sightseeing-page-main-container-nakhonratchasima {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  display: none;
+}
+
+.province-sightseeing-page-main-col1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
 }
 
 
+
+.province-sightseeing-page-main-col1-reveal img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+
+
+.province-sightseeing-page-main-col3 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.province-sightseeing-page-main-col3-reveal img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+
+/*Bangkok*/
+
+.province-sightseeing-page-main-container-bangkok {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  display: none;
+
+}
+
+.province-sightseeing-page-main-col1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.province-sightseeing-page-main-col1-reveal img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+
+
+
+.province-sightseeing-page-main-col3 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.province-sightseeing-page-main-col3-reveal img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+
+/*Kanchanaburi*/
+
+.province-sightseeing-page-main-container-kanchanaburi {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  display: none;
+
+}
+
+.province-sightseeing-page-main-col1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.province-sightseeing-page-main-col1-reveal img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+
+
+
+.province-sightseeing-page-main-col3 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.province-sightseeing-page-main-col3-reveal img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+
+
+/*Chonburi*/
+.province-sightseeing-page-main-container-chonburi {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  display: none;
+
+}
+
+.province-sightseeing-page-main-col1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.province-sightseeing-page-main-col1-reveal img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+
+
+
+.province-sightseeing-page-main-col3 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.province-sightseeing-page-main-col3-reveal img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+
+
+/*Phuket*/
+
+.province-sightseeing-page-main-container-phuket {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  display: none;
+
+}
+
+.province-sightseeing-page-main-col1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.province-sightseeing-page-main-col1-reveal img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+
+
+.province-sightseeing-page-main-col3 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.province-sightseeing-page-main-col3-reveal img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
 
 
 /* Media query for header nav start here */
@@ -1069,10 +1200,10 @@ textarea:focus {
     font-size: 2.4rem;
   }
 
-  .thailand-map-page-main-col2>img {
+  /* .thailand-map-page-main-col2>img {
     width: 12rem;
     height: 20rem;
-  }
+  } */
 
   .thailand-map-page-main-col1 img {
     width: 12rem;
@@ -1084,20 +1215,8 @@ textarea:focus {
     height: 18rem;
   }
 
-  .province-sightseeing-page-main-col2>img {
-    width: 12rem;
-    height: 20rem;
-  }
 
-  .province-sightseeing-page-main-col1 img {
-    width: 12rem;
-    height: 18rem;
-  }
 
-  .province-sightseeing-page-main-col3 img {
-    width: 12rem;
-    height: 18rem;
-  }
 
 
 }

@@ -1,3 +1,4 @@
+
 /*
 *Get access to the header nav list and hamburger 
 * Add eventListener type click to header nav list and hamburger
@@ -8,12 +9,12 @@ class active (to close nav menu by click on each link)
 const hamburger = document.querySelector(".hamburger");
 const headerNavLists = document.querySelector(".header-nav-lists");
 /*
- *Add animation to home page hero image
+ *Add animation to home page hero image 
  *Get access to the home page hero image
  */
 const animatedImage = document.querySelector(".main-thailand-map-hero-image");
 
-/*Get access to the thailand map page
+/*Get access to the thailand map page 
  */
 const mapClick = document.getElementsByClassName("btn-thailand-map");
 
@@ -30,19 +31,20 @@ document.querySelectorAll(".nav-link").forEach((n) =>
   })
 );
 
+
+
 //Create function  event to work after download home page prevent blinking page
 
 document.addEventListener("DOMContentLoaded", function (event) {
-  const thailand_map = document.getElementById("thailand-map");
+  const thailand_map = document.getElementById("thailand-map")
   if (thailand_map) {
-    thailand_map.style.display = "block";
+    thailand_map.style.display = "block"
   }
-});
 
-/*Home page hero image scroll timeline animation*/
 
-const animatedImageTimeline = new ScrollTimeline({
-  scrollOffsets: [{
+  /*Home page hero image scroll timeline animation*/
+  const animatedImageTimeline = new ScrollTimeline({
+    scrollOffsets: [{
       target: animatedImage,
       edge: "end",
       threshold: "1",
@@ -52,21 +54,28 @@ const animatedImageTimeline = new ScrollTimeline({
       edge: "start",
       threshold: "1",
     },
-  ],
+    ],
+  });
+
+
+  if (animatedImage) {
+    animatedImage.animate({
+      transform: [
+        "perspective(1000px) rotateX(40deg)",
+        " perspective(1000px)rotate(10)",
+      ],
+      opacity: ["0", "5"],
+    }, {
+      duration: 1,
+      timeline: animatedImageTimeline,
+    });
+  }
+
+
 });
 
-if (animatedImage) {
-  animatedImage.animate({
-    transform: [
-      "perspective(1000px) rotateX(40deg)",
-      " perspective(1000px)rotate(10)",
-    ],
-    opacity: ["0", "5"],
-  }, {
-    duration: 1,
-    timeline: animatedImageTimeline,
-  });
-}
+
+
 
 function showElement(id) {
   const img = document.getElementById(id);
@@ -83,39 +92,45 @@ for (var i = 0; i < mapClick.length; i++) {
   mapClick[i].addEventListener("click", onClickMap, false);
 }
 
-/*Part province page*/
+
+// part province page
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
-const id = urlParams.get("id");
+const id = urlParams.get('id')
 if (id) {
-  const province = document.getElementById("part-province-" + id);
+  const province = document.getElementById("part-province-" + id)
   if (province) {
-    province.style.display = "grid";
+    province.style.display = "grid"
   }
 
   const title = document.getElementById("part-province-name");
   if (title) {
     title.innerText = id.toUpperCase();
   }
+
 }
 
-const province = document.getElementsByClassName("onclick-province");
 
-function oncClickProvince() {
+const province = document.getElementsByClassName("onclick-province");
+function onClickProvince() {
   var id = this.getAttribute("id");
   window.location.href = "province-sightseeing.html?id=" + id;
 }
 for (var i = 0; i < province.length; i++) {
   province[i].addEventListener("click", onClickProvince, false);
 }
-//Province-sightseeing
+
+
+// province-sightseeing
 if (id) {
   const province = document.getElementById(id);
   if (province) {
-    province.style.display = "grid";
+    province.style.display = "grid"
   }
+
   const title = document.getElementById("province-name");
   if (title) {
-    title.innerText = id.toLocaleUpperCase();
+    title.innerText = id.toUpperCase();
   }
+
 }
