@@ -3,21 +3,21 @@ clickable picture about Thailand's best place to visit
 The site can be accessed by the link [a link](
   https://kay13051976.github.io/Thailand-magic-map/
 )
-<!-- website picture in various device -->
+<!-- website picture in various devices -->
 ## User story
-### First Time Visitor Goals:
+### First-Time Visitor Goals:
  - As a First Time Visitor, I want to quickly understand the app's primary purpose so that I can learn more about how to get benefit from this app.
- - As a First Time Visitor, I want to see various locations with map or symbols and navigate to the information template. All the location marker on the map should be clickable, allowing me to interact with them.
+ - As a First Time Visitor, I want to see various locations with maps or symbols and navigate to the information template. All the location markers on the map should be clickable, allowing me to interact with them.
  - As a First Time Visitor, I want to see a pop-up template presenting information about the location, including its name, brief description, address, and any additional relevant details.
  - As a First Time Visitor, I want to read the information and can choose to obtain directions to the deeper information if desired.
  - As a First Time Visitor, after viewing the information template, the pop-up should be able to close easily.
  ### Returning Visitor Goals:
  - As a regular User, I want to access my account without having to log in every time to quickly connect to the tour agent I want to book my holiday with.
  - As a regular User, I want to be sure that my account details are protected so I can safely connect to the safe tour company.
- - As a regular User, I want to be able to view my data to check my account details and search history quickly.(future improvement)
+ - As a regular User, I want to be able to view my data to check my account details and search history quickly. (future improvement)
  - As a regular User, I want to be able to search for a place I want to go and connect to the link to book for  Thailand holiday(The most popular and trending destination).
  - As a regular User, I want to add, edit, and save my account details to book a holiday.
- - As a regular User, I want to be able to see good tour companies that I can trust so I can connect and book my holiday.
+ - As a regular User, I want to see good tour companies that I can trust so I can connect and book my holiday.
  - As a regular User, I want to see the discount offers from a good advertiser.
  - As a regular User, I want to see good recommendations of the place with a good matching tour company so I can choose from.
  - As a regular User, I want to see a good picture from the original place I can link from to book my holiday.
@@ -25,7 +25,7 @@ The site can be accessed by the link [a link](
  - As a regular User, I want to find the beautiful hidden place that I want to explore and connect to a small tour or local company I can trust.
 ### Frequent Visitor Goals
  - As a Frequent User, I want to check any good deals or discount offers for the company I use to book.
- - As a Frequent User, I want to easily link from my book history to my favour place in Thailand.(future improvement)
+ - As a Frequent User, I want to easily link from my book history to my favour place in Thailand. (future improvement)
 ## Wireframes
 <!-- Wireframes picture -->
  - Desktop
@@ -36,7 +36,7 @@ The site can be accessed by the link [a link](
 ![Laptop Picture]()
 
 ## Feature
-- navbar
+- Navbar
  - navigation
   - position at the same line as the logo
   - HOME: Lead to the home page, where the user can be about the organization.
@@ -47,8 +47,8 @@ The site can be accessed by the link [a link](
 ![Navbar on laptop Picture]()
 ![Navbar on Mobile device Picture]()
 ![Navbar Picture]()
-**the link have animate hover effect**
-#### On laptop
+**TheThe link has an animate hover effect**
+#### On Laptop
 ![Laptop Picture]()
 ![Laptop Picture]()
 ![Laptop Picture]()
@@ -58,11 +58,9 @@ The site can be accessed by the link [a link](
 #### On Mobile Device
 ![Mobile Picture]()
 ![Mobile Picture]()
+ - Navigation bar filled with the logo on the left and hamburger menu within the same order.
 ![Mobile Picture]()
- - Navigation bar filled with the logo on the left and hamburger menu with in the same order.
-![Mobile Picture]()
- - When the hamburger menu is clicked, there is a slide mene with link slide in from the left side
-![Mobile Picture]()
+ - When the hamburger menu is clicked, there is a slide menu with a linked slide from the left side
  - The website is responsive when it is on mobile view.
 ![Mobile Picture]()
 ![Mobile Picture]()
@@ -77,7 +75,7 @@ The site can be accessed by the link [a link](
 ![Desktop Picture]()
 ![Desktop Picture]()
 ##  HOME PAGE
- Represent: the home page represents the purpose of the company, Thailand map link, about page link, contact link,social link, including advertiser tour company
+ Represent: the home page represents the purpose of the company, Thailand map link, about page link, contact link, social link, including advertiser tour company.
 
 ![Home Page Picture]()
 ![Home Page Picture]()
@@ -86,20 +84,20 @@ The site can be accessed by the link [a link](
 ![Home Page Picture]()
 
 ![Home Page Picture]()
- ### Header Section
+ ### Header Section
 - Show the logo and the company name.
   - Show the nav bar, which is nice and clear.
 
 ![Home Page Header Picture]()
- ### Hero Image Section
-   - the hero section has a fixed background image and text showing the company's purpose and Thailand map. They can click to link to another map and detail about where to go in Thailand.
+ ### Hero Image Section
+   - the hero section has a fixed background image and text showing the company's purpose and Thailand map. They can click to link to another map and detail where to go in Thailand.
 ![Home Page Hero Image Picture]()
 
  ### Advertise Template Section
 ![Home Page Advertise Template Section Picture]()
 ![Home Page Advertise Template Section Picture]()
 
-### Social link section
+### Social link section
  - The footer contains social media links that open in a new tab.
 ![Home Page Social link section Picture]()
 
@@ -116,8 +114,8 @@ The About page displays all staff images and the purpose and history story of th
   - The contact page has a contact form:
     -  All text input fields are customized.
     - Labels are animated when the input field is focused and not empty.
-    - All input are set to be required to fill out.
-    - The submit button is animated  on active'
+    - All inputs are set to be required to fill out.
+    - The submit button is animated  on active.
     - The page is responsive on all standard screen sizes.
     - the contact form has a big text to fill in and requires a user.
     - The submit button leads to the response page.
@@ -131,32 +129,32 @@ The About page displays all staff images and the purpose and history story of th
 
  ## Technologies used
   - HTML was used as the foundation of the site.
-  - CSS was used to add the arrange items symmetrically on the pages.
-  - CSS flex box was used to arrange items symmetrically on the pages.
+  - CSS was used to add the arranged items symmetrically on the pages.
+  - CSS flexbox was used to arrange items symmetrically on the pages.
   - CSS Grid was used to make for responsive page.
   - Balsamiq was used to make wireframes for the website.
   - VScode was used for the version control to write and edit code.
   - Git was used for the version control of the website.
   - Gitpod was used to host the principle of the website.
-  - tinyPNG was used to make and resize images for the README.md file.
+  -Ttinypng was used to make and resize images for all the file and README.md files.
 
  ## Design
   - Color Scheme
-   - Yellow The yellow, green,turquoise,blue was use as the main colour of the website due to its psychological effect on people's minds. As this colour is associated with happiness,hope,spontaneity,protection,good fortune and loyalty,imagination,inspiration, sensitivity
-
-   - blue colour represents both the sky and the sea and is associated with open spaces, freedom, intuition,imagination, inspiration, and sensitivity,trust, loyalty,wisdom,confident
-   - Turquoise mean wisdom,tranquillity, protection, good fortune and loyalty calm, creative, emotional balanced
-   - Yellow is happiness,hope and spontaneity It's the color of the sun, smiley faces and sun flowers, it the colour of youthful,grab your attention with its hope and positivity.
+   - Yellow, green, turquoise, black and blue was used as the main colour of the website due to their psychological effect on people's minds. As this colour is associated with happiness, hope, spontaneity, protection, good fortune and loyalty, imagination, inspiration, sensitivity
+   -black was used as a background colour to increase visibility the paragraph nice and clear to read
+   - blue colour represents both the sky and the sea and is associated with open spaces, freedom, intuition, imagination, inspiration, sensitivity, trust, loyalty, wisdom, confident
+   - Turquoise mean wisdom, tranquillity, protection, good fortune and loyalty, calm, creativity, and emotionally balanced
+   - Yellow is happiness, hope and spontaneity. It's the colour of the sun, smiley faces, and sunflowers; it is the colour of youth and grabs your attention with hope and positivity.
 
   <!-- colour picture -->
   - Typography
-  - roboto  google font was used as the website's primary font to increase the content's readability.
+  - Roboto Google font was used as the website's primary font to increase the content's readability.
   [roboto image]()
- - sans serif wsa used to attract viewers attention to the cover text, accentuate the company strong points,and incentivize visitors to contact "Thailand magic map"
+ - sans serif was used to attract viewers' attention to the cover text, accentuate the company's strong points, and incentivize visitors to contact the "Thailand magic map"
   [sans serif image]()
-- color converter
+- colour converter
 [color convertor](https://cssgenerator.org/rgba-and-hex-color-generator.html)
-<!-- typhography picture -->
+<!-- typography picture -->
  ## Testing
   ### Chrome
   ### Firefox
@@ -165,16 +163,16 @@ The About page displays all staff images and the purpose and history story of th
 
 |FEATURE|ACTION|EXPECTED RESULT|TESTED|PASSED|COMMENTS|
 |:--------------------------------|:-------------------------------|:--------------------------|:------------|:-----------|:---------|
-|Logo|Click on th "LOGO" link|The user is redirected to the main page|Yes|Yes|-|
+|Logo|Click on the "LOGO" link|The user is redirected to the main page|Yes|Yes|-|
 |Navbar|
 |Home|Click on the "HOME" link|The  user is redirected to the main page|Yes|Yes|-|
 |Contact|Click on the "CONTACT" link| The user is redirected to the contact page|Yes|Yes|-|
 |About| Click on the "ABOUT"link| The user is redirected to the about page|Yes|Yes|-|
-|Hero Image|Click on the "Image"link|The user is redirected to the thailand map page|Yes|Yes|-|
+|Hero Image|Click on the "Image"link|The user is redirected to the Thailand map page|Yes|Yes|-|
 |Footer|
-|Facebook icon in the footer| Click on the facebook icon|The user id redirected to the facebook page|Yes|Yes|-|
+|Facebook icon in the footer| Click on the Facebook icon|The user id redirected to the Facebook page|Yes|Yes|-|
 |Twitter icon in the footer|Click on the youtube icon|The user is redirected to the youtube page|Yes|Yes|-|
-|Instagram ico in the footer|Click on the instagram icon|The user is redirected to the instagram page|Yes|Yes|-|
+|Instagram ico in the footer|Click on the Instagram icon|The user is redirected to the Instagram page|Yes|Yes|-|
 |About page|
 |Logo|Click on the "LOGO"link|The user is redirected to the main page|Yes|Yes|-|
 |Home|Click on the "HOME"link|The user is redirected to the main page|Yes|Yes|-|
@@ -184,9 +182,9 @@ The About page displays all staff images and the purpose and history story of th
 |Full Name input|Enter The full name|The full name is entered|Yes|Yes|-|
 |Email Address input|Enter The email address|The email address is entered|Yes|Yes|-|
 |Which part of Thailand do you want to visit?|Enter the Thailand part and province or sightseeing name|The text is entered|Yes|Yes|-|
-|Submit Button|Click on the "Submit"button|The user do not get response because this page in only dummy page|No|No|-|
+|Submit Button|Click on the "Submit" button|The user does not get a response because this page is only a dummy page|No|No|-|
 |Thailand map page|
-|Hero Image|Click on the "Image"link|The picture of northern,northeast,westcentral,eastern,south and southend will appear|Yes|Yes|-|
+|Hero Image|Click on the "Image" link|The picture of northern, northeast, west-central, eastern, south and Southend will appear|Yes|Yes|-|
 |Thailand part image|Click on  each image|The picture of the province image will appear|Yes|Yes|-|
 |Thailand province image|Click on each image|The picture of sightseeing and relevant information in the province will appear|Yes|Yes|-|
 
@@ -199,20 +197,20 @@ The About page displays all staff images and the purpose and history story of th
   ## Deployment
    - The site was deployed to GitHub pages. The steps to deploy are as follows:
      - In The [GitHub repository](https://github.com/Kay13051976/Thailand-magic-map), navigate to the setting tab
-     - From the source section drop-down menu, select the Main Branch, then click "Save"
-     - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.the like link can be found [here](https://kay13051976.github.io/Thailand-magic-map/)
+     - From the source section drop-down menu, select the Main Branch, then click "Save."
+     - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. the like link can be found [here](https://kay13051976.github.io/Thailand-magic-map/)
 
   ## Local Deployment
-  In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
+  To make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
    - gh repo clone Kay13051976/Thailand-magic-map
-   - Alternatively, if you use Gitpod, you can [click here](https://gitpod.io/new/#https://github.com/Kay13051976/Thailand-magic-map) which will start the Gitpod workspace for you
+   - Alternatively, if you use Gitpod, you can [click here](https://gitpod.io/new/#https://github.com/Kay13051976/Thailand-magic-map), which will start the Gitpod workspace for you
   ### Future Improvement
-   - add more detail to province sightseeing page'
-   - add fully function contact form.
-   - add more feature to contact page and store user account detail in could technology.
+   - add more detail to the province sightseeing page.'
+   - add a fully functional contact form.
+   - add more features to the contact page and store user account detail in could technology.
   ### Credit
   #### content
-  - Inspiration for the gallery hover effect come from Web Dev Tutorials Youtube chanel[Web Dev Tutorial](https://www.youtube.com/watch?v=flItyHiDm7E&list=PL7817464mNy8xLq3U9V4mhgtB0T-twKLI)
+  - Inspiration for the gallery hover effect comes from Web Dev Tutorials Youtube chanel[Web Dev Tutorial](https://www.youtube.com/watch?v=flItyHiDm7E&list=PL7817464mNy8xLq3U9V4mhgtB0T-twKLI)
   - inspiration for css style Kevin Powell Youtube chanel[Kevin Powell](https://www.youtube.com/watch?v=HOM47v73yG8&list=PL7817464mNy8aIZStaIKhqlYFttIeKu1i)
   
   
@@ -260,22 +258,17 @@ The About page displays all staff images and the purpose and history story of th
       - [36th image](https://www.istockphoto.com/photo/asian-tropical-beach-paradise-in-thailand-gm1097373600-294680617?phrase=Phuket)
       - [37th image](https://www.istockphoto.com/photo/james-bond-island-gm499125743-42443880?phrase=Phuket)
       - [38th image](https://www.istockphoto.com/photo/thai-food-at-the-market-in-phuket-noodles-tom-yam-soup-salads-and-traditional-street-gm1331234303-414429087?phrase=Phuket)
-      - [6th image]()
-      - [6th image]()
+      - [39th image](https://www.istockphoto.com/photo/green-curry-with-chicken-gm610763810-104924511?clarity=false)
+      - [40th image](https://www.istockphoto.com/photo/hot-spicy-shrimp-soup-in-coconut-milk-or-tom-yum-goong-on-white-background-thai-food-gm1395684933-450706212?clarity=false)
 
-      - [6th image]()
-      - [6th image]()
-      - [6th image]()
-      - [6th image]()
-      - [6th image]()
-
-
+      - [41th image](https://www.istockphoto.com/photo/pad-thai-stir-fried-noodles-with-shrimp-gm1054842676-281837683?clarity=false)
 ### Tools
 - [TinyPNG](https://tinypng.com/)was used to compress JPEG images.
-- [Color Picker](https://imagecolorpicker.com/en)was used to create the color palette.
-- []( ) use to create the color image
+- [Color Picker](https://imagecolorpicker.com/en)was used to create the colour palette.
+- []( ) used to create the colour image
 - []( ) 
 ### Acknowledgments
-- Code Institute tutor and slack community menbers for their support and help.
-- Kevin Powell for his amazing CSS tutorials.
-- Code Institute mentor Julia Konovalova for her advice and patient.
+- Code Institute tutor and Slack community members for their support and help.
+- Kevin Powell for his excellent CSS tutorials.
+- Mui with an advanced javascript explanation through the Zoom meeting application.
+- Code Institute mentor Julia Konovalova for her advice and patience.
