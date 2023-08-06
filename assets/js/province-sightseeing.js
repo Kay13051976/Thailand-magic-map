@@ -116,7 +116,7 @@ const provinceSightseeing = [
     },
   },
   {
-    id: "ืnan",
+    id:  "nan",
     province: "NAN",
     image: "assets/images/lampang.png",
     sightseeing1: {
