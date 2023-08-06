@@ -162,11 +162,26 @@ The About page displays all staff images and the purpose and history story of th
 
  ## Design
   - Color Scheme
-   - Yellow, green, turquoise, black and blue was used as the main colour of the website due to their psychological effect on people's minds. As this colour is associated with happiness, hope, spontaneity, protection, good fortune and loyalty, imagination, inspiration, sensitivity
-   -black was used as a background colour to increase visibility the paragraph nice and clear to read
-   - blue colour represents both the sky and the sea and is associated with open spaces, freedom, intuition, imagination, inspiration, sensitivity, trust, loyalty, wisdom, confident
-   - Turquoise mean wisdom, tranquillity, protection, good fortune and loyalty, calm, creativity, and emotionally balanced
-   - Yellow is happiness, hope and spontaneity. It's the colour of the sun, smiley faces, and sunflowers; it is the colour of youth and grabs your attention with hope and positivity.
+   - Yellow, green, turquoise, white, black and blue was used as the main colour of the website due to their psychological effect on people's minds. As this colour is associated with happiness, hope, spontaneity, protection, good fortune and loyalty, imagination, inspiration, sensitivity
+   
+   - The white colour association is often connected to the colour purity, innocence, cleanliness, blankness, coldness, simplicity, and minimalism to make it more readable and eye-catching. It has been used with paragraphs and border
+  ![Colour white](assets/images/color-white.png)
+  
+   - Black was used as a background colour to increase visibility the paragraph nice and clear to read.it has been used with border, paragraph background and hover background .
+  ![Colour black](assets/images/color-black.png)
+
+   - Blue colour represents both the sky and the sea and is associated with open spaces, freedom, intuition, imagination, inspiration, sensitivity, trust, loyalty, wisdom, confident.it has been used with border and hover background.
+  ![Colour dark blue](assets/images/color-dark-blue.png)
+  ![Colour blue](assets/images/color-blue.png)
+
+
+   - Turquoise mean wisdom, tranquillity, protection, good fortune and loyalty, calm, creativity, and emotionally balanced.it has been used with paragraph, header and image background colour.
+  ![Colour turquoise](assets/images/color-turquoise.png)
+
+   - Yellow is happiness, hope and spontaneity. It's the colour of the sun, smiley faces, and sunflowers; it is the colour of youth and grabs your attention with hope and positivity.it has been used with header and paragraph.
+  ![Colour yellow](assets/images/color-yellow.png)
+
+
 
   <!-- colour picture -->
   - Typography
