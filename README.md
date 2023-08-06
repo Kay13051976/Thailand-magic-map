@@ -29,7 +29,29 @@ The site can be accessed by the link [a link](
 ## Wireframes
 <!-- Wireframes picture -->
  - Desktop
+![Wireframes desktop home page](assets/images/wirefame-home-page.png)
+
+![Wireframes desktop about page](assets/images/wireframe-about-page.png)
+![Wireframes desktop contact page](assets/images/wireframe-contact-page.png)
+![Wireframes desktop thailand map page](assets/images/wireframe-thailand-map-part.png)
+![Wireframes desktop part province page](assets/images/wireframe-thailand-map-province.png)
+![Wireframes desktop province sightseing page](assets/images/wireframe-thailand-map-sightseeing.png)
+![Logo Picture]()
+![Logo Picture]()
+v
+ 
  - Mobile
+![Wireframes mobile home page](assets/images/wireframe-mobile-home-page.png)
+![Wireframes mobile home page with slide nav bar](assets/images/wireframe-mobile-home-page-nav-slide.png)
+![Wireframes mobile about page](assets/images/wireframe-mobile-about-page.png)
+![Wireframes mobile contact page](assets/images/wireframe-mobile-contact-page.png)
+![Wireframes mobile thailand map page](assets/images/wireframe-mobile-thailand-map-and-part.png)
+![Wireframes mobile part province page](assets/images/wireframe-mobile-thailand-part-and-province.png)
+![Wireframes mobile province sightseeing page](assets/images/wireframe-mobile-province-and-sightseeing.png)
+
+
+
+
 ## Logo
 <!-- logo picture -->
 ![Logo Picture]()
