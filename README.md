@@ -163,7 +163,7 @@ The About page displays all staff images and the purpose and history story of th
  ## Design
   - Color Scheme
    - Yellow, green, turquoise, white, black and blue was used as the main colour of the website due to their psychological effect on people's minds. As this colour is associated with happiness, hope, spontaneity, protection, good fortune and loyalty, imagination, inspiration, sensitivity
-   
+
    - The white colour association is often connected to the colour purity, innocence, cleanliness, blankness, coldness, simplicity, and minimalism to make it more readable and eye-catching. It has been used with paragraphs and border
   ![Colour white](assets/images/color-white.png)
   
@@ -186,11 +186,12 @@ The About page displays all staff images and the purpose and history story of th
   <!-- colour picture -->
   - Typography
   - Roboto Google font was used as the website's primary font to increase the content's readability.
-  [roboto image]()
- - sans serif was used to attract viewers' attention to the cover text, accentuate the company's strong points, and incentivize visitors to contact the "Thailand magic map"
-  [sans serif image]()
-- colour converter
-[color convertor](https://cssgenerator.org/rgba-and-hex-color-generator.html)
+  ![Roboto image](assets/images/roboto.png)
+ - Roboto serif was used to attract viewers' attention to the cover text, accentuate the company's strong points, and incentivize visitors to contact the "Thailand magic map"
+  ![Roboto serif image](assets/images/roboto-serif.png)
+- colour converter use to pick colour[Color convertor](https://cssgenerator.org/rgba-and-hex-color-generator.html)
+- Rgba and hex colour generator been used to find the rgba number[Rgba and hex color generator](https://cssgenerator.org/rgba-and-hex-color-generator.html)
+
 <!-- typography picture -->
  ## Testing
   ### Chrome
