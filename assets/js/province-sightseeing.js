@@ -117,7 +117,7 @@ const provinceSightseeing = [
   },
   {
     id: "ืnan",
-    province: "LAMPANG",
+    province: "NAN",
     image: "assets/images/lampang.png",
     sightseeing1: {
       name: "OLD BEACH",
