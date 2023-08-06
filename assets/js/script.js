@@ -44,15 +44,15 @@ document.addEventListener("DOMContentLoaded", function (event) {
   /*Home page hero image scroll timeline animation*/
   const animatedImageTimeline = new ScrollTimeline({
     scrollOffsets: [{
-      target: animatedImage,
-      edge: "end",
-      threshold: "1",
-    },
-    {
-      target: animatedImage,
-      edge: "start",
-      threshold: "1",
-    },
+        target: animatedImage,
+        edge: "end",
+        threshold: "1",
+      },
+      {
+        target: animatedImage,
+        edge: "start",
+        threshold: "1",
+      },
     ],
   });
 
@@ -82,8 +82,8 @@ function showElement(id) {
 }
 
 /*Thailand map page function 
-*Using  value and for loop 
-*/
+ *Using  value and for loop 
+ */
 function onClickMap() {
   var value = this.getAttribute("value");
   showElement(value);
@@ -114,6 +114,7 @@ if (id) {
 
 
 const province = document.getElementsByClassName("onclick-province");
+
 function onClickProvince() {
   var id = this.getAttribute("id");
   window.location.href = "province-sightseeing.html?id=" + id;
@@ -139,12 +140,12 @@ if (id) {
       var s5img = document.getElementById("sightseeing5-img");
       var s6img = document.getElementById("sightseeing6-img");
 
-      // var s1name = document.getElementById("sightseeing1-name");
-      // var s2name = document.getElementById("sightseeing2-name");
-      // var s3name = document.getElementById("sightseeing3-name");
-      // var s4name = document.getElementById("sightseeing4-name");
-      // var s5name = document.getElementById("sightseeing5-name");
-      // var s6name = document.getElementById("sightseeing6-name");
+      var s1name = document.getElementById("sightseeing1-name");
+      var s2name = document.getElementById("sightseeing2-name");
+      var s3name = document.getElementById("sightseeing3-name");
+      var s4name = document.getElementById("sightseeing4-name");
+      var s5name = document.getElementById("sightseeing5-name");
+      var s6name = document.getElementById("sightseeing6-name");
 
       var provinceImage = document.getElementById("province-image");
       provinceImage.src = provinceObject.image;
@@ -156,12 +157,17 @@ if (id) {
       s5img.src = provinceObject.sightseeing5.image;
       s6img.src = provinceObject.sightseeing6.image;
 
-      // s1name.innerText = provinceObject.sightseeing1.name;
-      // s2name.innerText = provinceObject.sightseeing2.name;
-      // s3name.innerText = provinceObject.sightseeing3.name;
-      // s4name.innerText = provinceObject.sightseeing4.name;
-      // s5name.innerText = provinceObject.sightseeing5.name;
-      // s6name.innerText = provinceObject.sightseeing6.name;
+      s1name.innerText = provinceObject.sightseeing1.name;
+      s2name.innerText = provinceObject.sightseeing2.name;
+      s3name.innerText = provinceObject.sightseeing3.name;
+      s4name.innerText = provinceObject.sightseeing4.name;
+      s5name.innerText = provinceObject.sightseeing5.name;
+      s6name.innerText = provinceObject.sightseeing6.name;
+
+      const province = document.getElementById("province-section");
+      if (province) {
+        province.style.display = "grid"
+      }
 
     }
 
@@ -170,10 +176,6 @@ if (id) {
       title.innerText = id.toUpperCase();
     }
 
-    const province = document.getElementById(id);
-    if (province) {
-      province.style.display = "grid"
-    }
   }
 
 }
