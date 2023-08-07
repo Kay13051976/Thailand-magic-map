@@ -1065,43 +1065,53 @@ img #chiangmai:hover {
     width: 60px;
     height: 60px;
   }
+
   /*Part province*/
   .part-province-page-main-col2>img {
     width: 120px;
     height: 150px;
     margin-top: 10px;
   }
-    .part-province-page-main-col3 img {
-      width: 80px;
-      height: 90px;
-    }
-    .part-province-page-main-col1 img {
-      width: 80px;
-      height: 90px;
-    }
-    .text {
-      text-transform: uppercase;
-      font-size: 10px;
-      font-weight: bold;
-      background-color: rgba(34, 39, 45, 0.674);
-      padding: 5px;
-      border-radius: 5px;
-    }
-    /*Province sightseeing*/
-    .province-sightseeing-page-main-col3 img {
-      width: 80px;
-      height: 90px;
-    }
-    
-    .province-sightseeing-page-main-col1 img {
-      width: 80px;
-      height: 90px;
-    }
-    
-    .province-sightseeing-page-main-col2>img {
-      width: 120px;
-      height: 150px;
-      margin-top: 10px;
-    
-    }
+
+  .part-province-page-main-col3 img {
+    width: 80px;
+    height: 90px;
+  }
+
+  .part-province-page-main-col1 img {
+    width: 80px;
+    height: 90px;
+  }
+
+  .text {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: rgba(34, 39, 45, 0.674);
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  /*Province sightseeing*/
+  #sightseeing1-img,
+  #sightseeing2-img,
+  #sightseeing3-img,
+  #sightseeing4-img,
+  #sightseeing5-img,
+  #sightseeing6-img {
+    width: 80px;
+    height: 90px;
+  }
+
+  #sightseeing2-img {
+    width: 80px;
+    height: 90px;
+  }
+
+  #province-image {
+    width: 120px;
+    height: 150px;
+    margin-top: 10px;
+
+  }
 }
