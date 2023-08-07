@@ -118,12 +118,14 @@ nav {
   display: none;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 40rem;
+  height: 80rem;
+  margin-top: 14rem;
 }
 
 .main-thailand-map-hero-image {
   display: flex;
-  width: 70%;
+  width: 100%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -348,8 +350,8 @@ textarea:focus {
 }
 
 .thailand-map-page-main-col1 img {
-  width: 250px;
-  height: 250px;
+  width: 25rem;
+  height: 25rem;
   display: block;
   object-fit: fill;
 }
@@ -357,57 +359,55 @@ textarea:focus {
 
 
 .thailand-map-page-main-col2>img {
-  width: 50rem;
-  height: 90rem;
+  width: 40rem;
+  height: 70rem;
   margin: auto;
-  margin-top: 90px;
+  margin-top: 10px;
   display: block;
   cursor: pointer;
 }
 
 .thailand-map-page-main-col2 .northern-btn {
   position: absolute;
-  transform: translate(165px, -700px);
-  -ms-transform: translate(165px, -700px);
-  color: rgb(255, 255, 0);
+  transform: translate(155px, -600px);
+  -ms-transform: translate(155px, -600px);
+  color: #252525;
+  background: rgb(255, 255, 0, 0.7);
   font-size: 16px;
   font-weight: bold;
   padding: 24px 24px;
-  background: none;
   margin: 0;
   border: none;
-  padding: 0;
+  padding: 5px;
   cursor: pointer;
 }
 
 .thailand-map-page-main-col2 .western-btn {
   position: absolute;
-  transform: translate(180px, -500px);
-  -ms-transform: translate(180px, -500px);
-  color: rgb(255, 255, 0);
+  transform: translate(70px, -400px);
+  -ms-transform: translate(70px, -400px);
+  color: #252525;
+  background: rgb(255, 255, 0, 0.7);
   font-size: 16px;
   font-weight: bold;
   padding: 24px 24px;
   border-radius: 5px;
-  background: none;
   border: none;
   margin: 0;
-  padding: 0;
+  padding: 5px;
   cursor: pointer;
 }
 
 .thailand-map-page-main-col2 .southern-top-btn {
   position: absolute;
-  transform: translate(150px, -380px);
-  -ms-transform: translate(150px, -380px);
-  color: rgb(255, 255, 0);
-
+  transform: translate(150px, -290px);
+  -ms-transform: translate(150px, -290px);
+  color: #252525;
+  background: rgb(255, 255, 0, 0.7);
   font-size: 16px;
   font-weight: bold;
   padding: 24px 24px;
   border-radius: 5px;
-  background: rgb(50, 43, 43, 0.2);
-  /* background: none; */
   border: none;
   margin: 0;
   padding: 5px;
@@ -416,51 +416,49 @@ textarea:focus {
 
 .thailand-map-page-main-col2 .east-central-btn {
   position: absolute;
-  transform: translate(260px, -480px);
-  -ms-transform: translate(260px, -480px);
-  color: rgb(255, 255, 0);
-
+  transform: translate(260px, -350px);
+  -ms-transform: translate(260px, -350px);
+  color: #252525;
+  background: rgb(255, 255, 0, 0.7);
   font-size: 16px;
   font-weight: bold;
   padding: 24px 24px;
   border-radius: 5px;
-  background: none;
   border: none;
   margin: 0;
-  padding: 0;
+  padding: 5px;
   cursor: pointer;
 }
 
 .thailand-map-page-main-col2 .southern-end-btn {
   position: absolute;
-  transform: translate(140px, -240px);
-  -ms-transform: translate(140px, -240px);
-  color: rgb(255, 255, 0);
-
+  transform: translate(140px, -140px);
+  -ms-transform: translate(140px, -140px);
+  color: #252525;
+  background: rgb(255, 255, 0, 0.7);
   font-size: 16px;
   font-weight: bold;
   padding: 24px 24px;
   border-radius: 5px;
-  background: none;
   border: none;
   margin: 0;
-  padding: 0;
+  padding: 5px;
   cursor: pointer;
 }
 
 .thailand-map-page-main-col2 .northeast-btn {
   position: absolute;
-  transform: translate(380px, -580px);
-  -ms-transform: translate(380px, -580px);
-  color: rgb(255, 255, 0);
+  transform: translate(300px, -480px);
+  -ms-transform: translate(300px, -480px);
+  color: #252525;
   font-size: 16px;
   font-weight: bold;
   padding: 24px 24px;
   border-radius: 5px;
-  background: none;
+  background: rgb(255, 255, 0, 0.7);
   border: none;
   margin: 0;
-  padding: 0;
+  padding: 5px;
   cursor: pointer;
 }
 
