@@ -390,8 +390,6 @@ textarea:focus {
   transform: translate(180px, -500px);
   -ms-transform: translate(180px, -500px);
   color: rgb(255, 255, 0);
-
-
   font-size: 16px;
   font-weight: bold;
   padding: 24px 24px;
@@ -1233,8 +1231,52 @@ img #chiangmai:hover {
     height: 18rem;
   }
 
-
-
-
-
+  #thailand-map-page-main-col2-image {
+    width:180px ;
+    height: 270px;
+  }
+  .thailand-map-page-main-col2 .northern-btn {
+    position: absolute;
+    transform: translate(50px, -230px);
+    -ms-transform: translate(50px, -230px);
+    background: rgb(50, 43, 43, 0.2);
+    font-size: 12px;
+  }
+  .thailand-map-page-main-col2 .northeast-btn {
+    position: absolute;
+    transform: translate(110px, -198px);
+    -ms-transform: translate(110px, -198px);
+    background: rgb(50, 43, 43, 0.2);
+    font-size: 12px;
+  }
+  
+  .thailand-map-page-main-col2 .east-central-btn {
+    position: absolute;
+    transform: translate(80px, -140px);
+    -ms-transform: translate(80px, -140px);
+    background: rgb(50, 43, 43, 0.2);
+    font-size: 12px;
+  }
+  .thailand-map-page-main-col2 .western-btn {
+    position: absolute;
+    transform: translate(20px, -160px);
+    -ms-transform: translate(20px, -160px);
+    color: rgb(255, 255, 0);
+    background: rgb(50, 43, 43, 0.2);
+    font-size: 12px;
+  }
+  .thailand-map-page-main-col2 .southern-end-btn {
+    position: absolute;
+    transform: translate(40px, -40px);
+    -ms-transform: translate(40px, -40px);
+    background: rgb(50, 43, 43, 0.2);
+    font-size: 12px;
+  }
+  .thailand-map-page-main-col2 .southern-top-btn {
+    position: absolute;
+    transform: translate(15px, -120px);
+    -ms-transform: translate(15px, -120px);
+    background: rgb(50, 43, 43, 0.2);
+  padding: 1px;
+    font-size: 12px;}
 }
