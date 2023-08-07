@@ -913,11 +913,18 @@ img #chiangmai:hover {
     flex-direction: column;
   }
 
+  .footer-container-advertise {
+    line-height: 40px;
+    letter-spacing: 1.5px;
+    font-size: 1.8em;
+  }
+
   /*Contact page */
   .contact-page-main-container {
     width: 90%;
     /* height: 100vh; */
   }
+
   textarea {
     border: 3px solid yellow;
     width: 100%;
@@ -927,12 +934,33 @@ img #chiangmai:hover {
     min-height: 5em;
     max-height: 18em;
   }
+
   /*About page*/
+  .about-page-main-container-hero-image {
+    width: 100%;
+    height: 220px;
+
+  }
+
   .about-page-main-container-hero-image>img {
     width: 100%;
-    height: 250;
-    object-fit: cover;
-    object-position: center;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: fill;
+    align-items: center;
+
+  }
+
+  .about-page-main-container-content {
+    font-size: 1.6rem;
+    letter-spacing: 0.2rem;
+    line-height: 28px;
+    color: white;
+    margin: 50px 20px;
+    background-color: rgb(50, 43, 43, 0.5);
+    width: fit-content;
+    padding: 10px;
   }
 
   /*Thailand map page*/
