@@ -1001,8 +1001,9 @@ img #chiangmai:hover {
   }
 
   #thailand-map-page-main-col2-image {
-    width: 180px;
-    height: 270px;
+    width: 170px;
+    height: 260px;
+    margin-top: 10px;
   }
 
   .thailand-map-page-main-col2 .northern-btn {
@@ -1023,8 +1024,8 @@ img #chiangmai:hover {
 
   .thailand-map-page-main-col2 .east-central-btn {
     position: absolute;
-    transform: translate(80px, -140px);
-    -ms-transform: translate(80px, -140px);
+    transform: translate(70px, -140px);
+    -ms-transform: translate(70px, -140px);
     background: rgb(50, 43, 43, 0.2);
     font-size: 12px;
   }
@@ -1053,5 +1054,15 @@ img #chiangmai:hover {
     background: rgb(50, 43, 43, 0.2);
     padding: 1px;
     font-size: 12px;
+  }
+
+  #northern-img,
+  #western-img,
+  #southern-top-img,
+  #northeast-img,
+  #east-and-central-img,
+  #southern-end-img {
+    width: 60px;
+    height: 60px;
   }
 }
