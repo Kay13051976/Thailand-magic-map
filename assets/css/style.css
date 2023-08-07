@@ -174,7 +174,8 @@ nav {
 }
 
 .footer-container-advertise-content>a {
-  color: #ffffff;
+  color: rgb(13, 13, 235);
+  text-decoration: underline;
 }
 
 .footer-container-advertise-content>a:hover {
@@ -356,8 +357,6 @@ textarea:focus {
   object-fit: fill;
 }
 
-
-
 .thailand-map-page-main-col2>img {
   width: 40rem;
   height: 70rem;
@@ -462,15 +461,17 @@ textarea:focus {
   cursor: pointer;
 }
 
-.thailand-map-page-main-col2 .southern-top-btn:hover {
-  color: black;
+.thailand-map-page-main-col2 ,
+.southern-top-btn:hover,
+.southern-end-btn:hover,
+.northeast-btn:hover,
+.east-central-btn:hover,
+.western-btn:hover,
+.northern-btn:hover
+{
+  color: red;
   opacity: 1;
   background: none;
-}
-
-.thailand-map-page-main-col2 .southern-top-btn:hover {
-  color: black;
-
 }
 
 .thailand-map-page-main-col3 {
