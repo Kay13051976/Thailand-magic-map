@@ -29,25 +29,25 @@ The site can be accessed by the link [a link](
 ## Wireframes
 <!-- Wireframes picture -->
  - Desktop
-![Wireframes desktop home page](assets/images/wirefame-home-page.png)
+![Wireframes desktop home page](documentation/wirefame-home-page.png)
 
-![Wireframes desktop about page](assets/images/wireframe-about-page.png)
-![Wireframes desktop contact page](assets/images/wireframe-contact-page.png)
-![Wireframes desktop thailand map page](assets/images/wireframe-thailand-map-part.png)
-![Wireframes desktop part province page](assets/images/wireframe-thailand-map-province.png)
-![Wireframes desktop province sightseing page](assets/images/wireframe-thailand-map-sightseeing.png)
+![Wireframes desktop about page](documentation/wireframe-about-page.png)
+![Wireframes desktop contact page](documentation/wireframe-contact-page.png)
+![Wireframes desktop thailand map page](documentation/wireframe-thailand-map-part.png)
+![Wireframes desktop part province page](documentation/wireframe-thailand-map-province.png)
+![Wireframes desktop province sightseing page](documentation/wireframe-thailand-map-sightseeing.png)
 ![Logo Picture]()
 ![Logo Picture]()
 v
  
  - Mobile
-![Wireframes mobile home page](assets/images/wireframe-mobile-home-page.png)
-![Wireframes mobile home page with slide nav bar](assets/images/wireframe-mobile-home-page-nav-slide.png)
-![Wireframes mobile about page](assets/images/wireframe-mobile-about-page.png)
-![Wireframes mobile contact page](assets/images/wireframe-mobile-contact-page.png)
-![Wireframes mobile thailand map page](assets/images/wireframe-mobile-thailand-map-and-part.png)
-![Wireframes mobile part province page](assets/images/wireframe-mobile-thailand-part-and-province.png)
-![Wireframes mobile province sightseeing page](assets/images/wireframe-mobile-province-and-sightseeing.png)
+![Wireframes mobile home page](documentation/wireframe-mobile-home-page.png)
+![Wireframes mobile home page with slide nav bar](documentation/wireframe-mobile-home-page-nav-slide.png)
+![Wireframes mobile about page](documentation/wireframe-mobile-about-page.png)
+![Wireframes mobile contact page](documentation/wireframe-mobile-contact-page.png)
+![Wireframes mobile thailand map page](documentation/wireframe-mobile-thailand-map-and-part.png)
+![Wireframes mobile part province page](documentation/wireframe-mobile-thailand-part-and-province.png)
+![Wireframes mobile province sightseeing page](documentation/wireframe-mobile-province-and-sightseeing.png)
 
 
 
@@ -152,8 +152,7 @@ The About page displays all staff images and the purpose and history story of th
  ## Technologies used
   - HTML was used as the foundation of the site.
   - CSS was used to add the arranged items symmetrically on the pages.
-  - CSS flexbox was used to arrange items symmetrically on the pages.
-  - CSS Grid was used to make for responsive page.
+  - Javascript was used to implement features of interactive, display and scrolling map.
   - Balsamiq was used to make wireframes for the website.
   - VScode was used for the version control to write and edit code.
   - Git was used for the version control of the website.
@@ -165,30 +164,30 @@ The About page displays all staff images and the purpose and history story of th
    - Yellow, green, turquoise, white, black and blue was used as the main colour of the website due to their psychological effect on people's minds. As this colour is associated with happiness, hope, spontaneity, protection, good fortune and loyalty, imagination, inspiration, sensitivity
 
    - The white colour association is often connected to the colour purity, innocence, cleanliness, blankness, coldness, simplicity, and minimalism to make it more readable and eye-catching. It has been used with paragraphs and border
-  ![Colour white](assets/images/color-white.png)
+  ![Colour white](documentation/color-white.png)
   
    - Black was used as a background colour to increase visibility the paragraph nice and clear to read.it has been used with border, paragraph background and hover background .
-  ![Colour black](assets/images/color-black.png)
+  ![Colour black](documentation/color-black.png)
 
    - Blue colour represents both the sky and the sea and is associated with open spaces, freedom, intuition, imagination, inspiration, sensitivity, trust, loyalty, wisdom, confident.it has been used with border and hover background.
-  ![Colour dark blue](assets/images/color-dark-blue.png)
-  ![Colour blue](assets/images/color-blue.png)
+  ![Colour dark blue](documentation/color-dark-blue.png)
+  ![Colour blue](documentation/color-blue.png)
 
 
    - Turquoise mean wisdom, tranquillity, protection, good fortune and loyalty, calm, creativity, and emotionally balanced.it has been used with paragraph, header and image background colour.
-  ![Colour turquoise](assets/images/color-turquoise.png)
+  ![Colour turquoise](documentation/color-turquoise.png)
 
    - Yellow is happiness, hope and spontaneity. It's the colour of the sun, smiley faces, and sunflowers; it is the colour of youth and grabs your attention with hope and positivity.it has been used with header and paragraph.
-  ![Colour yellow](assets/images/color-yellow.png)
+  ![Colour yellow](documentation/color-yellow.png)
 
 
 
   <!-- colour picture -->
   - Typography
   - Roboto Google font was used as the website's primary font to increase the content's readability.
-  ![Roboto image](assets/images/roboto.png)
+  ![Roboto image](documentation/roboto.png)
  - Roboto serif was used to attract viewers' attention to the cover text, accentuate the company's strong points, and incentivize visitors to contact the "Thailand magic map"
-  ![Roboto serif image](assets/images/roboto-serif.png)
+  ![Roboto serif image](documentation/roboto-serif.png)
 - colour converter use to pick colour[Color convertor](https://cssgenerator.org/rgba-and-hex-color-generator.html)
 - Rgba and hex colour generator been used to find the rgba number[Rgba and hex color generator](https://cssgenerator.org/rgba-and-hex-color-generator.html)
 
