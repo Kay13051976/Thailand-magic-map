@@ -354,12 +354,7 @@ textarea:focus {
   object-fit: fill;
 }
 
-.thailand-map-page-main-col1-reveal img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: cover;
-}
+
 
 .thailand-map-page-main-col2>img {
   width: 50rem;
@@ -480,9 +475,6 @@ textarea:focus {
 
 }
 
-
-
-
 .thailand-map-page-main-col3 {
   display: flex;
   flex-direction: column;
@@ -497,13 +489,6 @@ textarea:focus {
   display: block;
   object-fit: fill;
   /* display: none; */
-}
-
-.thailand-map-page-main-col3-reveal img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: fill;
 }
 
 /* Part province style start here*/
@@ -570,13 +555,6 @@ img #chiangmai:hover {
   /* display: none; */
 }
 
-.part-province-page-main-col1-reveal img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: cover;
-}
-
 .part-province-page-main-col2>img {
   width: 450px;
   height: 450px;
@@ -602,13 +580,6 @@ img #chiangmai:hover {
   /* display: none; */
 }
 
-.part-province-page-main-col3-reveal img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: cover;
-}
-
 /*Northeast*/
 .part-province-page-main-container-northeast {
   grid-template-columns: 1fr 1fr 1fr;
@@ -626,28 +597,12 @@ img #chiangmai:hover {
   justify-content: center;
 }
 
-
-.part-province-page-main-col1-reveal img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: cover;
-}
-
 .part-province-page-main-col3 {
   display: flex;
   flex-direction: column;
   gap: 30px;
   align-items: center;
   justify-content: center;
-}
-
-
-.part-province-page-main-col3-reveal img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: cover;
 }
 
 /*West and Central*/
@@ -667,29 +622,12 @@ img #chiangmai:hover {
   justify-content: center;
 }
 
-
-.part-province-page-main-col1-reveal img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: cover;
-}
-
-
 .part-province-page-main-col3 {
   display: flex;
   flex-direction: column;
   gap: 30px;
   align-items: center;
   justify-content: center;
-}
-
-
-.part-province-page-main-col3-reveal img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: cover;
 }
 
 /*East*/
@@ -709,31 +647,12 @@ img #chiangmai:hover {
   justify-content: center;
 }
 
-
-
-.part-province-page-main-col1-reveal img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: cover;
-}
-
-
 .part-province-page-main-col3 {
   display: flex;
   flex-direction: column;
   gap: 30px;
   align-items: center;
   justify-content: center;
-}
-
-
-
-.part-province-page-main-col3-reveal img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: cover;
 }
 
 /*South top*/
@@ -753,31 +672,12 @@ img #chiangmai:hover {
   justify-content: center;
 }
 
-
-.part-province-page-main-col1-reveal img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: cover;
-}
-
-
-
 .part-province-page-main-col3 {
   display: flex;
   flex-direction: column;
   gap: 30px;
   align-items: center;
   justify-content: center;
-}
-
-
-
-.part-province-page-main-col3-reveal img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: cover;
 }
 
 /*South End*/
@@ -797,29 +697,12 @@ img #chiangmai:hover {
   justify-content: center;
 }
 
-
-.part-province-page-main-col1-reveal img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: cover;
-}
-
-
 .part-province-page-main-col3 {
   display: flex;
   flex-direction: column;
   gap: 30px;
   align-items: center;
   justify-content: center;
-}
-
-
-.part-province-page-main-col3-reveal img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: cover;
 }
 
 /*Province sightseeing style start here*/
@@ -855,13 +738,6 @@ img #chiangmai:hover {
   /* display: none; */
 }
 
-.province-sightseeing-page-main-col1-reveal img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: cover;
-}
-
 .province-sightseeing-page-main-col2>img {
   width: 450px;
   height: 450px;
@@ -891,13 +767,6 @@ img #chiangmai:hover {
   /* display: none; */
 }
 
-.province-sightseeing-page-main-col3-reveal img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: cover;
-}
-
 /*Nakhonratchasima*/
 .province-sightseeing-page-main-container-nakhonratchasima {
   display: grid;
@@ -916,31 +785,12 @@ img #chiangmai:hover {
   justify-content: center;
 }
 
-
-
-.province-sightseeing-page-main-col1-reveal img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: cover;
-}
-
-
 .province-sightseeing-page-main-col3 {
   display: flex;
   flex-direction: column;
   gap: 30px;
   align-items: center;
   justify-content: center;
-}
-
-
-
-.province-sightseeing-page-main-col3-reveal img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: cover;
 }
 
 /*Bangkok*/
@@ -963,32 +813,12 @@ img #chiangmai:hover {
   justify-content: center;
 }
 
-
-
-.province-sightseeing-page-main-col1-reveal img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: cover;
-}
-
-
-
 .province-sightseeing-page-main-col3 {
   display: flex;
   flex-direction: column;
   gap: 30px;
   align-items: center;
   justify-content: center;
-}
-
-
-
-.province-sightseeing-page-main-col3-reveal img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: cover;
 }
 
 /*Kanchanaburi*/
@@ -1011,17 +841,6 @@ img #chiangmai:hover {
   justify-content: center;
 }
 
-
-
-.province-sightseeing-page-main-col1-reveal img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: cover;
-}
-
-
-
 .province-sightseeing-page-main-col3 {
   display: flex;
   flex-direction: column;
@@ -1029,16 +848,6 @@ img #chiangmai:hover {
   align-items: center;
   justify-content: center;
 }
-
-
-
-.province-sightseeing-page-main-col3-reveal img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: cover;
-}
-
 
 /*Chonburi*/
 .province-sightseeing-page-main-container-chonburi {
@@ -1048,7 +857,6 @@ img #chiangmai:hover {
   justify-content: center;
   margin-top: 200px;
   display: none;
-
 }
 
 .province-sightseeing-page-main-col1 {
@@ -1059,17 +867,6 @@ img #chiangmai:hover {
   justify-content: center;
 }
 
-
-
-.province-sightseeing-page-main-col1-reveal img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: cover;
-}
-
-
-
 .province-sightseeing-page-main-col3 {
   display: flex;
   flex-direction: column;
@@ -1077,16 +874,6 @@ img #chiangmai:hover {
   align-items: center;
   justify-content: center;
 }
-
-
-
-.province-sightseeing-page-main-col3-reveal img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: cover;
-}
-
 
 /*Phuket*/
 
@@ -1108,16 +895,6 @@ img #chiangmai:hover {
   justify-content: center;
 }
 
-
-
-.province-sightseeing-page-main-col1-reveal img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: cover;
-}
-
-
 .province-sightseeing-page-main-col3 {
   display: flex;
   flex-direction: column;
@@ -1125,14 +902,6 @@ img #chiangmai:hover {
   align-items: center;
   justify-content: center;
 }
-
-.province-sightseeing-page-main-col3-reveal img {
-  width: 300px;
-  height: 300px;
-  display: block;
-  object-fit: cover;
-}
-
 
 /* Media query for header nav start here */
 @media (max-width: 768px) {
@@ -1232,9 +1001,10 @@ img #chiangmai:hover {
   }
 
   #thailand-map-page-main-col2-image {
-    width:180px ;
+    width: 180px;
     height: 270px;
   }
+
   .thailand-map-page-main-col2 .northern-btn {
     position: absolute;
     transform: translate(50px, -230px);
@@ -1242,6 +1012,7 @@ img #chiangmai:hover {
     background: rgb(50, 43, 43, 0.2);
     font-size: 12px;
   }
+
   .thailand-map-page-main-col2 .northeast-btn {
     position: absolute;
     transform: translate(110px, -198px);
@@ -1249,7 +1020,7 @@ img #chiangmai:hover {
     background: rgb(50, 43, 43, 0.2);
     font-size: 12px;
   }
-  
+
   .thailand-map-page-main-col2 .east-central-btn {
     position: absolute;
     transform: translate(80px, -140px);
@@ -1257,6 +1028,7 @@ img #chiangmai:hover {
     background: rgb(50, 43, 43, 0.2);
     font-size: 12px;
   }
+
   .thailand-map-page-main-col2 .western-btn {
     position: absolute;
     transform: translate(20px, -160px);
@@ -1265,6 +1037,7 @@ img #chiangmai:hover {
     background: rgb(50, 43, 43, 0.2);
     font-size: 12px;
   }
+
   .thailand-map-page-main-col2 .southern-end-btn {
     position: absolute;
     transform: translate(40px, -40px);
@@ -1272,11 +1045,13 @@ img #chiangmai:hover {
     background: rgb(50, 43, 43, 0.2);
     font-size: 12px;
   }
+
   .thailand-map-page-main-col2 .southern-top-btn {
     position: absolute;
     transform: translate(15px, -120px);
     -ms-transform: translate(15px, -120px);
     background: rgb(50, 43, 43, 0.2);
-  padding: 1px;
-    font-size: 12px;}
+    padding: 1px;
+    font-size: 12px;
+  }
 }
