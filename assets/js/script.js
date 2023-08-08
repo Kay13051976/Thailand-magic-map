@@ -1,4 +1,3 @@
-script.js
 /*
 *Get access to the header nav list and hamburger 
 * Add eventListener type click to header nav list and hamburger
@@ -33,7 +32,7 @@ document.querySelectorAll(".nav-link").forEach((n) =>
 
 
 
-//Create function  event to work after download home page prevent flickering page
+/*Create function  event to work after download home page prevent flickering page*/
 
 document.addEventListener("DOMContentLoaded", function (event) {
   const thailand_map = document.getElementById("thailand-map")
@@ -86,10 +85,10 @@ function showElement(id) {
  *Using  value and for loop 
  */
 function onClickMap() {
-  let value = this.getAttribute("value");
+  var value = this.getAttribute("value");
   showElement(value);
 }
-for (let i = 0; i < mapClick.length; i++) {
+for (var i = 0; i < mapClick.length; i++) {
   mapClick[i].addEventListener("click", onClickMap, false);
 }
 
@@ -117,10 +116,10 @@ if (id) {
 const province = document.getElementsByClassName("onclick-province");
 
 function onClickProvince() {
-  let id = this.getAttribute("id");
+  var id = this.getAttribute("id");
   window.location.href = "province-sightseeing.html?id=" + id;
 }
-for (let i = 0; i < province.length; i++) {
+for (var i = 0; i < province.length; i++) {
   province[i].addEventListener("click", onClickProvince, false);
 }
 
@@ -130,25 +129,25 @@ if (id) {
 
   if (window.location.pathname == "/Thailand-magic-map/province-sightseeing.html") {
 
-    let provinceObject = provinceSightseeing.find(x => x.id === id);
+    var provinceObject = provinceSightseeing.find(x => x.id === id);
 
     if (provinceObject) {
 
-      const s1img = document.getElementById("sightseeing1-img");
-      const s2img = document.getElementById("sightseeing2-img");
-      const s3img = document.getElementById("sightseeing3-img");
-      const s4img = document.getElementById("sightseeing4-img");
-      const s5img = document.getElementById("sightseeing5-img");
-      const s6img = document.getElementById("sightseeing6-img");
+      var s1img = document.getElementById("sightseeing1-img");
+      var s2img = document.getElementById("sightseeing2-img");
+      var s3img = document.getElementById("sightseeing3-img");
+      var s4img = document.getElementById("sightseeing4-img");
+      var s5img = document.getElementById("sightseeing5-img");
+      var s6img = document.getElementById("sightseeing6-img");
 
-      const s1name = document.getElementById("sightseeing1-name");
-      const s2name = document.getElementById("sightseeing2-name");
-      const s3name = document.getElementById("sightseeing3-name");
-      const s4name = document.getElementById("sightseeing4-name");
-      const s5name = document.getElementById("sightseeing5-name");
-      const s6name = document.getElementById("sightseeing6-name");
+      var s1name = document.getElementById("sightseeing1-name");
+      var s2name = document.getElementById("sightseeing2-name");
+      var s3name = document.getElementById("sightseeing3-name");
+      var s4name = document.getElementById("sightseeing4-name");
+      var s5name = document.getElementById("sightseeing5-name");
+      var s6name = document.getElementById("sightseeing6-name");
 
-      let provinceImage = document.getElementById("province-image");
+      var provinceImage = document.getElementById("province-image");
       provinceImage.src = provinceObject.image;
 
       s1img.src = provinceObject.sightseeing1.image;
