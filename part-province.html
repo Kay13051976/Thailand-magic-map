@@ -13,6 +13,7 @@
   <title>Thailand Magic Map</title>
 </head>
 <!--  On this page, click on the part of Thailand to display the province -->
+
 <body class="body-container">
   <header>
     <div>
@@ -47,7 +48,7 @@
     </div>
   </header>
 
-  <main class="part-province-page-main-container">
+  <main id="part-province-page" class="part-province-page-main-container">
 
     <div class="thailand-map-page-main-container-header">
 
@@ -72,7 +73,8 @@
         </div>
       </div>
       <div class="part-province-page-main-col2">
-        <img src="assets/images/northren-with-province-name.png" alt="northern map with province name">
+        <img src="assets/images/northren-with-province-name.png" alt="northern map with province name"
+          value="part-province-northern">
       </div>
       <div class="part-province-page-main-col3">
         <div class="parentContainer">
@@ -90,6 +92,14 @@
         </div>
       </div>
     </div>
+    <!-- Reset Button -->
+    <div class="part-province-page-main-container-north-footer">
+      <button id="btn-back">BACK</button>
+      <button id="btn-reset-province-map">RESET MAP</button>
+    </div>
+    <!-- End Reset Button -->
+
+
     <div id="part-province-northeast" class="part-province-page-main-container-northeast">
       <div class="part-province-page-main-col1">
         <div class="parentContainer">
