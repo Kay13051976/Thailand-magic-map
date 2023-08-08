@@ -80,13 +80,6 @@ function showElement(id) {
   const img = document.getElementById(id);
   img.style.opacity = 1;
 }
-/*sample start*/
-// function hideElement(id) {
-//   const img = document.getElementById(id);
-//   img.style.opacity = 0;
-// }
-/*sample end*/
-
 
 /*Thailand map page function 
  *Using  value and for loop 
