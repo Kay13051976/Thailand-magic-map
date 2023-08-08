@@ -1,5 +1,4 @@
-const provinceSightseeing = [
-  {
+const provinceSightseeing = [{
     id: "chiangmai",
     province: "CHIANGMAI",
     image: "assets/images/chiangmai.png",
@@ -116,7 +115,7 @@ const provinceSightseeing = [
     },
   },
   {
-    id:  "nan",
+    id: "nan",
     province: "NAN",
     image: "assets/images/lampang.png",
     sightseeing1: {
