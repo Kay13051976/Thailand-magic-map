@@ -328,20 +328,24 @@ textarea:focus {
 /****************************************
 * Thailand map page style start here
 ****************************************/
-.thailand-map-page-main-container-footer {
+.thailand-map-page-main-container-footer,
+.part-province-page-main-container-north-footer,
+.sightseeing-page-main-container-footer {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .thailand-map-page-main-container-footer button,
-.thailand-map-page-main-container-footer button:hover {
+.part-province-page-main-container-north-footer button,
+.sightseeing-page-main-container-footer button {
   background: #24514e;
   padding: 10px 20px;
   color: #ffffff;
   outline: none;
   border: none;
   cursor: pointer;
+  text-align: center;
 }
 
 #northern-img,
@@ -514,6 +518,9 @@ textarea:focus {
   position: relative;
   text-align: center;
   color: white;
+  opacity: 0;
+  cursor: pointer;
+  transition: 0.5s ease all;
 }
 
 .centered {
