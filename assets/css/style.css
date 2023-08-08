@@ -37,7 +37,6 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
-
 }
 
 .header-nav-lists {
@@ -212,7 +211,6 @@ nav {
   padding: 20px;
 }
 
-
 /*Contact page style css start here*/
 .contact-page-main-container {
   display: grid;
@@ -327,6 +325,25 @@ textarea:focus {
   position: relative;
 }
 
+/****************************************
+* Thailand map page style start here
+****************************************/
+.thailand-map-page-main-container-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thailand-map-page-main-container-footer button,
+.thailand-map-page-main-container-footer button:hover {
+  background: #24514e;
+  padding: 10px 20px;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
 #northern-img,
 #western-img,
 #southern-top-img,
@@ -335,8 +352,6 @@ textarea:focus {
 #southern-end-img {
   opacity: 0;
 }
-
-
 
 .thailand-map-page-main-col1 {
   display: flex;
@@ -525,7 +540,6 @@ img #chiangmai:hover {
 }
 
 .part-province-page-main-container-north {
-
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
@@ -592,7 +606,6 @@ img #chiangmai:hover {
   justify-content: center;
 }
 
-
 /*West and Central*/
 .part-province-page-main-container-westcentral {
   grid-template-columns: 1fr 1fr 1fr;
@@ -610,8 +623,6 @@ img #chiangmai:hover {
   align-items: center;
   justify-content: center;
 }
-
-
 
 /*East*/
 .part-province-page-main-container-east {
@@ -667,13 +678,10 @@ img #chiangmai:hover {
   justify-content: center;
 }
 
-
-
 /*Province sightseeing style start here*/
 .province-sightseeing-page-main-container>#province-section {
   display: none;
 }
-
 
 .province-sightseeing-page-main-container-chiangmai {
   display: none;
@@ -681,7 +689,6 @@ img #chiangmai:hover {
   align-items: center;
   justify-content: center;
   margin-top: 200px;
-
 }
 
 .province-sightseeing-page-main-col1 {
@@ -710,7 +717,6 @@ img #chiangmai:hover {
   display: block;
   cursor: pointer;
   border: 2px solid rgba(255, 255, 255);
-
 }
 
 .province-sightseeing-page-main-col3 {
@@ -759,7 +765,6 @@ img #chiangmai:hover {
   justify-content: center;
   margin-top: 200px;
   display: none;
-
 }
 
 .province-sightseeing-page-main-col1,
@@ -780,7 +785,6 @@ img #chiangmai:hover {
   justify-content: center;
   margin-top: 200px;
   display: none;
-
 }
 
 .province-sightseeing-page-main-col1,
@@ -820,7 +824,6 @@ img #chiangmai:hover {
   justify-content: center;
   margin-top: 200px;
   display: none;
-
 }
 
 .province-sightseeing-page-main-col1,
@@ -939,7 +942,6 @@ img #chiangmai:hover {
   .about-page-main-container-hero-image {
     width: 100%;
     height: 220px;
-
   }
 
   .about-page-main-container-hero-image>img {
@@ -949,7 +951,6 @@ img #chiangmai:hover {
     margin-right: auto;
     object-fit: fill;
     align-items: center;
-
   }
 
   .about-page-main-container-content {
@@ -966,7 +967,6 @@ img #chiangmai:hover {
   /*Thailand map page*/
   .thailand-map-page-main-container-header>h2 {
     font-size: 2.4rem;
-
   }
 
   /* .thailand-map-page-main-col2>img {
@@ -996,7 +996,6 @@ img #chiangmai:hover {
     -ms-transform: translate(50px, -230px);
     font-size: 12px;
     padding: 1px;
-
   }
 
   .thailand-map-page-main-col2 .northeast-btn {
@@ -1005,7 +1004,6 @@ img #chiangmai:hover {
     -ms-transform: translate(110px, -198px);
     font-size: 12px;
     padding: 1px;
-
   }
 
   .thailand-map-page-main-col2 .east-central-btn {
@@ -1014,7 +1012,6 @@ img #chiangmai:hover {
     -ms-transform: translate(70px, -140px);
     font-size: 12px;
     padding: 1px;
-
   }
 
   .thailand-map-page-main-col2 .western-btn {
@@ -1023,7 +1020,6 @@ img #chiangmai:hover {
     -ms-transform: translate(27px, -160px);
     font-size: 12px;
     padding: 1px;
-
   }
 
   .thailand-map-page-main-col2 .southern-end-btn {
@@ -1032,7 +1028,6 @@ img #chiangmai:hover {
     -ms-transform: translate(40px, -40px);
     font-size: 12px;
     padding: 1px;
-
   }
 
   .thailand-map-page-main-col2 .southern-top-btn {
@@ -1099,6 +1094,5 @@ img #chiangmai:hover {
     width: 120px;
     height: 150px;
     margin-top: 10px;
-
   }
 }

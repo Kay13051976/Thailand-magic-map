@@ -1,3 +1,6 @@
+const buttonResetId = "btn-reset-map";
+const buttonMapClass = "btn-thailand-map";
+
 /*
 *Get access to the header nav list and hamburger 
 * Add eventListener type click to header nav list and hamburger
@@ -8,14 +11,15 @@ class active (to close nav menu by click on each link)
 const hamburger = document.querySelector(".hamburger");
 const headerNavLists = document.querySelector(".header-nav-lists");
 /*
- *Add animation to home page hero image 
+ *Add animation to home page hero image
  *Get access to the home page hero image
  */
 const animatedImage = document.querySelector(".main-thailand-map-hero-image");
 
-/*Get access to the thailand map page 
- */
-const mapClick = document.getElementsByClassName("btn-thailand-map");
+/*Get access to reset button Element on thailand map page */
+const elmResetMapButton = document.getElementById(buttonResetId);
+/*Get access to map click button Element on thailand map page */
+const elmMapButton = document.getElementsByClassName(buttonMapClass);
 
 /* Hamburger slide in animation*/
 hamburger.addEventListener("click", () => {
@@ -30,16 +34,13 @@ document.querySelectorAll(".nav-link").forEach((n) =>
   })
 );
 
-
-
 /*Create function  event to work after download home page prevent flickering page*/
 
 document.addEventListener("DOMContentLoaded", function (event) {
-  const thailand_map = document.getElementById("thailand-map")
+  const thailand_map = document.getElementById("thailand-map");
   if (thailand_map) {
-    thailand_map.style.display = "block"
+    thailand_map.style.display = "block";
   }
-
 
   /*Home page hero image scroll timeline animation*/
   const animatedImageTimeline = new ScrollTimeline({
@@ -56,7 +57,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
     ],
   });
 
-
   if (animatedImage) {
     animatedImage.animate({
       transform: [
@@ -70,48 +70,40 @@ document.addEventListener("DOMContentLoaded", function (event) {
     });
   }
 
+  // addEventListener click to map button
+  if (elmMapButton) {
+    for (var i = 0; i < elmMapButton.length; i++) {
+      elmMapButton[i].addEventListener("click", onClickMap, false);
+    }
+  }
 
+  // addEventListener click to reset button
+  if (elmResetMapButton) {
+    elmResetMapButton.addEventListener(
+      "click",
+      bindResetButtonEventClick,
+      false
+    );
+  }
 });
-
-
-//thailand map pate function to display Thailand part using id
-
-function showElement(id) {
-  const img = document.getElementById(id);
-  img.style.opacity = 1;
-}
-
-/*Thailand map page function 
- *Using  value and for loop 
- */
-function onClickMap() {
-  var value = this.getAttribute("value");
-  showElement(value);
-}
-for (var i = 0; i < mapClick.length; i++) {
-  mapClick[i].addEventListener("click", onClickMap, false);
-}
-
 
 // Part province page
 // Get parameter from URL
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
-const id = urlParams.get('id')
+const id = urlParams.get("id");
 if (id) {
-  const province = document.getElementById("part-province-" + id)
+  const province = document.getElementById("part-province-" + id);
   if (province) {
-    province.style.display = "grid"
+    province.style.display = "grid";
   }
 
   const title = document.getElementById("part-province-name");
   if (title) {
     title.innerText = id.toUpperCase();
   }
-
 }
-
 
 const province = document.getElementsByClassName("onclick-province");
 
@@ -123,16 +115,14 @@ for (var i = 0; i < province.length; i++) {
   province[i].addEventListener("click", onClickProvince, false);
 }
 
-
 // province-sightseeing page
 if (id) {
-
-  if (window.location.pathname == "/Thailand-magic-map/province-sightseeing.html") {
-
-    var provinceObject = provinceSightseeing.find(x => x.id === id);
+  if (
+    window.location.pathname == "/Thailand-magic-map/province-sightseeing.html"
+  ) {
+    var provinceObject = provinceSightseeing.find((x) => x.id === id);
 
     if (provinceObject) {
-
       var s1img = document.getElementById("sightseeing1-img");
       var s2img = document.getElementById("sightseeing2-img");
       var s3img = document.getElementById("sightseeing3-img");
@@ -166,16 +156,39 @@ if (id) {
 
       const province = document.getElementById("province-section");
       if (province) {
-        province.style.display = "grid"
+        province.style.display = "grid";
       }
-
     }
 
     const title = document.getElementById("province-name");
     if (title) {
       title.innerText = id.toUpperCase();
     }
-
   }
+}
 
+function showHideElement(id) {
+  const img = document.getElementById(id);
+  if (img && img.style.opacity === "1") {
+    img.style.opacity = 0;
+  } else {
+    img.style.opacity = 1;
+  }
+}
+
+function onClickMap() {
+  const elementId = this.getAttribute("value");
+  if (elementId) {
+    showHideElement(elementId);
+  }
+}
+
+function bindResetButtonEventClick() {
+  for (let i = 0; i < elmMapButton.length; i++) {
+    const mapId = elmMapButton[i].getAttribute("value");
+    const img = document.getElementById(mapId);
+    if (img) {
+      img.style.opacity = 0;
+    }
+  }
 }
