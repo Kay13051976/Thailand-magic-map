@@ -13,6 +13,7 @@
   <title>Thailand Magic Map</title>
 </head>
 <!-- This page displays the image pictures of sightseeing  -->
+
 <body class="body-container">
   <header>
     <div>
@@ -47,13 +48,13 @@
     </div>
   </header>
 
-  <main class="province-sightseeing-page-main-container">
+  <main id="province-sightseeing-page" class="province-sightseeing-page-main-container">
 
     <div class="thailand-map-page-main-container-header">
       <h2 id="province-name"></h2>
     </div>
 
-    <div id="province-section" class="province-sightseeing-page-main-container-chiangmai">
+    <div id="province-section-chiangmai" class="province-sightseeing-page-main-container-chiangmai">
       <div class="province-sightseeing-page-main-col1">
         <div class="parentContainer">
           <img id="sightseeing1-img">
@@ -69,7 +70,7 @@
         </div>
       </div>
       <div class="province-sightseeing-page-main-col2">
-        <img id="province-image">
+        <img id="province-image" value="chiangmai">
       </div>
       <div class="province-sightseeing-page-main-col3">
         <div class="parentContainer">
@@ -86,6 +87,13 @@
         </div>
       </div>
     </div>
+
+    <!-- Reset Button -->
+    <div class="sightseeing-page-main-container-footer">
+      <button id="btn-back">BACK</button>
+      <button id="btn-reset-sightseeing">RESET MAP</button>
+    </div>
+    <!-- End Reset Button -->
 
   </main>
   <footer class="footer-container">
