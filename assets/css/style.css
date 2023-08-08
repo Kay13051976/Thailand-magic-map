@@ -316,7 +316,10 @@ textarea:focus {
   margin-right: auto;
   margin-top: 90px;
 }
-
+.thailand-map-page-main-container {
+  display: flex;
+  flex-direction: row;
+}
 .thailand-map-page-main-container-images {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

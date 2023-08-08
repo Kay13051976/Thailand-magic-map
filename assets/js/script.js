@@ -1,3 +1,4 @@
+script.js
 /*
 *Get access to the header nav list and hamburger 
 * Add eventListener type click to header nav list and hamburger
@@ -74,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 });
 
 
-//thailand map page function to display Thailand part using id
+//thailand map pate function to display Thailand part using id
 
 function showElement(id) {
   const img = document.getElementById(id);
@@ -88,9 +89,6 @@ function onClickMap() {
   let value = this.getAttribute("value");
   showElement(value);
 }
-
-
-
 for (let i = 0; i < mapClick.length; i++) {
   mapClick[i].addEventListener("click", onClickMap, false);
 }
@@ -132,7 +130,7 @@ if (id) {
 
   if (window.location.pathname == "/Thailand-magic-map/province-sightseeing.html") {
 
-    const provinceObject = provinceSightseeing.find(x => x.id === id);
+    let provinceObject = provinceSightseeing.find(x => x.id === id);
 
     if (provinceObject) {
 
@@ -150,7 +148,7 @@ if (id) {
       const s5name = document.getElementById("sightseeing5-name");
       const s6name = document.getElementById("sightseeing6-name");
 
-      const provinceImage = document.getElementById("province-image");
+      let provinceImage = document.getElementById("province-image");
       provinceImage.src = provinceObject.image;
 
       s1img.src = provinceObject.sightseeing1.image;
