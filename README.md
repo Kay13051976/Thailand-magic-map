@@ -256,8 +256,18 @@ The About page displays all staff images with an identical header and footer as 
 |Province sightseeing page on South end|Click on the province image|the user will redirect to the page with no hero image on the main part of the page(dummy page)|no|no|
 ## Validator Testing 
  ### HTML
- ![html validation test](documentation/html-validation-test-home-page.png)
+ ![html validation test home page](documentation/html-validation-test-home-page.png)
+ ![html validation test about page](documentation/html-validation-about-page.png)
+ ![html validation test contact page](documentation/html-validation-contact-page.png)
+ ![html validation test thailand map page](documentation/html-validation-thailand-map-page.png)
+  **Error occur because we use data file instead of src**
+ ![html validation test province sightseeing page1](documentation/html-validation-province-sightseeing-page1.png)
+ ![html validation test province sightseeing page1](documentation/html-validation-province-sightseeing-page2.png)
+ ![html validation test province sightseeing page1](documentation/html-validation-province-sightseeing-page3.png)
  ### CSS
+ ![]()
+ ![]()
+
   ## Deployment
    - The site was deployed to GitHub pages. The steps to deploy are as follows:
      - In The [GitHub repository](https://github.com/Kay13051976/Thailand-magic-map), navigate to the setting tab
