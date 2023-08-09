@@ -1,4 +1,4 @@
-/*Get access to the button in each page*/
+/*Declare variable for the button and clickable map in each page*/
 
 const buttonResetId = "btn-reset-map";
 const buttonBackId = "btn-back";
@@ -62,6 +62,7 @@ function onClickProvince() {
   window.location.href = "province-sightseeing.html?id=" + id;
 }
 
+/*Function to click to display then click to hide */
 function showHideElement(id) {
   const img = document.getElementById(id);
   if (img && img.style.opacity === "1") {
@@ -159,19 +160,19 @@ document.addEventListener("DOMContentLoaded", function (event) {
     });
   }
 
-  // addEventListener click to map button
+  /* addEventListener click to map button*/
   if (elmMapButton) {
     for (let i = 0; i < elmMapButton.length; i++) {
       elmMapButton[i].addEventListener("click", onClickMap, false);
     }
   }
 
-  // addEventListener click to reset button
+  /*addEventListener click to reset button*/
   if (elmResetMapButton) {
     elmResetMapButton.addEventListener("click", bindResetButtonEventClick, false);
   }
 
-  // addEventListener click to reset button
+  /* addEventListener click to reset button*/
   if (elmBackButton) {
     elmBackButton.addEventListener("click", () => {
       history.back();
@@ -184,7 +185,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 
-  // addEventListener click to reset button
+  /* addEventListener click to reset button*/
   if (elmResetProvinceMapButton) {
     elmResetProvinceMapButton.addEventListener("click", bindResetProvinceButtonEventClick, false);
   }
@@ -263,10 +264,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         s6name.innerText = provinceObject.sightseeing6.name;
       }
 
-      // const sightSeeginigLists = province.getElementsByClassName("parentContainer");
-      // for (var i = 0; i < sightSeeginigLists.length; i++) {
-      //   sightSeeginigLists[i].addEventListener("click", onClickSightSeeing, false);
-      // }
+
 
     }
   }
