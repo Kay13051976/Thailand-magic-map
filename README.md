@@ -1,7 +1,7 @@
 ![Home page header and paragraph part](documentation/thailand-magic-map-home-page-header-paragraph.png)
 # Thailand-magic-map
 The travel website has clickable pictures of Thailand, and users can pick locations they want to visit in Thailand.
-The site can be accessed by the link [a link](
+The site can be accessed by this [ link](
   https://kay13051976.github.io/Thailand-magic-map/
 )
 ![Home page on vary device](documentation/home-page-on-vary-device.png)
@@ -9,13 +9,13 @@ The site can be accessed by the link [a link](
 ### First-Time Visitor Goals:
  - As a First Time Visitor, I want to quickly understand the app's primary purpose so that I can learn more about how to get benefit from this app.
  - As a First Time Visitor, I want to see various locations with maps or symbols and navigate to the information template. All the location markers on the map should be clickable, allowing me to interact with them.
- - As a First Time Visitor, I want to see a pop-up template presenting information about the location, including its name, brief description, address, and any additional relevant details.
+ - As a First Time Visitor, I want to see a template presenting information about the location, including its name, brief description, address, and any additional relevant details.
  - As a First Time Visitor, I want to read the information and can choose to obtain directions to the deeper information if desired.
- - As a First Time Visitor, after viewing the information template, the pop-up should be able to close easily.
- ### Returning Visitor Goals:
- - As a regular User, I want to access my account without having to log in every time to quickly connect to the tour agent I want to book my holiday with (future improvement).
+ - As a First Time Visitor, after viewing the information template, the template should be able to close easily.
+ ### Returning Visitor Goals:(future improvement)
+ - As a regular User, I want to access my account without having to log in every time to quickly connect to the tour agent I want to book my holiday with.
  - As a regular User, I want to be sure that my account details are protected so I can safely connect to the safe tour company.
- - As a regular User, I want to be able to view my data to check my account details and search history quickly. (future improvement)
+ - As a regular User, I want to be able to view my data to check my account details and search history quickly. 
  - As a regular User, I want to be able to search for a place I want to go and connect to the link to book for  Thailand holiday(The most popular and trending destination).
  - As a regular User, I want to add, edit, and save my account details to book a holiday.
  - As a regular User, I want to see good tour companies that I can trust so I can connect and book my holiday.
@@ -50,34 +50,34 @@ v
 ![Wireframes mobile part province page](documentation/wireframe-mobile-thailand-part-and-province.png)
 ![Wireframes mobile province sightseeing page](documentation/wireframe-mobile-province-and-sightseeing.png)
 
-
-
-
 ## Logo
-<!-- logo picture -->
-![Logo Picture]()
-![Laptop Picture]()
+
+![Home page logo](documentation/home-page-logo.png)
 
 ## Feature
-- Navbar
- - navigation
-  - position at the same line as the logo
-  - HOME: Lead to the home page, where the user can be about the organization.
-  - ABOUT: Lead to the About page where the user can see the purpose of this website and all the staff.
-  - CONTACT: Lead to the form page where the user can fill out the form to contact the company.
-  The navigation bar is straightforward to understand for the user and responsive.
-  <!-- nav bar picture -->
-![Navbar on laptop Picture]()
-![Navbar on Mobile device Picture]()
-![Navbar Picture]()
-**TheThe link has an animate hover effect**
-#### On Laptop
-![Laptop Picture]()
-![Laptop Picture]()
-![Laptop Picture]()
-![Laptop Picture]()
+### Navbar
+  - navigation
+    - position at the same line as the logo
+    - HOME: Lead to the home page, where the user can learn about the company.
+    - ABOUT: Lead to the About page where the user can see the purpose of this website and all the staff.
+    - CONTACT: Lead to the form page where the user can fill out the form to contact the company.
+    
+    **The navigation bar has nice and clear icons which are straightforward to understand for the user and responsive.**
+    **The link has an animate hover effect.** 
 
-![Laptop Picture]()
+![Nav bar on laptop Picture](documentation/home-page-logo.png)
+     **The navigation bar is responsive.**
+
+
+![Mobile hamburger navbar](documentation/mobile-hamburger-navbar.png)
+![mobile navbar slide in](documentation/mobile-navbar-slice-in.png)
+
+#### On Laptop
+  - The hero image on the home page has a scroll animation effect using javascript scroll animation. 
+![Laptop header Picture](documentation/laptop1.png)
+![Laptop main Picture](documentation/laptop2.png)
+![Laptop footer Picture](documentation/laptop3.png)
+
 #### On Mobile Device
 ![Mobile Picture]()
 ![Mobile Picture]()
