@@ -79,76 +79,73 @@ v
 ![Laptop footer Picture](documentation/laptop3.png)
 
 #### On Mobile Device
-![Mobile Picture]()
-![Mobile Picture]()
+![Mobile home page header](documentation/mobile-home-page1.png)
+
+![Mobile home page hero image](documentation/mobile-home-page2.png)
+![Mobile home page footer1](documentation/mobile-home-page3.png)
+![Mobile home page footer2](documentation/mobile-home-page4.png)
+
  - Navigation bar filled with the logo on the left and hamburger menu within the same order.
-![Mobile Picture]()
+ ![Mobile home page header with navbar slide in](documentation/mobile-home-page-with-navbar-slidein.png)
  - When the hamburger menu is clicked, there is a slide menu with a linked slide from the left side
  - The website is responsive when it is on mobile view.
-![Mobile Picture]()
-![Mobile Picture]()
-![Mobile Picture]()
-![Mobile Picture]()
+
 #### On Desktop
-![Desktop Picture]()
-![Desktop Picture]()
-![Desktop Picture]()
-![Desktop Picture]()
-![Desktop Picture]()
-![Desktop Picture]()
-![Desktop Picture]()
+![Desktop Picture](documentation/desktop1.png)
+![Desktop Picture](documentation/desktop2.png)
+![Desktop Picture](documentation/desktop3.png)
+#### On Laptop
+![Laptop home page header](documentation/laptop-home-page1.png)
+![Laptop home page hero image](documentation/laptop-home-page2.png)
+![Laptop home Page footer](documentation/laptop-home-page3.png)
+
 ##  HOME PAGE
- Represent: the home page represents the purpose of the company, Thailand map link, about page link, contact link, social link, including advertiser tour company.
+ Represent: the home page represents the purpose of the company; a clickable Thailand map to connect to the part and more detail about the location in Thailand, a home page link, an about page link, a contact link, social media link, including advertiser tour company which has the company link to connect in the footer.
+![Laptop home page header](documentation/laptop-home-page1.png)
+![Laptop home page hero image](documentation/laptop-home-page2.png)
+![Laptop home Page footer](documentation/laptop-home-page3.png)
 
-![Home Page Picture]()
-![Home Page Picture]()
-![Home Page Picture]()
-
-![Home Page Picture]()
-
-![Home Page Picture]()
  ### Header Section
 - Show the logo and the company name.
-  - Show the nav bar, which is nice and clear.
-
-![Home Page Header Picture]()
+- Show the nav bar, which is nice and clear.
+   ![Laptop header Picture](documentation/laptop1.png)
  ### Hero Image Section
    - the hero section has a fixed background image and text showing the company's purpose and Thailand map. They can click to link to another map and detail where to go in Thailand.
-![Home Page Hero Image Picture]()
+   ![Laptop home page hero image](documentation/laptop-home-page2.png)
 
  ### Advertise Template Section
-![Home Page Advertise Template Section Picture]()
-![Home Page Advertise Template Section Picture]()
+ - The footer contains tour companies with their link to the 
+ connect.
+![Laptop home page advert template](documentation/footer-home-page-advert-template.png)
 
 ### Social link section
- - The footer contains social media links that open in a new tab.
-![Home Page Social link section Picture]()
+ - underneath the advert template are social media icon links that open in a new tab.
+![Laptop home page social icon link](documentation/footer-home-page-social-icon.png)
 
 
 ### About Page
-The About page displays all staff images and the purpose and history story of the company.
+The About page displays all staff images with an identical header and footer as a home page to navigate users that they're still on the same site.
   
    - The About page has a hero image showing all the staff standing together.
    - Underneath the hero image is the paragraph showing the purpose of the company and the short history of the company.
    - It has a footer of advertising and tour companies linked to their home page.
    - in the bottom, display the company social media link.
+  ![About page header part](documentation/about-page1.png)
+  ![About page paragraph and footer](documentation/about-page2.png)
 
 ### Contact Page
-  - The contact page has a contact form:
-    -  All text input fields are customized.
-    - Labels are animated when the input field is focused and not empty.
+  - The contact page has a contact form with an identical header and footer as a home page to navigate users that they're still on the same site.
+    - All text input fields are customized.
+    - Labels are animated when the input field is focused and  
+      not empty.
     - All inputs are set to be required to fill out.
     - The submit button is animated  on active.
     - The page is responsive on all standard screen sizes.
-    - the contact form has a big text to fill in and requires a user.
-    - The submit button leads to the response page.
-    <!-- contact form picture -->
-![contact form Page Picture]()
-![contact form Page Picture]()
-
-
-
-
+    - the contact form has a big text to fill in and requires a  user.
+    - The submit button leads to the response page.(submit button is not response because this page only a dummy page)
+    ![contact page header](documentation/contact-page1.png)
+    ![contact page paragraph](documentation/contact-page2.png)
+    ![contact footer](documentation/contact-page3.png)
 
  ## Technologies used
   - HTML was used as the foundation of the site.
@@ -158,10 +155,10 @@ The About page displays all staff images and the purpose and history story of th
   - VScode was used for the version control to write and edit code.
   - Git was used for the version control of the website.
   - Gitpod was used to host the principle of the website.
-  -Ttinypng was used to make and resize images for all the file and README.md files.
+  -Tinypng was used to make and resize images for all the file and README.md files.
 
  ## Design
-  - Color Scheme
+   **Color Scheme**
    - Yellow, green, turquoise, white, black and blue was used as the main colour of the website due to their psychological effect on people's minds. As this colour is associated with happiness, hope, spontaneity, protection, good fortune and loyalty, imagination, inspiration, sensitivity
 
    - The white colour association is often connected to the colour purity, innocence, cleanliness, blankness, coldness, simplicity, and minimalism to make it more readable and eye-catching. It has been used with paragraphs and border
@@ -175,28 +172,36 @@ The About page displays all staff images and the purpose and history story of th
   ![Colour blue](documentation/color-blue.png)
 
 
-   - Turquoise mean wisdom, tranquillity, protection, good fortune and loyalty, calm, creativity, and emotionally balanced.it has been used with paragraph, header and image background colour.
+   - Turquoise mean wisdom, tranquillity, protection, good fortune and loyalty, calm, creativity, and emotionally balanced.it has been used with background image.
   ![Colour turquoise](documentation/color-turquoise.png)
 
    - Yellow is happiness, hope and spontaneity. It's the colour of the sun, smiley faces, and sunflowers; it is the colour of youth and grabs your attention with hope and positivity.it has been used with header and paragraph.
   ![Colour yellow](documentation/color-yellow.png)
+- colour converter use to pick colour[Color convertor](https://cssgenerator.org/rgba-and-hex-color-generator.html)
+- Rgba and hex colour generator been used to find the rgba number[Rgba and hex color generator](https://cssgenerator.org/rgba-and-hex-color-generator.html)
 
-
-
-  <!-- colour picture -->
-  - Typography
+  **Typography**
   - Roboto Google font was used as the website's primary font to increase the content's readability.
   ![Roboto image](documentation/roboto.png)
  - Roboto serif was used to attract viewers' attention to the cover text, accentuate the company's strong points, and incentivize visitors to contact the "Thailand magic map"
   ![Roboto serif image](documentation/roboto-serif.png)
-- colour converter use to pick colour[Color convertor](https://cssgenerator.org/rgba-and-hex-color-generator.html)
-- Rgba and hex colour generator been used to find the rgba number[Rgba and hex color generator](https://cssgenerator.org/rgba-and-hex-color-generator.html)
 
-<!-- typography picture -->
  ## Testing
   ### Chrome
+  ![Chrome home page1](documentation/chrome-home-page1.png)
+  ![Chrome home page2](documentation/chrome-home-page2.png)
+  ![Chrome home page3](documentation/chrome-home-page3.png)
   ### Firefox
+   - The hero image slightly slowly appears when scrolling the page but still works well when scrolling till the end.
+  ![Firefox home page1](documentation/firefox-home-page1.png)
+  ![Firefox home page2](documentation/firefox-home-page2.png)
+  ![Firefox home page3](documentation/firefox-home-page2.png)
+
   ### Brave
+  ![Brave browser home page1](documentation/brave-browser-home-page1.png)
+  ![Brave browser home page2](documentation/brave-browser-home-page2.png)
+  ![Brave browser home page3](documentation/brave-browser-home-page3.png)
+
   ## Manual Testing
 
 |FEATURE|ACTION|EXPECTED RESULT|TESTED|PASSED|COMMENTS|
