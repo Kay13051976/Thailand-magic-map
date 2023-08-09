@@ -265,8 +265,19 @@ The About page displays all staff images with an identical header and footer as 
  ![html validation test province sightseeing page1](documentation/html-validation-province-sightseeing-page2.png)
  ![html validation test province sightseeing page1](documentation/html-validation-province-sightseeing-page3.png)
  ### CSS
- ![]()
- ![]()
+ ![css validation test1](documentation/css-validation-test1.png)
+ ![css validation test2](documentation/css-validation-test2.png)
+ ### Lighthouse report
+ ![lighthouse home page](documentation/lighthouse-home-page.png)
+ ![lighthouse about page](documentation/lighthouse-about-page.png)
+ ![lighthouse contact page](documentation/lighthouse-contact-page.png)
+ ![lighthouse thailand map page](documentation/lighthouse-thailand-map-page.png)
+ ![lighthouse part province page](documentation/lighthouse-part-province-page.png)
+ ![lighthouse province sightseeing page](documentation/lighthouse-province-sightseeing-page.png)
+### Solved bug
+
+### Unsolved bug
+### Mistake
 
   ## Deployment
    - The site was deployed to GitHub pages. The steps to deploy are as follows:
