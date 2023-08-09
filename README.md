@@ -37,10 +37,7 @@ The site can be accessed by this [ link](
 ![Wireframes desktop thailand map page](documentation/wireframe-thailand-map-part.png)
 ![Wireframes desktop part province page](documentation/wireframe-thailand-map-province.png)
 ![Wireframes desktop province sightseing page](documentation/wireframe-thailand-map-sightseeing.png)
-![Logo Picture]()
-![Logo Picture]()
-v
- 
+
  - Mobile
 ![Wireframes mobile home page](documentation/wireframe-mobile-home-page.png)
 ![Wireframes mobile home page with slide nav bar](documentation/wireframe-mobile-home-page-nav-slide.png)
@@ -257,7 +254,9 @@ The About page displays all staff images with an identical header and footer as 
 |Province sightseeing page on East and central|Click on the province image|the user will redirect to the page with no hero image on the main part of the page(dummy page)|no|no|
 |Province sightseeing page on South top|Click on the province image|the user will redirect to the page with no hero image on the main part of the page(dummy page)|no|no|
 |Province sightseeing page on South end|Click on the province image|the user will redirect to the page with no hero image on the main part of the page(dummy page)|no|no|
-
+## Validator Testing 
+ ### HTML
+ ### CSS
   ## Deployment
    - The site was deployed to GitHub pages. The steps to deploy are as follows:
      - In The [GitHub repository](https://github.com/Kay13051976/Thailand-magic-map), navigate to the setting tab
