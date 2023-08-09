@@ -1,9 +1,10 @@
+![Home page header and paragraph part](documentation/thailand-magic-map-home-page-header-paragraph.png)
 # Thailand-magic-map
-clickable picture about Thailand's best place to visit
+The travel website has clickable pictures of Thailand, and users can pick locations they want to visit in Thailand.
 The site can be accessed by the link [a link](
   https://kay13051976.github.io/Thailand-magic-map/
 )
-<!-- website picture in various devices -->
+![Home page on vary device](documentation/home-page-on-vary-device.png)
 ## User story
 ### First-Time Visitor Goals:
  - As a First Time Visitor, I want to quickly understand the app's primary purpose so that I can learn more about how to get benefit from this app.
