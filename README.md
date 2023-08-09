@@ -260,6 +260,8 @@ The About page displays all staff images with an identical header and footer as 
  ![html validation test about page](documentation/html-validation-about-page.png)
  ![html validation test contact page](documentation/html-validation-contact-page.png)
  ![html validation test thailand map page](documentation/html-validation-thailand-map-page.png)
+ ![html validation test part province page1](documentation/html-validation-part-province1.png)
+ ![html validation test part province page2](documentation/html-validation-part-province2.png)
   **Error occur because we use data file instead of src**
  ![html validation test province sightseeing page1](documentation/html-validation-province-sightseeing-page1.png)
  ![html validation test province sightseeing page1](documentation/html-validation-province-sightseeing-page2.png)
@@ -276,7 +278,7 @@ The About page displays all staff images with an identical header and footer as 
  ![lighthouse province sightseeing page](documentation/lighthouse-province-sightseeing-page.png)
 ### Solved bug
 ### Unsolved bug
-
+    
 ### Mistake
   - The first plan was to create a social media website, but the mentor recommended doing something other than it. Because we need more technology to store data lost a couple of week time, then effect to run out of time to complete this project.
   - This project is too big, and I have done too many pages and too much work to complete.
