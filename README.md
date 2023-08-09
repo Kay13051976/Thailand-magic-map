@@ -256,6 +256,7 @@ The About page displays all staff images with an identical header and footer as 
 |Province sightseeing page on South end|Click on the province image|the user will redirect to the page with no hero image on the main part of the page(dummy page)|no|no|
 ## Validator Testing 
  ### HTML
+ ![html validation test](documentation/html-validation-test-home-page.png)
  ### CSS
   ## Deployment
    - The site was deployed to GitHub pages. The steps to deploy are as follows:
