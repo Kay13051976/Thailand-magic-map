@@ -107,7 +107,7 @@ function bindResetProvinceButtonEventClick() {
 function onClickSightSeeing() {
   const elementId = this.querySelector('img').getAttribute('value');
   if (elementId) {
-    const provinceLists = document.getElementById('province-section-' + elementId).getElementsByClassName('parentContainer')
+    const provinceLists = document.getElementById("province-section").getElementsByClassName('parentContainer')
     for (let i = 0; i < provinceLists.length; i++) {
       provinceLists[i].style.opacity = 1;
     }
@@ -216,7 +216,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     const urlParams = new URLSearchParams(queryString);
     const sightSeeningid = urlParams.get("id");
     if (sightSeeningid) {
-      const province = document.getElementById("province-section-" + sightSeeningid);
+      const province = document.getElementById("province-section");
       if (province) {
         province.style.display = "grid";
       }
@@ -261,10 +261,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
         s6name.innerText = provinceObject.sightseeing6.name;
       }
 
-      const sightSeeginigLists = province.getElementsByClassName("parentContainer");
-      for (var i = 0; i < sightSeeginigLists.length; i++) {
-        sightSeeginigLists[i].addEventListener("click", onClickSightSeeing, false);
-      }
+      // const sightSeeginigLists = province.getElementsByClassName("parentContainer");
+      // for (var i = 0; i < sightSeeginigLists.length; i++) {
+      //   sightSeeginigLists[i].addEventListener("click", onClickSightSeeing, false);
+      // }
 
     }
   }
