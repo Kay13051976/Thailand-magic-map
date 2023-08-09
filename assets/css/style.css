@@ -370,6 +370,7 @@ textarea:focus {
   height: 25rem;
   display: block;
   object-fit: fill;
+  transition: 0.5s ease all;
 }
 
 .thailand-map-page-main-col2>img {
@@ -501,6 +502,7 @@ textarea:focus {
   height: 250px;
   display: block;
   object-fit: fill;
+  transition: 0.5s ease all;
   /* display: none; */
 }
 
@@ -550,7 +552,7 @@ img #chiangmai:hover {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 90px;
   display: none;
 }
 
@@ -600,7 +602,7 @@ img #chiangmai:hover {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 90px;
   display: none;
 }
 
@@ -618,7 +620,7 @@ img #chiangmai:hover {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 90px;
   display: none;
 }
 
@@ -636,7 +638,7 @@ img #chiangmai:hover {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 90px;
   display: none;
 }
 
@@ -654,7 +656,7 @@ img #chiangmai:hover {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 90px;
   display: none;
 }
 
@@ -672,7 +674,7 @@ img #chiangmai:hover {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 90px;
   display: none;
 }
 
@@ -695,7 +697,7 @@ img #chiangmai:hover {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 90px;
 }
 
 .province-sightseeing-page-main-col1 {
