@@ -1,3 +1,4 @@
+/*Declare variable for button  */
 const buttonResetId = "btn-reset-map";
 const buttonMapClass = "btn-thailand-map";
 
@@ -33,11 +34,11 @@ function bindResetButtonEventClick() {
 }
 
 document.addEventListener("DOMContentLoaded", function (event) {
-  // addEventListener click to map button
+  /*addEventListener click to map button*/
   for (var i = 0; i < elmMapButton.length; i++) {
     elmMapButton[i].addEventListener("click", onClickMap, false);
   }
 
-  // addEventListener click to reset button
+  /*addEventListener click to reset button*/
   elmResetMapButton.addEventListener("click", bindResetButtonEventClick, false);
 });
