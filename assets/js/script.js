@@ -1,3 +1,5 @@
+/*Get access to the button in each page*/
+
 const buttonResetId = "btn-reset-map";
 const buttonBackId = "btn-back";
 const buttonMapClass = "btn-thailand-map";
@@ -56,7 +58,7 @@ document.querySelectorAll(".nav-link").forEach((n) =>
 );
 
 function onClickProvince() {
-  var id = this.getAttribute("id");
+  let id = this.getAttribute("id");
   window.location.href = "province-sightseeing.html?id=" + id;
 }
 
@@ -159,7 +161,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
   // addEventListener click to map button
   if (elmMapButton) {
-    for (var i = 0; i < elmMapButton.length; i++) {
+    for (let i = 0; i < elmMapButton.length; i++) {
       elmMapButton[i].addEventListener("click", onClickMap, false);
     }
   }
@@ -177,7 +179,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
   }
 
   if (elmProvinceMapButton) {
-    for (var i = 0; i < elmProvinceMapButton.length; i++) {
+    for (let i = 0; i < elmProvinceMapButton.length; i++) {
       elmProvinceMapButton[i].addEventListener("click", onClickPart, false);
     }
   }
@@ -203,7 +205,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
       }
 
       const provinceLists = partName.getElementsByClassName("onclick-province");
-      for (var i = 0; i < provinceLists.length; i++) {
+      for (let i = 0; i < provinceLists.length; i++) {
         provinceLists[i].addEventListener("click", onClickProvince, false);
       }
 
@@ -226,24 +228,24 @@ document.addEventListener("DOMContentLoaded", function (event) {
         title.innerText = sightSeeningid.toUpperCase();
       }
 
-      var provinceObject = provinceSightseeing.find((x) => x.id === sightSeeningid);
+      let provinceObject = provinceSightseeing.find((x) => x.id === sightSeeningid);
 
       if (provinceObject) {
-        var s1img = document.getElementById("sightseeing1-img");
-        var s2img = document.getElementById("sightseeing2-img");
-        var s3img = document.getElementById("sightseeing3-img");
-        var s4img = document.getElementById("sightseeing4-img");
-        var s5img = document.getElementById("sightseeing5-img");
-        var s6img = document.getElementById("sightseeing6-img");
+        const s1img = document.getElementById("sightseeing1-img");
+        const s2img = document.getElementById("sightseeing2-img");
+        const s3img = document.getElementById("sightseeing3-img");
+        const s4img = document.getElementById("sightseeing4-img");
+        const s5img = document.getElementById("sightseeing5-img");
+        const s6img = document.getElementById("sightseeing6-img");
 
-        var s1name = document.getElementById("sightseeing1-name");
-        var s2name = document.getElementById("sightseeing2-name");
-        var s3name = document.getElementById("sightseeing3-name");
-        var s4name = document.getElementById("sightseeing4-name");
-        var s5name = document.getElementById("sightseeing5-name");
-        var s6name = document.getElementById("sightseeing6-name");
+        const s1name = document.getElementById("sightseeing1-name");
+        const s2name = document.getElementById("sightseeing2-name");
+        const s3name = document.getElementById("sightseeing3-name");
+        const s4name = document.getElementById("sightseeing4-name");
+        const s5name = document.getElementById("sightseeing5-name");
+        const s6name = document.getElementById("sightseeing6-name");
 
-        var provinceImage = document.getElementById("province-image");
+        let provinceImage = document.getElementById("province-image");
         provinceImage.src = provinceObject.image;
 
         s1img.src = provinceObject.sightseeing1.image;
@@ -270,7 +272,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
   }
 
   if (elmSightSeeningButton) {
-    for (var i = 0; i < elmSightSeeningButton.length; i++) {
+    for (let i = 0; i < elmSightSeeningButton.length; i++) {
       elmSightSeeningButton[i].addEventListener("click", onClickSightSeeing, false);
     }
   }
