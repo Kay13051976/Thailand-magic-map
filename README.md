@@ -193,6 +193,7 @@ The About page displays all staff images with an identical header and footer as 
   ![Chrome home page3](documentation/chrome-home-page3.png)
   ### Firefox
    - The hero image slightly slowly appears when scrolling the page but still works well when scrolling till the end.
+   - The Thailand map page does not respond.(Future improvement)
   ![Firefox home page1](documentation/firefox-home-page1.png)
   ![Firefox home page2](documentation/firefox-home-page2.png)
   ![Firefox home page3](documentation/firefox-home-page2.png)
@@ -213,6 +214,7 @@ The About page displays all staff images with an identical header and footer as 
 |About| Click on the "ABOUT"link| The user is redirected to the about page|Yes|Yes|-|
 |Hero Image|Click on the "Image"link|The user is redirected to the Thailand map page|Yes|Yes|-|
 |Footer|
+|Advert template|Click on the tour company link|The user is redirected to the tour website|Yes|Yes|
 |Facebook icon in the footer| Click on the Facebook icon|The user id redirected to the Facebook page|Yes|Yes|-|
 |Twitter icon in the footer|Click on the youtube icon|The user is redirected to the youtube page|Yes|Yes|-|
 |Instagram ico in the footer|Click on the Instagram icon|The user is redirected to the Instagram page|Yes|Yes|-|
@@ -230,10 +232,31 @@ The About page displays all staff images with an identical header and footer as 
 |Hero Image|Click on the "Image" link|The picture of northern, northeast, west-central, eastern, south and Southend will appear|Yes|Yes|-|
 |Thailand part image|Click on  each image|The picture of the province image will appear|Yes|Yes|-|
 |Thailand province image|Click on each image|The picture of sightseeing and relevant information in the province will appear|Yes|Yes|-|
-
-
-
-
+|Thailand map page|
+|Thailand map page hero image|Click on the Thailand part name|The Thailand part picture will appear and disappear|Yes|Yes|
+|Back button|Click on the back button|The user is redirected to the previous page|Yes|Yes|
+|Reset map button|Click on the reset map button|The Thailand map will hide all the relevant picture|Yes|Yes|
+|Appear Thailand part image|Click on the appear image |The user will redirect to the part province page|Yes|Yes|
+|Part province page|
+|Northern page|Click on the Thailand part image|The six province images will appear on both site|Yes|Yes|
+|Northeast page|Click on the Thailand part image|The six province images will appear on both site|Yes|Yes|
+|East and Central page|Click on the Thailand part image|The six province image will appear on both site|Yes|Yes|
+|Western page|Click on the Thailand part image|The six province images will appear on both site|Yes|Yes|
+|Southern top page|Click on the Thailand part image|The six provinces image will appear on both site|Yes|Yes|
+|Southern end page|Click on the Thailand part image|The six provinces image will appear on both site|Yes|Yes|
+|Province sightseeing page on Northern|
+|Chiangmai image|Click on the image|The six sightseeing pictures will appear|Yes|Yes|
+|Chiangrai image|Click on the image|The six sightseeing pictures will appear|Yes|Yes|
+|Nan image|Click on the image|The six sightseeing pictures will appear|Yes|Yes|
+|Lampang image|Click on the image|The six sightseeing pictures will appear|Yes|Yes|
+|Phrae image|Click on the image|The six sightseeing pictures will appear|Yes|Yes|
+|Maehongson image|Click on the image|The six sightseeing pictures will appear|Yes|Yes|
+|This page will be the dummy page to save the project cost.|
+|Province sightseeing page on Northeast|Click on the province image|the user will redirect to the page with no hero image on the main part of the page(dummy page)|no|no|
+|Province sightseeing page on western|Click on the province image|the user will redirect to the page with no hero image on the main part of the page(dummy page)|no|no|
+|Province sightseeing page on East and central|Click on the province image|the user will redirect to the page with no hero image on the main part of the page(dummy page)|no|no|
+|Province sightseeing page on South top|Click on the province image|the user will redirect to the page with no hero image on the main part of the page(dummy page)|no|no|
+|Province sightseeing page on South end|Click on the province image|the user will redirect to the page with no hero image on the main part of the page(dummy page)|no|no|
 
   ## HTML
   ## CSS
