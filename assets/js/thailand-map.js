@@ -35,7 +35,7 @@ function bindResetButtonEventClick() {
 
 document.addEventListener("DOMContentLoaded", function (event) {
   /*addEventListener click to map button*/
-  for (var i = 0; i < elmMapButton.length; i++) {
+  for (let i = 0; i < elmMapButton.length; i++) {
     elmMapButton[i].addEventListener("click", onClickMap, false);
   }
 
