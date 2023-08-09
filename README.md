@@ -258,8 +258,6 @@ The About page displays all staff images with an identical header and footer as 
 |Province sightseeing page on South top|Click on the province image|the user will redirect to the page with no hero image on the main part of the page(dummy page)|no|no|
 |Province sightseeing page on South end|Click on the province image|the user will redirect to the page with no hero image on the main part of the page(dummy page)|no|no|
 
-  ## HTML
-  ## CSS
   ## Deployment
    - The site was deployed to GitHub pages. The steps to deploy are as follows:
      - In The [GitHub repository](https://github.com/Kay13051976/Thailand-magic-map), navigate to the setting tab
@@ -268,17 +266,19 @@ The About page displays all staff images with an identical header and footer as 
 
   ## Local Deployment
   To make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
-   - gh repo clone Kay13051976/Thailand-magic-map
+   - github repo clone Kay13051976/Thailand-magic-map
    - Alternatively, if you use Gitpod, you can [click here](https://gitpod.io/new/#https://github.com/Kay13051976/Thailand-magic-map), which will start the Gitpod workspace for you
   ### Future Improvement
-   - add more detail to the province sightseeing page.'
+   - add more detail and image to the province sightseeing page.
    - add a fully functional contact form.
+   - add a relevant tour website.
+   - fix the code to work on firefox browser.
+   - add more picture to README.md file(more difference page testing image)
    - add more features to the contact page and store user account detail in could technology.
   ### Credit
   #### content
   - Inspiration for the gallery hover effect comes from Web Dev Tutorials Youtube chanel[Web Dev Tutorial](https://www.youtube.com/watch?v=flItyHiDm7E&list=PL7817464mNy8xLq3U9V4mhgtB0T-twKLI)
   - inspiration for css style Kevin Powell Youtube chanel[Kevin Powell](https://www.youtube.com/watch?v=HOM47v73yG8&list=PL7817464mNy8aIZStaIKhqlYFttIeKu1i)
-  
   
  #### Media
   - All the images for the website were taken  from [Unsplash](https://pixabay.com/,https://unsplash.com/,https://www.istockphoto.com/)
@@ -331,10 +331,11 @@ The About page displays all staff images with an identical header and footer as 
 ### Tools
 - [TinyPNG](https://tinypng.com/)was used to compress JPEG images.
 - [Color Picker](https://imagecolorpicker.com/en)was used to create the colour palette.
-- []( ) used to create the colour image
-- []( ) 
+- [RGBA HEX color convertor](https://cssgenerator.org/rgba-and-hex-color-generator.html) used to create the colour image
+- [Fontawesome](https://fontawesome.com/kits/16cb06a64c/setup?created=yes ) used to put icon to the page
 ### Acknowledgments
 - Code Institute tutor and Slack community members for their support and help.
 - Kevin Powell for his excellent CSS tutorials.
 - Mui with an advanced javascript explanation through the Zoom meeting application.
-- Code Institute mentor Julia Konovalova for her advice and patience.
+- Joyce with an advanced javascript explanation through the Zoom meeting application.
+- Code Institute mentor Julia Konovalova for her advice.
