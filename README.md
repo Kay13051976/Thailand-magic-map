@@ -277,8 +277,9 @@ The About page displays all staff images with an identical header and footer as 
  ![lighthouse part province page](documentation/lighthouse-part-province-page.png)
  ![lighthouse province sightseeing page](documentation/lighthouse-province-sightseeing-page.png)
 ### Solved bug
+ - The contact page toggle menu did not respond. It has been sorted by restructuring the HTML.
 ### Unsolved bug
-    
+ - not sure if it is because of a bug or another mistake because it can not run in the Firefox browser.
 ### Mistake
   - The first plan was to create a social media website, but the mentor recommended doing something other than it. Because we need more technology to store data lost a couple of week time, then effect to run out of time to complete this project.
   - This project is too big, and I have done too many pages and too much work to complete.
