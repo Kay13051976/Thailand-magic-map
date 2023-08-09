@@ -400,8 +400,8 @@ textarea:focus {
 
 .thailand-map-page-main-col2 .western-btn {
   position: absolute;
-  transform: translate(90px, -400px);
-  -ms-transform: translate(90px, -400px);
+  transform: translate(120px, -400px);
+  -ms-transform: translate(120px, -400px);
   color: #252525;
   background: rgb(255, 255, 0, 0.7);
   font-size: 16px;
@@ -464,8 +464,8 @@ textarea:focus {
 
 .thailand-map-page-main-col2 .northeast-btn {
   position: absolute;
-  transform: translate(300px, -480px);
-  -ms-transform: translate(300px, -480px);
+  transform: translate(320px, -480px);
+  -ms-transform: translate(320px, -480px);
   color: #252525;
   font-size: 16px;
   font-weight: bold;
