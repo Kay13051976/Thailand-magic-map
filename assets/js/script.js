@@ -90,7 +90,7 @@ function bindResetButtonEventClick() {
 }
 
 function onClickPart() {
-  const elementId = this.querySelector('img').getAttribute('value');
+  const elementId = this.getAttribute('data-value');
   if (elementId) {
     const provinceLists = document.getElementById(elementId).getElementsByClassName('parentContainer')
     for (let i = 0; i < provinceLists.length; i++) {
@@ -108,12 +108,9 @@ function bindResetProvinceButtonEventClick() {
 
 
 function onClickSightSeeing() {
-  const elementId = this.querySelector('img').getAttribute('value');
-  if (elementId) {
-    const provinceLists = document.getElementById("province-section").getElementsByClassName('parentContainer')
-    for (let i = 0; i < provinceLists.length; i++) {
-      provinceLists[i].style.opacity = 1;
-    }
+  const provinceLists = document.getElementById("province-section").getElementsByClassName('parentContainer')
+  for (let i = 0; i < provinceLists.length; i++) {
+    provinceLists[i].style.opacity = 1;
   }
 }
 
